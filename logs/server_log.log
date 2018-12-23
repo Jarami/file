@@ -1,0 +1,3191 @@
+2018-12-22 17:10:33.878 -- [INFO] start server...
+2018-12-22 17:10:39.578 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:10:39.581 -- [DEBUG] 
+2018-12-22 17:10:39.661 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:10:39.702 -- [DEBUG] css/border-box.css
+2018-12-22 17:10:39.702 -- [DEBUG] "GET /css/uth_main.css HTTP/1.1\r\n"
+2018-12-22 17:10:39.705 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:10:39.712 -- [DEBUG] css/uth_main.css
+2018-12-22 17:11:18.625 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:11:18.627 -- [DEBUG] 
+2018-12-22 17:11:18.720 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:11:18.820 -- [DEBUG] css/border-box.css
+2018-12-22 17:11:18.826 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:11:18.828 -- [DEBUG] js/uth_main.js
+2018-12-22 17:13:09.715 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:13:09.722 -- [DEBUG] 
+2018-12-22 17:13:09.986 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:13:10.138 -- [DEBUG] css/border-box.css
+2018-12-22 17:13:10.189 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:13:10.218 -- [DEBUG] js/uth_main.js
+2018-12-22 17:13:11.565 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:13:11.567 -- [DEBUG] 
+2018-12-22 17:13:11.654 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:13:11.864 -- [DEBUG] css/border-box.css
+2018-12-22 17:13:11.867 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:13:11.869 -- [DEBUG] js/uth_main.js
+2018-12-22 17:16:02.782 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:16:02.784 -- [DEBUG] 
+2018-12-22 17:16:02.882 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:16:02.964 -- [DEBUG] css/border-box.css
+2018-12-22 17:16:03.013 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:16:03.018 -- [DEBUG] js/uth_main.js
+2018-12-22 17:17:35.408 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:17:35.410 -- [DEBUG] 
+2018-12-22 17:17:35.550 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:17:35.571 -- [DEBUG] css/border-box.css
+2018-12-22 17:17:35.585 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:17:35.588 -- [DEBUG] js/uth_main.js
+2018-12-22 17:17:37.371 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:17:37.373 -- [DEBUG] 
+2018-12-22 17:17:37.439 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:17:37.478 -- [DEBUG] css/border-box.css
+2018-12-22 17:17:37.490 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:17:37.493 -- [DEBUG] js/uth_main.js
+2018-12-22 17:21:57.533 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:21:57.535 -- [DEBUG] 
+2018-12-22 17:21:57.656 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:21:57.669 -- [DEBUG] css/border-box.css
+2018-12-22 17:21:57.688 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:21:57.690 -- [DEBUG] js/uth_main.js
+2018-12-22 17:22:30.581 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:22:30.585 -- [DEBUG] 
+2018-12-22 17:22:30.687 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:22:30.721 -- [DEBUG] css/border-box.css
+2018-12-22 17:22:30.738 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:22:30.739 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:22:30.743 -- [DEBUG] js/uth_main.js
+2018-12-22 17:22:30.747 -- [DEBUG] css/file.css
+2018-12-22 17:24:16.791 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:24:16.793 -- [DEBUG] 
+2018-12-22 17:24:16.878 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:24:16.906 -- [DEBUG] css/border-box.css
+2018-12-22 17:24:16.931 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:24:16.930 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:24:16.936 -- [DEBUG] css/file.css
+2018-12-22 17:24:16.940 -- [DEBUG] js/uth_main.js
+2018-12-22 17:24:54.520 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:24:54.523 -- [DEBUG] 
+2018-12-22 17:24:54.647 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:24:54.719 -- [DEBUG] css/border-box.css
+2018-12-22 17:24:54.728 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:24:54.720 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:24:54.736 -- [DEBUG] css/file.css
+2018-12-22 17:24:54.740 -- [DEBUG] js/uth_main.js
+2018-12-22 17:25:07.191 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:25:07.193 -- [DEBUG] 
+2018-12-22 17:25:07.347 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:25:07.390 -- [DEBUG] css/border-box.css
+2018-12-22 17:25:07.408 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:25:07.409 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:25:07.413 -- [DEBUG] css/file.css
+
+2018-12-22 17:25:19.864 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:25:19.866 -- [DEBUG] 
+2018-12-22 17:25:19.958 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:25:20.015 -- [DEBUG] css/border-box.css
+2018-12-22 17:25:20.019 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:25:20.020 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:25:20.022 -- [DEBUG] css/file.css
+2018-12-22 17:25:20.023 -- [DEBUG] js/uth_main.js
+2018-12-22 17:33:37.079 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:33:37.084 -- [DEBUG] 
+2018-12-22 17:33:37.218 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:33:37.291 -- [DEBUG] css/border-box.css
+2018-12-22 17:33:37.280 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:33:37.294 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:33:37.313 -- [DEBUG] js/uth_main.js
+2018-12-22 17:33:38.995 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:33:38.999 -- [DEBUG] 
+2018-12-22 17:33:39.473 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:33:39.677 -- [DEBUG] css/border-box.css
+2018-12-22 17:33:39.798 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:33:39.946 -- [DEBUG] css/file.css
+2018-12-22 17:33:39.936 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:33:39.978 -- [DEBUG] js/uth_main.js
+2018-12-22 17:33:57.065 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:33:57.069 -- [DEBUG] 
+2018-12-22 17:33:57.179 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:33:57.227 -- [DEBUG] css/border-box.css
+2018-12-22 17:33:57.230 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:33:57.231 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:33:57.233 -- [DEBUG] css/file.css
+
+2018-12-22 17:34:26.259 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:34:26.268 -- [DEBUG] 
+2018-12-22 17:34:26.385 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:34:26.459 -- [DEBUG] css/border-box.css
+2018-12-22 17:34:26.492 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:34:26.493 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:34:26.497 -- [DEBUG] css/file.css
+2018-12-22 17:34:26.508 -- [DEBUG] js/uth_main.js
+2018-12-22 17:35:17.333 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:35:17.335 -- [DEBUG] 
+2018-12-22 17:35:17.411 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:35:17.459 -- [DEBUG] css/border-box.css
+2018-12-22 17:35:17.461 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:35:17.465 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:35:17.468 -- [DEBUG] js/uth_main.js
+2018-12-22 17:35:17.469 -- [DEBUG] css/file.css
+2018-12-22 17:35:46.389 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:35:46.391 -- [DEBUG] 
+2018-12-22 17:35:46.481 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:35:46.529 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:35:46.530 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:35:46.527 -- [DEBUG] css/border-box.css
+2018-12-22 17:35:46.532 -- [DEBUG] css/file.css
+2018-12-22 17:35:46.532 -- [DEBUG] js/uth_main.js
+2018-12-22 17:35:57.450 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:35:57.452 -- [DEBUG] 
+2018-12-22 17:35:57.536 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:35:57.586 -- [DEBUG] css/border-box.css
+2018-12-22 17:35:57.586 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:35:57.588 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:35:57.589 -- [DEBUG] css/file.css
+2018-12-22 17:35:57.591 -- [DEBUG] js/uth_main.js
+2018-12-22 17:36:10.861 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:36:10.864 -- [DEBUG] 
+2018-12-22 17:36:11.244 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:36:11.313 -- [DEBUG] css/border-box.css
+2018-12-22 17:36:11.329 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:36:11.345 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:36:11.353 -- [DEBUG] css/file.css
+2018-12-22 17:36:11.368 -- [DEBUG] js/uth_main.js
+2018-12-22 17:36:35.767 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:36:35.792 -- [DEBUG] 
+2018-12-22 17:36:35.888 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:36:36.020 -- [DEBUG] css/border-box.css
+2018-12-22 17:36:36.022 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:36:36.027 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:36:36.029 -- [DEBUG] js/uth_main.js
+2018-12-22 17:36:36.030 -- [DEBUG] css/file.css
+2018-12-22 17:36:50.234 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:36:50.236 -- [DEBUG] 
+2018-12-22 17:36:50.325 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:36:50.371 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:36:50.374 -- [DEBUG] css/border-box.css
+2018-12-22 17:36:50.376 -- [DEBUG] css/file.css
+2018-12-22 17:36:50.392 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:36:50.397 -- [DEBUG] js/uth_main.js
+2018-12-22 17:38:00.776 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:38:00.789 -- [DEBUG] 
+2018-12-22 17:38:00.879 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:38:00.936 -- [DEBUG] css/border-box.css
+2018-12-22 17:38:00.941 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:38:00.943 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:38:00.956 -- [DEBUG] css/file.css
+2018-12-22 17:38:00.960 -- [DEBUG] js/uth_main.js
+2018-12-22 17:38:26.320 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:38:26.322 -- [DEBUG] 
+2018-12-22 17:38:26.388 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:38:26.444 -- [DEBUG] css/border-box.css
+2018-12-22 17:38:26.447 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:38:26.452 -- [DEBUG] css/file.css
+2018-12-22 17:38:26.451 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:38:26.457 -- [DEBUG] js/uth_main.js
+2018-12-22 17:40:54.678 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:40:54.679 -- [DEBUG] 
+2018-12-22 17:40:54.794 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:40:54.812 -- [DEBUG] css/border-box.css
+2018-12-22 17:40:54.823 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:40:54.825 -- [DEBUG] css/file.css
+2018-12-22 17:40:54.838 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:40:54.840 -- [DEBUG] js/uth_main.js
+2018-12-22 17:41:09.106 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:41:09.108 -- [DEBUG] 
+2018-12-22 17:41:09.176 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:41:09.206 -- [DEBUG] css/border-box.css
+2018-12-22 17:41:09.224 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:41:09.228 -- [DEBUG] css/file.css
+2018-12-22 17:41:09.227 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:41:09.239 -- [DEBUG] js/uth_main.js
+2018-12-22 17:41:14.323 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:41:14.522 -- [DEBUG] 
+2018-12-22 17:41:14.676 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:41:14.781 -- [DEBUG] css/border-box.css
+2018-12-22 17:41:14.770 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:41:14.782 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:41:14.789 -- [DEBUG] css/file.css
+2018-12-22 17:41:14.793 -- [DEBUG] js/uth_main.js
+2018-12-22 17:41:43.804 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:41:43.823 -- [DEBUG] 
+2018-12-22 17:41:43.937 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:41:43.987 -- [DEBUG] css/border-box.css
+2018-12-22 17:41:44.025 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:41:44.054 -- [DEBUG] css/file.css
+2018-12-22 17:41:44.071 -- [DEBUG] js/uth_main.js
+2018-12-22 17:42:06.000 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:42:06.002 -- [DEBUG] 
+2018-12-22 17:42:06.091 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:42:06.128 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:42:06.131 -- [DEBUG] css/border-box.css
+2018-12-22 17:42:06.133 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:42:06.134 -- [DEBUG] css/file.css
+2018-12-22 17:42:06.136 -- [DEBUG] js/uth_main.js
+2018-12-22 17:42:20.358 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:42:20.359 -- [DEBUG] 
+2018-12-22 17:42:20.534 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:42:20.576 -- [DEBUG] css/border-box.css
+2018-12-22 17:42:20.577 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:42:20.580 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:42:20.582 -- [DEBUG] css/file.css
+2018-12-22 17:42:20.582 -- [DEBUG] js/uth_main.js
+2018-12-22 17:42:52.002 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:42:52.004 -- [DEBUG] 
+2018-12-22 17:42:52.106 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:42:52.216 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:42:52.216 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:42:52.218 -- [DEBUG] css/border-box.css
+2018-12-22 17:42:52.219 -- [DEBUG] js/uth_main.js
+2018-12-22 17:42:52.220 -- [DEBUG] css/file.css
+2018-12-22 17:43:33.797 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:43:33.800 -- [DEBUG] 
+2018-12-22 17:43:33.935 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:43:33.963 -- [DEBUG] css/border-box.css
+2018-12-22 17:43:33.968 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:43:33.974 -- [DEBUG] css/file.css
+2018-12-22 17:43:34.008 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:43:34.020 -- [DEBUG] js/uth_main.js
+2018-12-22 17:44:16.425 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:44:16.427 -- [DEBUG] 
+2018-12-22 17:44:16.504 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:44:16.540 -- [DEBUG] css/border-box.css
+2018-12-22 17:44:16.560 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:44:16.561 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:44:16.575 -- [DEBUG] js/uth_main.js
+2018-12-22 17:44:36.452 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:44:36.458 -- [DEBUG] 
+2018-12-22 17:44:36.541 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:44:36.586 -- [DEBUG] css/border-box.css
+2018-12-22 17:44:36.587 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:44:36.588 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:44:36.590 -- [DEBUG] js/uth_main.js
+2018-12-22 17:44:36.592 -- [DEBUG] css/file.css
+2018-12-22 17:45:05.186 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:45:05.189 -- [DEBUG] 
+2018-12-22 17:45:05.282 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:45:05.329 -- [DEBUG] css/border-box.css
+2018-12-22 17:45:05.340 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:45:05.341 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:45:05.344 -- [DEBUG] css/file.css
+2018-12-22 17:45:05.349 -- [DEBUG] js/uth_main.js
+2018-12-22 17:45:15.309 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:45:15.312 -- [DEBUG] 
+2018-12-22 17:45:15.414 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:45:15.469 -- [DEBUG] css/border-box.css
+2018-12-22 17:45:15.471 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:45:15.475 -- [DEBUG] css/file.css
+2018-12-22 17:45:15.502 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:45:15.508 -- [DEBUG] js/uth_main.js
+2018-12-22 17:45:32.311 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:45:32.314 -- [DEBUG] 
+2018-12-22 17:45:32.414 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:45:32.460 -- [DEBUG] css/border-box.css
+2018-12-22 17:45:32.478 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:45:32.505 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:45:32.505 -- [DEBUG] css/file.css
+2018-12-22 17:45:32.508 -- [DEBUG] js/uth_main.js
+2018-12-22 17:45:51.639 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:45:51.641 -- [DEBUG] 
+2018-12-22 17:45:51.720 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:45:51.825 -- [DEBUG] css/border-box.css
+2018-12-22 17:45:51.853 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:45:51.856 -- [DEBUG] css/file.css
+2018-12-22 17:45:51.855 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:45:51.868 -- [DEBUG] js/uth_main.js
+2018-12-22 17:46:00.954 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:46:00.957 -- [DEBUG] 
+2018-12-22 17:46:01.056 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 17:46:01.104 -- [DEBUG] css/border-box.css
+2018-12-22 17:46:01.106 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 17:46:01.108 -- [DEBUG] "GET /js/uth_main.js HTTP/1.1\r\n"
+2018-12-22 17:46:01.113 -- [DEBUG] css/file.css
+
+2018-12-22 18:02:59.511 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 18:02:59.514 -- [DEBUG] 
+2018-12-22 18:02:59.601 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 18:02:59.637 -- [DEBUG] css/border-box.css
+2018-12-22 18:02:59.691 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 18:02:59.692 -- [DEBUG] "GET /js/require.js HTTP/1.1\r\n"
+2018-12-22 18:02:59.701 -- [DEBUG] js/require.js
+2018-12-22 18:02:59.696 -- [DEBUG] css/file.css
+2018-12-22 18:03:00.634 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 18:03:00.638 -- [DEBUG] js/app.js
+2018-12-22 18:03:00.802 -- [DEBUG] "GET /js/lib/jquery.min.js HTTP/1.1\r\n"
+2018-12-22 18:03:00.816 -- [DEBUG] js/lib/jquery.min.js
+2018-12-22 18:03:39.548 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 18:03:39.552 -- [DEBUG] 
+2018-12-22 18:03:39.664 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 18:03:39.710 -- [DEBUG] "GET /js/require.js HTTP/1.1\r\n"
+2018-12-22 18:03:39.711 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 18:03:39.705 -- [DEBUG] css/border-box.css
+2018-12-22 18:03:39.713 -- [DEBUG] js/require.js
+2018-12-22 18:03:39.716 -- [DEBUG] css/file.css
+2018-12-22 18:03:40.467 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 18:03:40.468 -- [DEBUG] js/app.js
+2018-12-22 18:03:40.540 -- [DEBUG] "GET /js/lib/jquery.min.js HTTP/1.1\r\n"
+2018-12-22 18:03:40.552 -- [DEBUG] js/lib/jquery.min.js
+2018-12-22 18:04:06.650 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 18:04:06.653 -- [DEBUG] 
+2018-12-22 18:04:06.753 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 18:04:06.797 -- [DEBUG] css/border-box.css
+2018-12-22 18:04:06.798 -- [DEBUG] "GET /js/require.js HTTP/1.1\r\n"
+2018-12-22 18:04:06.799 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 18:04:06.807 -- [DEBUG] css/file.css
+2018-12-22 18:04:06.801 -- [DEBUG] js/require.js
+2018-12-22 18:04:07.452 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 18:04:07.459 -- [DEBUG] js/app.js
+2018-12-22 18:04:07.512 -- [DEBUG] "GET /js/lib/jquery.min.js HTTP/1.1\r\n"
+2018-12-22 18:04:07.515 -- [DEBUG] js/lib/jquery.min.js
+2018-12-22 18:05:26.062 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 18:05:26.069 -- [DEBUG] 
+2018-12-22 18:05:26.164 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 18:05:26.237 -- [DEBUG] css/border-box.css
+2018-12-22 18:05:26.309 -- [DEBUG] "GET /js/require.js HTTP/1.1\r\n"
+2018-12-22 18:05:26.314 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 18:05:26.313 -- [DEBUG] js/require.js
+2018-12-22 18:05:26.319 -- [DEBUG] css/file.css
+2018-12-22 18:05:26.787 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 18:05:26.789 -- [DEBUG] js/app.js
+2018-12-22 18:05:26.937 -- [DEBUG] "GET /js/lib/jquery.min.js HTTP/1.1\r\n"
+2018-12-22 18:05:26.943 -- [DEBUG] js/lib/jquery.min.js
+2018-12-22 18:05:40.520 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 18:05:40.522 -- [DEBUG] 
+2018-12-22 18:05:40.608 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 18:05:40.659 -- [DEBUG] css/border-box.css
+2018-12-22 18:05:40.719 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 18:05:40.721 -- [DEBUG] "GET /js/require.js HTTP/1.1\r\n"
+2018-12-22 18:05:40.730 -- [DEBUG] js/require.js
+2018-12-22 18:05:40.724 -- [DEBUG] css/file.css
+2018-12-22 18:05:41.376 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 18:05:41.380 -- [DEBUG] js/app.js
+2018-12-22 18:05:41.519 -- [DEBUG] "GET /js/lib/jquery.min.js HTTP/1.1\r\n"
+2018-12-22 18:05:41.526 -- [DEBUG] js/lib/jquery.min.js
+2018-12-22 18:06:01.636 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 18:06:01.638 -- [DEBUG] 
+2018-12-22 18:06:01.740 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 18:06:01.786 -- [DEBUG] css/border-box.css
+2018-12-22 18:06:01.800 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 18:06:01.802 -- [DEBUG] "GET /js/require.js HTTP/1.1\r\n"
+2018-12-22 18:06:01.816 -- [DEBUG] js/require.js
+2018-12-22 18:06:01.808 -- [DEBUG] css/file.css
+2018-12-22 18:06:02.618 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 18:06:02.621 -- [DEBUG] js/app.js
+2018-12-22 18:06:02.787 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 18:06:02.794 -- [DEBUG] js/lib/jquery.js
+2018-12-22 18:06:17.630 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 18:06:17.632 -- [DEBUG] 
+2018-12-22 18:06:17.705 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 18:06:17.756 -- [DEBUG] css/border-box.css
+2018-12-22 18:06:17.758 -- [DEBUG] "GET /js/require.js HTTP/1.1\r\n"
+2018-12-22 18:06:17.759 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 18:06:17.764 -- [DEBUG] js/require.js
+2018-12-22 18:06:18.247 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 18:06:18.249 -- [DEBUG] js/app.js
+2018-12-22 18:06:18.417 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 18:06:18.420 -- [DEBUG] js/lib/jquery.js
+2018-12-22 18:08:24.075 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 18:08:24.076 -- [DEBUG] 
+2018-12-22 18:08:24.261 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 18:08:24.337 -- [DEBUG] css/border-box.css
+2018-12-22 18:08:24.340 -- [DEBUG] "GET /js/require.js HTTP/1.1\r\n"
+2018-12-22 18:08:24.341 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 18:08:24.354 -- [DEBUG] css/file.css
+2018-12-22 18:08:24.347 -- [DEBUG] js/require.js
+2018-12-22 18:08:25.727 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 18:08:25.730 -- [DEBUG] js/app.js
+2018-12-22 18:08:25.911 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 18:08:25.943 -- [DEBUG] js/lib/jquery.js
+2018-12-22 18:09:41.506 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 18:09:41.508 -- [DEBUG] 
+2018-12-22 18:09:41.637 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 18:09:41.670 -- [DEBUG] css/border-box.css
+2018-12-22 18:09:41.690 -- [DEBUG] "GET /js/require.js HTTP/1.1\r\n"
+2018-12-22 18:09:41.691 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 18:09:41.697 -- [DEBUG] js/require.js
+2018-12-22 18:09:42.288 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 18:09:42.291 -- [DEBUG] js/app.js
+2018-12-22 18:09:42.415 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 18:09:42.449 -- [DEBUG] js/lib/jquery.js
+2018-12-22 18:10:36.335 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 18:10:36.344 -- [DEBUG] 
+2018-12-22 18:10:36.562 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 18:10:36.594 -- [DEBUG] css/border-box.css
+2018-12-22 18:10:36.661 -- [DEBUG] "GET /js/require.js HTTP/1.1\r\n"
+2018-12-22 18:10:36.662 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 18:10:36.666 -- [DEBUG] css/file.css
+2018-12-22 18:10:36.694 -- [DEBUG] js/require.js
+2018-12-22 18:10:37.866 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 18:10:37.869 -- [DEBUG] js/app.js
+2018-12-22 18:10:38.135 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 18:10:38.140 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:22:52.113 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:22:52.117 -- [DEBUG] 
+2018-12-22 19:22:52.196 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:22:52.296 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 19:22:52.289 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 19:22:52.300 -- [DEBUG] js/lib/require.js
+2018-12-22 19:22:53.094 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:22:53.097 -- [DEBUG] js/app.js
+2018-12-22 19:22:53.232 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:22:53.236 -- [DEBUG] js/app/main.js
+2018-12-22 19:23:11.144 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:23:11.146 -- [DEBUG] 
+2018-12-22 19:23:11.216 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:23:11.266 -- [DEBUG] css/border-box.css
+2018-12-22 19:23:11.268 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 19:23:11.268 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 19:23:11.277 -- [DEBUG] css/file.css
+2018-12-22 19:23:11.272 -- [DEBUG] js/lib/require.js
+2018-12-22 19:23:12.129 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:23:12.131 -- [DEBUG] js/app.js
+2018-12-22 19:23:12.233 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:23:12.238 -- [DEBUG] js/app/main.js
+2018-12-22 19:23:12.309 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 19:23:12.311 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:23:12.544 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 19:23:12.548 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 19:30:58.323 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:30:58.326 -- [DEBUG] 
+2018-12-22 19:30:58.411 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:30:58.455 -- [DEBUG] css/border-box.css
+2018-12-22 19:30:58.461 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 19:30:58.463 -- [DEBUG] css/file.css
+2018-12-22 19:30:58.481 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 19:30:58.486 -- [DEBUG] js/lib/require.js
+2018-12-22 19:30:59.092 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:30:59.095 -- [DEBUG] js/app.js
+2018-12-22 19:30:59.158 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:30:59.160 -- [DEBUG] js/app/main.js
+2018-12-22 19:30:59.212 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 19:30:59.214 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:30:59.404 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 19:30:59.407 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 19:31:44.458 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:31:44.460 -- [DEBUG] 
+2018-12-22 19:31:44.567 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:31:44.676 -- [DEBUG] css/border-box.css
+2018-12-22 19:31:44.685 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 19:31:44.687 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 19:31:44.689 -- [DEBUG] css/file.css
+2018-12-22 19:31:44.703 -- [DEBUG] js/lib/require.js
+2018-12-22 19:31:45.273 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:31:45.276 -- [DEBUG] js/app.js
+2018-12-22 19:31:45.401 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:31:45.418 -- [DEBUG] js/app/main.js
+2018-12-22 19:31:45.776 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 19:31:45.783 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:31:46.102 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 19:31:46.105 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 19:33:02.085 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:33:02.088 -- [DEBUG] 
+2018-12-22 19:33:02.179 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:33:02.230 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 19:33:02.229 -- [DEBUG] css/border-box.css
+.js HTTP/1.1\r\n"
+2018-12-22 19:33:02.238 -- [DEBUG] js/lib/require.js
+2018-12-22 19:33:02.961 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:33:02.964 -- [DEBUG] js/app.js
+2018-12-22 19:33:03.034 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:33:03.036 -- [DEBUG] js/app/main.js
+2018-12-22 19:33:03.133 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 19:33:03.134 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:33:03.352 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 19:33:03.354 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 19:33:38.147 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:33:38.149 -- [DEBUG] 
+2018-12-22 19:33:38.230 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:33:38.274 -- [DEBUG] css/border-box.css
+2018-12-22 19:33:38.277 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 19:33:38.278 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 19:33:38.284 -- [DEBUG] js/lib/require.js
+2018-12-22 19:33:38.279 -- [DEBUG] css/file.css
+2018-12-22 19:33:39.050 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:33:39.051 -- [DEBUG] js/app.js
+2018-12-22 19:33:39.168 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:33:39.174 -- [DEBUG] js/app/main.js
+2018-12-22 19:33:39.284 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 19:33:39.298 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:33:39.660 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 19:33:39.743 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 19:33:57.298 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:33:57.300 -- [DEBUG] 
+2018-12-22 19:33:57.382 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:33:57.427 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 19:33:57.427 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 19:33:57.425 -- [DEBUG] css/border-box.css
+2018-12-22 19:33:57.430 -- [DEBUG] js/lib/require.js
+2018-12-22 19:33:57.433 -- [DEBUG] css/file.css
+2018-12-22 19:33:58.196 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:33:58.198 -- [DEBUG] js/app.js
+2018-12-22 19:33:58.280 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:33:58.291 -- [DEBUG] js/app/main.js
+2018-12-22 19:33:58.379 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 19:33:58.381 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:33:58.761 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 19:33:58.762 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 19:34:02.216 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:34:02.218 -- [DEBUG] 
+2018-12-22 19:34:02.290 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:34:02.341 -- [DEBUG] css/border-box.css
+2018-12-22 19:34:02.363 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 19:34:02.364 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 19:34:02.368 -- [DEBUG] js/lib/require.js
+2018-12-22 19:34:03.425 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:34:03.428 -- [DEBUG] js/app.js
+2018-12-22 19:34:03.591 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:34:03.594 -- [DEBUG] js/app/main.js
+2018-12-22 19:34:03.971 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 19:34:03.972 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:34:04.138 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 19:34:04.139 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 19:41:04.474 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:41:04.475 -- [DEBUG] 
+2018-12-22 19:41:04.554 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:41:04.603 -- [DEBUG] css/border-box.css
+2018-12-22 19:41:04.606 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 19:41:04.607 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 19:41:04.609 -- [DEBUG] js/lib/require.js
+2018-12-22 19:41:05.579 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:41:05.663 -- [DEBUG] js/app.js
+2018-12-22 19:41:05.947 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:41:06.059 -- [DEBUG] js/app/main.js
+2018-12-22 19:41:06.163 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 19:41:06.166 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:41:06.171 -- [DEBUG] "GET /js/app/subscriber.js HTTP/1.1\r\n"
+2018-12-22 19:41:06.173 -- [DEBUG] js/app/subscriber.js
+2018-12-22 19:41:06.482 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 19:41:06.510 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 19:48:01.732 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:48:01.736 -- [DEBUG] 
+2018-12-22 19:48:01.836 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:48:01.869 -- [DEBUG] css/border-box.css
+2018-12-22 19:48:01.885 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 19:48:01.886 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 19:48:01.889 -- [DEBUG] js/lib/require.js
+2018-12-22 19:48:01.891 -- [DEBUG] css/file.css
+2018-12-22 19:48:02.605 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:48:02.607 -- [DEBUG] js/app.js
+2018-12-22 19:48:02.770 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:48:02.778 -- [DEBUG] js/app/main.js
+2018-12-22 19:48:03.057 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 19:48:03.075 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:48:03.313 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 19:48:03.318 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 19:49:36.450 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:49:36.456 -- [DEBUG] 
+2018-12-22 19:49:36.549 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:49:36.579 -- [DEBUG] css/border-box.css
+2018-12-22 19:49:36.599 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 19:49:36.601 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 19:49:36.611 -- [DEBUG] css/file.css
+2018-12-22 19:49:36.616 -- [DEBUG] js/lib/require.js
+2018-12-22 19:49:37.195 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:49:37.204 -- [DEBUG] js/app.js
+2018-12-22 19:49:37.272 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:49:37.274 -- [DEBUG] js/app/main.js
+2018-12-22 19:49:37.375 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 19:49:37.381 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:49:37.535 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 19:49:37.536 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 19:49:59.935 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:49:59.938 -- [DEBUG] 
+2018-12-22 19:50:00.033 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:50:00.116 -- [DEBUG] css/border-box.css
+2018-12-22 19:50:00.171 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 19:50:00.198 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 19:50:00.193 -- [DEBUG] css/file.css
+.js
+2018-12-22 19:50:00.662 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:50:00.665 -- [DEBUG] js/app.js
+2018-12-22 19:50:00.788 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:50:00.805 -- [DEBUG] js/app/main.js
+2018-12-22 19:50:01.156 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 19:50:01.160 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:50:01.452 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 19:50:01.455 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 19:55:56.507 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:55:56.509 -- [DEBUG] 
+2018-12-22 19:55:56.660 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:55:56.693 -- [DEBUG] css/border-box.css
+2018-12-22 19:55:56.697 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+\n"
+2018-12-22 19:55:56.705 -- [DEBUG] js/lib/require.js
+2018-12-22 19:55:56.723 -- [DEBUG] css/file.css
+2018-12-22 19:55:57.671 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:55:57.674 -- [DEBUG] js/app.js
+2018-12-22 19:55:57.766 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:55:57.768 -- [DEBUG] js/app/main.js
+2018-12-22 19:55:57.954 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 19:55:57.985 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:55:58.250 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 19:55:58.252 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 19:56:16.995 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:56:16.998 -- [DEBUG] 
+2018-12-22 19:56:17.190 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:56:17.212 -- [DEBUG] css/border-box.css
+2018-12-22 19:56:17.224 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 19:56:17.223 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 19:56:17.230 -- [DEBUG] js/lib/require.js
+2018-12-22 19:56:17.233 -- [DEBUG] css/file.css
+2018-12-22 19:56:17.745 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:56:17.748 -- [DEBUG] js/app.js
+2018-12-22 19:56:17.807 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:56:17.812 -- [DEBUG] js/app/main.js
+2018-12-22 19:56:18.030 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 19:56:18.036 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:56:18.422 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 19:56:18.425 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 19:59:11.897 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:59:11.899 -- [DEBUG] 
+2018-12-22 19:59:11.973 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:59:12.018 -- [DEBUG] css/border-box.css
+2018-12-22 19:59:12.020 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 19:59:12.024 -- [DEBUG] js/lib/require.js
+2018-12-22 19:59:12.021 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 19:59:12.032 -- [DEBUG] css/file.css
+2018-12-22 19:59:12.959 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:59:12.984 -- [DEBUG] js/app.js
+2018-12-22 19:59:13.170 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:59:13.188 -- [DEBUG] js/app/main.js
+2018-12-22 19:59:13.623 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 19:59:13.682 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:59:14.037 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 19:59:14.039 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 19:59:52.947 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 19:59:52.951 -- [DEBUG] 
+2018-12-22 19:59:53.035 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 19:59:53.096 -- [DEBUG] css/border-box.css
+2018-12-22 19:59:53.098 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 19:59:53.099 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 19:59:53.101 -- [DEBUG] css/file.css
+2018-12-22 19:59:53.107 -- [DEBUG] js/lib/require.js
+2018-12-22 19:59:53.968 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 19:59:53.970 -- [DEBUG] js/app.js
+2018-12-22 19:59:54.053 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 19:59:54.062 -- [DEBUG] js/app/main.js
+2018-12-22 19:59:54.174 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 19:59:54.179 -- [DEBUG] js/lib/jquery.js
+2018-12-22 19:59:54.346 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 19:59:54.348 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:00:31.158 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:00:31.160 -- [DEBUG] 
+2018-12-22 20:00:31.249 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:00:31.283 -- [DEBUG] css/border-box.css
+2018-12-22 20:00:31.285 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:00:31.286 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:00:31.288 -- [DEBUG] js/lib/require.js
+2018-12-22 20:00:32.069 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:00:32.071 -- [DEBUG] js/app.js
+2018-12-22 20:00:32.186 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:00:32.213 -- [DEBUG] js/app/main.js
+2018-12-22 20:00:32.388 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:00:32.403 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:00:32.631 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:00:32.635 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:06:02.790 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:06:02.792 -- [DEBUG] 
+2018-12-22 20:06:02.889 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:06:02.901 -- [DEBUG] css/border-box.css
+2018-12-22 20:06:02.937 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:06:02.944 -- [DEBUG] css/file.css
+equire.js HTTP/1.1\r\n"
+2018-12-22 20:06:02.946 -- [DEBUG] js/lib/require.js
+2018-12-22 20:06:03.820 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:06:03.875 -- [DEBUG] js/app.js
+2018-12-22 20:06:03.975 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:06:03.991 -- [DEBUG] js/app/main.js
+2018-12-22 20:06:37.738 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:06:37.740 -- [DEBUG] 
+2018-12-22 20:06:37.834 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:06:37.871 -- [DEBUG] css/border-box.css
+2018-12-22 20:06:37.876 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:06:37.881 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:06:37.886 -- [DEBUG] js/lib/require.js
+2018-12-22 20:06:38.482 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:06:38.489 -- [DEBUG] js/app.js
+2018-12-22 20:06:38.838 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:06:38.849 -- [DEBUG] js/app/main.js
+2018-12-22 20:06:39.283 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:06:39.325 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:06:39.752 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:06:39.754 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:11:13.992 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:11:13.995 -- [DEBUG] 
+2018-12-22 20:11:14.112 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:11:14.134 -- [DEBUG] css/border-box.css
+2018-12-22 20:11:14.135 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:11:14.136 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:11:14.138 -- [DEBUG] css/file.css
+2018-12-22 20:11:14.140 -- [DEBUG] js/lib/require.js
+2018-12-22 20:11:14.869 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:11:14.872 -- [DEBUG] js/app.js
+2018-12-22 20:11:14.978 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:11:14.983 -- [DEBUG] js/app/main.js
+2018-12-22 20:11:15.105 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:11:15.107 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:11:15.273 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:11:15.275 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:12:10.256 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:12:10.259 -- [DEBUG] 
+2018-12-22 20:12:10.355 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:12:10.404 -- [DEBUG] css/border-box.css
+2018-12-22 20:12:10.413 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:12:10.415 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:12:10.415 -- [DEBUG] css/file.css
+2018-12-22 20:12:10.421 -- [DEBUG] js/lib/require.js
+2018-12-22 20:12:11.019 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:12:11.020 -- [DEBUG] js/app.js
+2018-12-22 20:12:11.120 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:12:11.121 -- [DEBUG] js/app/main.js
+2018-12-22 20:12:11.222 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:12:11.224 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:12:11.426 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:12:11.430 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:12:23.795 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:12:23.796 -- [DEBUG] 
+2018-12-22 20:12:23.888 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:12:23.941 -- [DEBUG] css/border-box.css
+2018-12-22 20:12:23.955 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:12:23.956 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:12:23.961 -- [DEBUG] css/file.css
+.js
+2018-12-22 20:12:25.444 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:12:25.488 -- [DEBUG] js/app.js
+2018-12-22 20:12:25.591 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:12:25.601 -- [DEBUG] js/app/main.js
+2018-12-22 20:12:25.991 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:12:26.068 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:12:26.428 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:12:26.430 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:14:01.908 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:14:01.911 -- [DEBUG] 
+2018-12-22 20:14:02.000 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:14:02.046 -- [DEBUG] css/border-box.css
+2018-12-22 20:14:02.066 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:14:02.071 -- [DEBUG] css/file.css
+2018-12-22 20:14:02.072 -- [DEBUG] js/lib/require.js
+2018-12-22 20:14:02.633 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:14:02.635 -- [DEBUG] js/app.js
+2018-12-22 20:14:02.811 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:14:02.818 -- [DEBUG] js/app/main.js
+2018-12-22 20:14:02.989 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:14:02.993 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:14:03.156 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:14:03.160 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:14:13.620 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:14:13.626 -- [DEBUG] 
+2018-12-22 20:14:13.763 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:14:13.821 -- [DEBUG] css/border-box.css
+2018-12-22 20:14:13.821 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:14:13.825 -- [DEBUG] css/file.css
+2018-12-22 20:14:13.833 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:14:13.836 -- [DEBUG] js/lib/require.js
+2018-12-22 20:14:14.302 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:14:14.307 -- [DEBUG] js/app.js
+2018-12-22 20:14:14.371 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:14:14.391 -- [DEBUG] js/app/main.js
+2018-12-22 20:14:14.513 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:14:14.515 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:14:14.784 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:14:14.787 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:14:37.019 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:14:37.022 -- [DEBUG] 
+2018-12-22 20:14:37.101 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:14:37.141 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:14:37.142 -- [DEBUG] css/border-box.css
+2018-12-22 20:14:37.145 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:14:37.148 -- [DEBUG] js/lib/require.js
+2018-12-22 20:14:37.649 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:14:37.653 -- [DEBUG] js/app.js
+2018-12-22 20:14:37.810 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:14:37.814 -- [DEBUG] js/app/main.js
+2018-12-22 20:14:38.042 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:14:38.046 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:14:38.343 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:14:38.344 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:14:57.531 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:14:57.536 -- [DEBUG] 
+2018-12-22 20:14:57.620 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:14:57.668 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:14:57.668 -- [DEBUG] css/border-box.css
+2018-12-22 20:14:57.674 -- [DEBUG] css/file.css
+2018-12-22 20:14:57.674 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:14:57.677 -- [DEBUG] js/lib/require.js
+2018-12-22 20:14:58.323 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:14:58.327 -- [DEBUG] js/app.js
+2018-12-22 20:14:58.383 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:14:58.385 -- [DEBUG] js/app/main.js
+2018-12-22 20:14:58.443 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:14:58.446 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:14:58.733 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:14:58.772 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:15:44.107 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:15:44.109 -- [DEBUG] 
+2018-12-22 20:15:44.189 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:15:44.239 -- [DEBUG] css/border-box.css
+2018-12-22 20:15:44.239 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:15:44.242 -- [DEBUG] css/file.css
+2018-12-22 20:15:44.243 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:15:44.251 -- [DEBUG] js/lib/require.js
+2018-12-22 20:15:44.926 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:15:44.928 -- [DEBUG] js/app.js
+2018-12-22 20:15:45.012 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:15:45.019 -- [DEBUG] js/app/main.js
+2018-12-22 20:15:45.150 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:15:45.154 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:15:45.361 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:15:45.364 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:15:58.511 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:15:58.513 -- [DEBUG] 
+2018-12-22 20:15:58.596 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:15:58.640 -- [DEBUG] css/border-box.css
+2018-12-22 20:15:58.642 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:15:58.643 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:15:58.645 -- [DEBUG] js/lib/require.js
+2018-12-22 20:15:58.650 -- [DEBUG] css/file.css
+2018-12-22 20:15:59.436 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:15:59.469 -- [DEBUG] js/app.js
+2018-12-22 20:15:59.616 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:15:59.660 -- [DEBUG] js/app/main.js
+2018-12-22 20:15:59.996 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:16:00.018 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:16:00.454 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:16:00.457 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:17:02.824 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:17:02.826 -- [DEBUG] 
+2018-12-22 20:17:02.917 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:17:03.022 -- [DEBUG] css/border-box.css
+2018-12-22 20:17:03.039 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:17:03.055 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:17:03.066 -- [DEBUG] css/file.css
+.js
+2018-12-22 20:17:04.302 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:17:04.306 -- [DEBUG] js/app.js
+2018-12-22 20:17:04.493 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:17:04.496 -- [DEBUG] js/app/main.js
+2018-12-22 20:17:04.793 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:17:04.796 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:17:04.970 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:17:04.971 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:18:21.322 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:18:21.324 -- [DEBUG] 
+2018-12-22 20:18:21.402 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:18:21.431 -- [DEBUG] css/border-box.css
+2018-12-22 20:18:21.452 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:18:21.459 -- [DEBUG] js/lib/require.js
+2018-12-22 20:18:21.460 -- [DEBUG] css/file.css
+2018-12-22 20:18:22.029 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:18:22.031 -- [DEBUG] js/app.js
+2018-12-22 20:18:22.124 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:18:22.131 -- [DEBUG] js/app/main.js
+2018-12-22 20:18:22.195 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:18:22.197 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:18:22.451 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:18:22.453 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:19:36.850 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:19:36.852 -- [DEBUG] 
+2018-12-22 20:19:36.931 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:19:36.982 -- [DEBUG] css/border-box.css
+2018-12-22 20:19:36.984 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:19:36.984 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:19:36.986 -- [DEBUG] js/lib/require.js
+2018-12-22 20:19:36.988 -- [DEBUG] css/file.css
+2018-12-22 20:19:37.479 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:19:37.482 -- [DEBUG] js/app.js
+2018-12-22 20:19:37.559 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:19:37.562 -- [DEBUG] js/app/main.js
+2018-12-22 20:19:37.616 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:19:37.617 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:19:37.833 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:19:37.834 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:20:52.954 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:20:52.956 -- [DEBUG] 
+2018-12-22 20:20:53.038 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:20:53.071 -- [DEBUG] css/border-box.css
+2018-12-22 20:20:53.080 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:20:53.082 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:20:53.082 -- [DEBUG] css/file.css
+2018-12-22 20:20:53.096 -- [DEBUG] js/lib/require.js
+2018-12-22 20:20:53.639 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:20:53.647 -- [DEBUG] js/app.js
+2018-12-22 20:20:53.749 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:20:53.770 -- [DEBUG] js/app/main.js
+2018-12-22 20:20:54.202 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:20:54.205 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:20:54.449 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:20:54.450 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:26:47.383 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:26:47.386 -- [DEBUG] 
+2018-12-22 20:26:47.594 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:26:47.658 -- [DEBUG] css/border-box.css
+2018-12-22 20:26:47.727 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:26:47.801 -- [DEBUG] js/lib/require.js
+2018-12-22 20:26:47.776 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:26:47.841 -- [DEBUG] css/file.css
+2018-12-22 20:26:48.632 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:26:48.635 -- [DEBUG] js/app.js
+2018-12-22 20:26:48.737 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:26:48.743 -- [DEBUG] js/app/main.js
+2018-12-22 20:26:49.005 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:26:49.008 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:26:49.297 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:26:49.299 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 20:27:06.578 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 20:27:06.584 -- [DEBUG] 
+2018-12-22 20:27:06.683 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 20:27:06.714 -- [DEBUG] css/border-box.css
+2018-12-22 20:27:06.716 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 20:27:06.717 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 20:27:06.718 -- [DEBUG] css/file.css
+2018-12-22 20:27:06.720 -- [DEBUG] js/lib/require.js
+2018-12-22 20:27:07.332 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 20:27:07.335 -- [DEBUG] js/app.js
+2018-12-22 20:27:07.447 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 20:27:07.455 -- [DEBUG] js/app/main.js
+2018-12-22 20:27:07.586 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 20:27:07.589 -- [DEBUG] js/lib/jquery.js
+2018-12-22 20:27:07.804 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 20:27:07.809 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 21:18:56.744 -- [INFO] start server...
+2018-12-22 21:19:02.372 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 21:19:02.381 -- [DEBUG] 
+2018-12-22 21:19:02.466 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 21:19:02.502 -- [DEBUG] css/border-box.css
+2018-12-22 21:19:02.579 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 21:19:02.583 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 21:19:02.588 -- [DEBUG] js/lib/require.js
+2018-12-22 21:19:02.590 -- [DEBUG] css/file.css
+2018-12-22 21:19:03.227 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 21:19:03.233 -- [DEBUG] js/app.js
+2018-12-22 21:19:03.462 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 21:19:03.467 -- [DEBUG] js/app/main.js
+2018-12-22 21:27:45.753 -- [INFO] start server...
+2018-12-22 21:27:49.662 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 21:27:49.669 -- [ERROR] undefined method `split' for nil:NilClass
+C:/Projects/File/server.rb:114:in `parse'
+C:/Projects/File/server.rb:67:in `block (2 levels) in start'
+2018-12-22 21:27:50.420 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 21:27:50.429 -- [ERROR] undefined method `split' for nil:NilClass
+C:/Projects/File/server.rb:114:in `parse'
+C:/Projects/File/server.rb:67:in `block (2 levels) in start'
+2018-12-22 21:27:55.524 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 21:27:55.526 -- [ERROR] undefined method `split' for nil:NilClass
+C:/Projects/File/server.rb:114:in `parse'
+C:/Projects/File/server.rb:67:in `block (2 levels) in start'
+2018-12-22 21:28:10.605 -- [DEBUG] nil
+2018-12-22 21:28:25.783 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 21:28:25.784 -- [ERROR] undefined method `split' for nil:NilClass
+C:/Projects/File/server.rb:114:in `parse'
+C:/Projects/File/server.rb:67:in `block (2 levels) in start'
+2018-12-22 21:28:37.840 -- [INFO] start server...
+2018-12-22 21:28:40.378 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 21:28:40.381 -- [DEBUG] 
+2018-12-22 21:28:40.501 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 21:28:40.535 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 21:28:40.535 -- [DEBUG] css/border-box.css
+2018-12-22 21:28:40.537 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 21:28:40.538 -- [DEBUG] css/file.css
+2018-12-22 21:28:40.540 -- [DEBUG] js/lib/require.js
+2018-12-22 21:28:41.472 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 21:28:41.476 -- [DEBUG] js/app.js
+2018-12-22 21:28:41.597 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 21:28:41.607 -- [DEBUG] js/app/main.js
+2018-12-22 21:40:58.678 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 21:40:58.680 -- [DEBUG] 
+2018-12-22 21:40:58.761 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 21:40:58.800 -- [DEBUG] css/border-box.css
+2018-12-22 21:40:58.804 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 21:40:58.801 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 21:40:58.807 -- [DEBUG] js/lib/require.js
+2018-12-22 21:40:58.808 -- [DEBUG] css/file.css
+2018-12-22 21:40:59.412 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 21:40:59.416 -- [DEBUG] js/app.js
+2018-12-22 21:40:59.493 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 21:40:59.495 -- [DEBUG] js/app/main.js
+2018-12-22 21:40:59.593 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 21:40:59.597 -- [DEBUG] js/lib/jquery.js
+2018-12-22 21:40:59.784 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 21:40:59.788 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 21:42:38.777 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 21:42:38.779 -- [DEBUG] 
+2018-12-22 21:42:38.879 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 21:42:38.934 -- [DEBUG] css/border-box.css
+2018-12-22 21:42:38.949 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 21:42:38.950 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 21:42:38.963 -- [DEBUG] js/lib/require.js
+2018-12-22 21:42:38.953 -- [DEBUG] css/file.css
+2018-12-22 21:42:39.631 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 21:42:39.633 -- [DEBUG] js/app.js
+2018-12-22 21:42:39.702 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 21:42:39.709 -- [DEBUG] js/app/main.js
+2018-12-22 21:42:39.885 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 21:42:39.890 -- [DEBUG] js/lib/jquery.js
+2018-12-22 21:42:40.184 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 21:42:40.187 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 21:44:17.493 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 21:44:17.496 -- [DEBUG] 
+2018-12-22 21:44:17.586 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 21:44:17.637 -- [DEBUG] css/border-box.css
+2018-12-22 21:44:17.654 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 21:44:17.657 -- [DEBUG] css/file.css
+2018-12-22 21:44:17.672 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 21:44:17.676 -- [DEBUG] js/lib/require.js
+2018-12-22 21:44:18.250 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 21:44:18.258 -- [DEBUG] js/app.js
+2018-12-22 21:44:18.431 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 21:44:18.433 -- [DEBUG] js/app/main.js
+2018-12-22 21:44:18.591 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 21:44:18.594 -- [DEBUG] js/lib/jquery.js
+2018-12-22 21:44:18.882 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 21:44:18.907 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 21:45:18.821 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 21:45:18.824 -- [DEBUG] 
+2018-12-22 21:45:18.931 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 21:45:18.969 -- [DEBUG] css/border-box.css
+2018-12-22 21:45:18.973 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 21:45:18.974 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 21:45:18.975 -- [DEBUG] css/file.css
+2018-12-22 21:45:18.979 -- [DEBUG] js/lib/require.js
+2018-12-22 21:45:19.720 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 21:45:19.723 -- [DEBUG] js/app.js
+2018-12-22 21:45:19.840 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 21:45:19.843 -- [DEBUG] js/app/main.js
+2018-12-22 21:45:19.957 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 21:45:19.961 -- [DEBUG] js/lib/jquery.js
+2018-12-22 21:45:20.253 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 21:45:20.255 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 21:47:10.060 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 21:47:10.061 -- [DEBUG] 
+2018-12-22 21:47:10.156 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 21:47:10.190 -- [DEBUG] css/border-box.css
+2018-12-22 21:47:10.210 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 21:47:10.210 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 21:47:10.213 -- [DEBUG] js/lib/require.js
+2018-12-22 21:47:10.214 -- [DEBUG] css/file.css
+2018-12-22 21:47:11.078 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 21:47:11.081 -- [DEBUG] js/app.js
+2018-12-22 21:47:11.252 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 21:47:11.259 -- [DEBUG] js/app/main.js
+2018-12-22 21:47:27.651 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 21:47:27.654 -- [DEBUG] 
+2018-12-22 21:47:27.754 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 21:47:27.921 -- [DEBUG] css/border-box.css
+2018-12-22 21:47:27.924 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 21:47:27.930 -- [DEBUG] css/file.css
+2018-12-22 21:47:27.943 -- [DEBUG] js/lib/require.js
+2018-12-22 21:47:28.481 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 21:47:28.660 -- [DEBUG] js/app.js
+2018-12-22 21:47:28.912 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 21:47:28.916 -- [DEBUG] js/app/main.js
+2018-12-22 21:47:28.978 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 21:47:28.979 -- [DEBUG] js/lib/jquery.js
+2018-12-22 21:47:29.161 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 21:47:29.162 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 21:48:34.697 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 21:48:34.701 -- [DEBUG] 
+2018-12-22 21:48:34.775 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 21:48:34.841 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 21:48:34.841 -- [DEBUG] css/border-box.css
+2018-12-22 21:48:34.845 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 21:48:34.851 -- [DEBUG] js/lib/require.js
+2018-12-22 21:48:34.846 -- [DEBUG] css/file.css
+2018-12-22 21:48:35.854 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 21:48:35.936 -- [DEBUG] js/app.js
+2018-12-22 21:48:36.058 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 21:48:36.068 -- [DEBUG] js/app/main.js
+2018-12-22 21:48:36.220 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 21:48:36.222 -- [DEBUG] js/lib/jquery.js
+2018-12-22 21:48:36.487 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 21:48:36.490 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 21:59:01.721 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 21:59:01.750 -- [DEBUG] 
+2018-12-22 21:59:01.942 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 21:59:01.988 -- [DEBUG] css/border-box.css
+2018-12-22 21:59:01.989 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 21:59:01.995 -- [DEBUG] css/file.css
+2018-12-22 21:59:01.992 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 21:59:02.003 -- [DEBUG] js/lib/require.js
+2018-12-22 21:59:03.504 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 21:59:03.514 -- [DEBUG] js/app.js
+2018-12-22 21:59:03.661 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 21:59:03.677 -- [DEBUG] js/app/main.js
+2018-12-22 21:59:04.011 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 21:59:04.017 -- [DEBUG] js/lib/jquery.js
+2018-12-22 21:59:04.333 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 21:59:04.353 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:01:07.195 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:01:07.200 -- [DEBUG] 
+2018-12-22 22:01:07.374 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:01:07.405 -- [DEBUG] css/border-box.css
+2018-12-22 22:01:07.405 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:01:07.407 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:01:07.408 -- [DEBUG] css/file.css
+2018-12-22 22:01:07.409 -- [DEBUG] js/lib/require.js
+2018-12-22 22:01:08.430 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:01:08.433 -- [DEBUG] js/app.js
+2018-12-22 22:01:08.668 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:01:08.673 -- [DEBUG] js/app/main.js
+2018-12-22 22:01:09.098 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:01:09.120 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:01:09.314 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:01:09.316 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:05:51.029 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:05:51.031 -- [DEBUG] 
+2018-12-22 22:05:51.125 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:05:51.174 -- [DEBUG] css/border-box.css
+2018-12-22 22:05:51.196 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:05:51.186 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:05:51.200 -- [DEBUG] css/file.css
+.js
+2018-12-22 22:05:52.170 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:05:52.177 -- [DEBUG] js/app.js
+2018-12-22 22:05:52.434 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:05:52.454 -- [DEBUG] js/app/main.js
+2018-12-22 22:05:52.761 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:05:52.802 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:05:53.046 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:05:53.054 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:08:11.230 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:08:11.232 -- [DEBUG] 
+2018-12-22 22:08:11.333 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:08:11.350 -- [DEBUG] css/border-box.css
+2018-12-22 22:08:11.391 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:08:11.392 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:08:11.396 -- [DEBUG] js/lib/require.js
+2018-12-22 22:08:11.394 -- [DEBUG] css/file.css
+2018-12-22 22:08:11.949 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:08:11.984 -- [DEBUG] js/app.js
+2018-12-22 22:08:12.196 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:08:12.199 -- [DEBUG] js/app/main.js
+2018-12-22 22:08:12.302 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:08:12.308 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:08:12.606 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:08:12.613 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:11:00.444 -- [DEBUG] "GET /js HTTP/1.1\r\n"
+2018-12-22 22:11:00.446 -- [DEBUG] js
+2018-12-22 22:11:22.904 -- [DEBUG] nil
+2018-12-22 22:14:07.121 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:14:07.126 -- [DEBUG] 
+2018-12-22 22:14:07.219 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:14:07.261 -- [DEBUG] css/border-box.css
+2018-12-22 22:14:07.262 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:14:07.262 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:14:07.264 -- [DEBUG] css/file.css
+2018-12-22 22:14:07.265 -- [DEBUG] js/lib/require.js
+2018-12-22 22:14:08.267 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:14:08.317 -- [DEBUG] js/app.js
+2018-12-22 22:14:08.618 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:14:08.627 -- [DEBUG] js/app/main.js
+2018-12-22 22:14:08.849 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:14:08.886 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:14:09.210 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:14:09.212 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:14:23.493 -- [DEBUG] "GET /?node=web-slave&_=1545506049160 HTTP/1.1\r\n"
+2018-12-22 22:14:23.495 -- [DEBUG] 
+2018-12-22 22:16:59.675 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:16:59.677 -- [DEBUG] 
+2018-12-22 22:16:59.759 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:16:59.807 -- [DEBUG] css/border-box.css
+2018-12-22 22:16:59.832 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:16:59.871 -- [DEBUG] css/file.css
+2018-12-22 22:16:59.886 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:16:59.889 -- [DEBUG] js/lib/require.js
+2018-12-22 22:17:00.728 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:17:00.733 -- [DEBUG] js/app.js
+2018-12-22 22:17:00.864 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:17:00.870 -- [DEBUG] js/app/main.js
+2018-12-22 22:17:01.249 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:17:01.252 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:17:01.487 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:17:01.489 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:17:02.500 -- [DEBUG] "GET /?node=web-slave&_=1545506221457 HTTP/1.1\r\n"
+2018-12-22 22:17:02.504 -- [DEBUG] 
+2018-12-22 22:18:33.397 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:18:33.410 -- [DEBUG] 
+2018-12-22 22:18:33.502 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:18:33.562 -- [DEBUG] css/border-box.css
+2018-12-22 22:18:33.651 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:18:33.658 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:18:33.662 -- [DEBUG] js/lib/require.js
+2018-12-22 22:18:33.679 -- [DEBUG] css/file.css
+2018-12-22 22:18:34.461 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:18:34.464 -- [DEBUG] js/app.js
+2018-12-22 22:18:34.557 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:18:34.558 -- [DEBUG] js/app/main.js
+2018-12-22 22:18:34.657 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:18:34.658 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:18:34.812 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:18:34.813 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:18:35.206 -- [DEBUG] "GET /?node=web-master&_=1545506314789 HTTP/1.1\r\n"
+2018-12-22 22:18:35.208 -- [DEBUG] 
+2018-12-22 22:25:31.655 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:25:31.659 -- [DEBUG] 
+2018-12-22 22:25:31.763 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:25:31.791 -- [DEBUG] css/border-box.css
+2018-12-22 22:25:31.801 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:25:31.805 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:25:31.807 -- [DEBUG] css/file.css
+2018-12-22 22:25:31.813 -- [DEBUG] js/lib/require.js
+2018-12-22 22:25:32.496 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:25:32.505 -- [DEBUG] js/app.js
+2018-12-22 22:25:32.665 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:25:32.698 -- [DEBUG] js/app/main.js
+2018-12-22 22:25:33.071 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:25:33.098 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:25:33.446 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:25:33.448 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:25:34.095 -- [DEBUG] "GET /HOME?node=web-master&_=1545506733411 HTTP/1.1\r\n"
+2018-12-22 22:25:34.098 -- [DEBUG] HOME
+2018-12-22 22:25:51.592 -- [INFO] start server...
+2018-12-22 22:25:54.777 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:25:54.780 -- [DEBUG] 
+2018-12-22 22:25:54.878 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:25:54.946 -- [DEBUG] css/border-box.css
+2018-12-22 22:25:54.958 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:25:54.967 -- [DEBUG] css/file.css
+2018-12-22 22:25:54.961 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:25:54.974 -- [DEBUG] js/lib/require.js
+2018-12-22 22:25:55.482 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:25:55.484 -- [DEBUG] js/app.js
+2018-12-22 22:25:55.543 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:25:55.544 -- [DEBUG] js/app/main.js
+2018-12-22 22:25:55.626 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:25:55.630 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:25:55.907 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:25:55.910 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:25:56.748 -- [DEBUG] "GET /HOME?node=web-master&_=1545506755877 HTTP/1.1\r\n"
+2018-12-22 22:25:56.795 -- [DEBUG] c:/Projects/File
+2018-12-22 22:27:39.104 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:27:39.107 -- [DEBUG] 
+2018-12-22 22:27:39.207 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:27:39.253 -- [DEBUG] css/border-box.css
+2018-12-22 22:27:39.254 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:27:39.258 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:27:39.256 -- [DEBUG] css/file.css
+2018-12-22 22:27:39.262 -- [DEBUG] js/lib/require.js
+2018-12-22 22:27:40.045 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:27:40.069 -- [DEBUG] js/app.js
+2018-12-22 22:27:40.278 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:27:40.290 -- [DEBUG] js/app/main.js
+2018-12-22 22:27:40.659 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:27:40.746 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:27:41.165 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:27:41.167 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:27:41.591 -- [DEBUG] "GET /HOME?node=web-master&_=1545506861137 HTTP/1.1\r\n"
+2018-12-22 22:27:41.598 -- [DEBUG] c:/Projects/File
+2018-12-22 22:28:09.880 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:28:09.886 -- [DEBUG] 
+2018-12-22 22:28:10.237 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:28:10.366 -- [DEBUG] css/border-box.css
+2018-12-22 22:28:10.464 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:28:10.541 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:28:10.608 -- [DEBUG] css/file.css
+2018-12-22 22:28:10.630 -- [DEBUG] js/lib/require.js
+2018-12-22 22:28:11.725 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:28:11.727 -- [DEBUG] js/app.js
+2018-12-22 22:28:11.866 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:28:11.875 -- [DEBUG] js/app/main.js
+2018-12-22 22:28:12.017 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:28:12.026 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:28:12.300 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:28:12.304 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:28:12.658 -- [DEBUG] "GET /HOME?node=web-master&_=1545506892245 HTTP/1.1\r\n"
+2018-12-22 22:28:12.659 -- [DEBUG] c:/Projects/File
+2018-12-22 22:29:05.478 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:29:05.479 -- [DEBUG] 
+2018-12-22 22:29:05.561 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:29:05.608 -- [DEBUG] css/border-box.css
+2018-12-22 22:29:05.609 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:29:05.611 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:29:05.612 -- [DEBUG] css/file.css
+2018-12-22 22:29:05.616 -- [DEBUG] js/lib/require.js
+2018-12-22 22:29:06.189 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:29:06.191 -- [DEBUG] js/app.js
+2018-12-22 22:29:06.287 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:29:06.296 -- [DEBUG] js/app/main.js
+2018-12-22 22:29:06.422 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:29:06.426 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:29:06.601 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:29:06.604 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:29:06.989 -- [DEBUG] "GET /HOME?node=web-master&_=1545506946573 HTTP/1.1\r\n"
+2018-12-22 22:29:06.999 -- [DEBUG] c:/Projects/File
+2018-12-22 22:30:08.566 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:30:08.571 -- [DEBUG] 
+2018-12-22 22:30:08.671 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:30:08.717 -- [DEBUG] css/border-box.css
+2018-12-22 22:30:08.720 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:30:08.720 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:30:08.722 -- [DEBUG] js/lib/require.js
+2018-12-22 22:30:09.410 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:30:09.416 -- [DEBUG] js/app.js
+2018-12-22 22:30:09.562 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:30:09.578 -- [DEBUG] js/app/main.js
+2018-12-22 22:30:09.809 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:30:09.818 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:30:10.139 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:30:10.141 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:30:10.701 -- [DEBUG] "GET /HOME?node=web-master&_=1545507010110 HTTP/1.1\r\n"
+2018-12-22 22:30:10.707 -- [DEBUG] c:/Projects/File
+2018-12-22 22:36:12.447 -- [INFO] start server...
+2018-12-22 22:36:15.269 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:36:15.273 -- [DEBUG] 
+2018-12-22 22:36:15.380 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:36:15.428 -- [DEBUG] css/border-box.css
+2018-12-22 22:36:15.440 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:36:15.432 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:36:15.443 -- [DEBUG] css/file.css
+2018-12-22 22:36:15.444 -- [DEBUG] js/lib/require.js
+2018-12-22 22:36:16.443 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:36:16.445 -- [DEBUG] js/app.js
+2018-12-22 22:36:16.554 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:36:16.556 -- [DEBUG] js/app/main.js
+2018-12-22 22:36:16.638 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:36:16.641 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:36:16.908 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:36:16.910 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:36:17.257 -- [DEBUG] "GET /HOME?node=web-master&_=1545507376874 HTTP/1.1\r\n"
+2018-12-22 22:36:17.259 -- [DEBUG] c:/Projects/File
+2018-12-22 22:41:40.676 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:41:40.678 -- [DEBUG] 
+2018-12-22 22:41:40.774 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:41:40.817 -- [DEBUG] css/border-box.css
+2018-12-22 22:41:40.829 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:41:40.831 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:41:40.833 -- [DEBUG] css/file.css
+2018-12-22 22:41:40.838 -- [DEBUG] js/lib/require.js
+2018-12-22 22:41:41.401 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:41:41.404 -- [DEBUG] js/app.js
+2018-12-22 22:41:41.529 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:41:41.537 -- [DEBUG] js/app/main.js
+2018-12-22 22:41:41.699 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:41:41.701 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:41:41.897 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:41:41.901 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:41:42.428 -- [DEBUG] "GET /HOME?node=web-master&_=1545507701878 HTTP/1.1\r\n"
+2018-12-22 22:41:42.437 -- [DEBUG] c:/Projects/File
+2018-12-22 22:43:25.336 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:43:25.342 -- [DEBUG] 
+2018-12-22 22:43:25.456 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:43:25.506 -- [DEBUG] css/border-box.css
+2018-12-22 22:43:25.508 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:43:25.520 -- [DEBUG] js/lib/require.js
+2018-12-22 22:43:25.512 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:43:25.537 -- [DEBUG] css/file.css
+2018-12-22 22:43:26.409 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:43:26.417 -- [DEBUG] js/app.js
+2018-12-22 22:43:26.550 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:43:26.552 -- [DEBUG] js/app/main.js
+2018-12-22 22:43:26.635 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:43:26.646 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:43:26.885 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:43:26.887 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:43:27.237 -- [DEBUG] "GET /HOME?node=web-master&_=1545507806855 HTTP/1.1\r\n"
+2018-12-22 22:43:27.239 -- [DEBUG] c:/Projects/File
+2018-12-22 22:43:45.343 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:43:45.345 -- [DEBUG] 
+2018-12-22 22:43:45.421 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:43:45.482 -- [DEBUG] css/border-box.css
+2018-12-22 22:43:45.484 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:43:45.485 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:43:45.488 -- [DEBUG] js/lib/require.js
+2018-12-22 22:43:45.489 -- [DEBUG] css/file.css
+2018-12-22 22:43:46.017 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:43:46.018 -- [DEBUG] js/app.js
+2018-12-22 22:43:46.100 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:43:46.106 -- [DEBUG] js/app/main.js
+2018-12-22 22:43:46.327 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:43:46.338 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:43:46.585 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:43:46.587 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:43:47.065 -- [DEBUG] "GET /HOME?node=web-master&_=1545507826554 HTTP/1.1\r\n"
+2018-12-22 22:43:47.068 -- [DEBUG] c:/Projects/File
+2018-12-22 22:44:11.435 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:44:11.436 -- [DEBUG] 
+2018-12-22 22:44:11.519 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:44:11.555 -- [DEBUG] css/border-box.css
+2018-12-22 22:44:11.581 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:44:11.583 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:44:11.584 -- [DEBUG] css/file.css
+2018-12-22 22:44:11.585 -- [DEBUG] js/lib/require.js
+2018-12-22 22:44:12.175 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:44:12.178 -- [DEBUG] js/app.js
+2018-12-22 22:44:12.347 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:44:12.348 -- [DEBUG] js/app/main.js
+2018-12-22 22:44:12.421 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:44:12.458 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:44:12.683 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:44:12.685 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:44:12.980 -- [DEBUG] "GET /HOME?node=web-master&_=1545507852664 HTTP/1.1\r\n"
+2018-12-22 22:44:12.982 -- [DEBUG] c:/Projects/File
+2018-12-22 22:45:18.854 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:45:18.869 -- [DEBUG] 
+2018-12-22 22:45:19.171 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:45:19.247 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:45:19.240 -- [DEBUG] css/border-box.css
+.js HTTP/1.1\r\n"
+2018-12-22 22:45:19.260 -- [DEBUG] css/file.css
+2018-12-22 22:45:19.253 -- [DEBUG] js/lib/require.js
+2018-12-22 22:45:20.124 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:45:20.125 -- [DEBUG] js/app.js
+2018-12-22 22:45:20.233 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:45:20.245 -- [DEBUG] js/app/main.js
+2018-12-22 22:45:20.470 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:45:20.475 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:45:20.666 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:45:20.668 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:45:21.016 -- [DEBUG] "GET /HOME?node=web-master&_=1545507920641 HTTP/1.1\r\n"
+2018-12-22 22:45:21.018 -- [DEBUG] c:/Projects/File
+2018-12-22 22:45:22.083 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:45:22.086 -- [DEBUG] 
+2018-12-22 22:45:22.219 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:45:22.249 -- [DEBUG] css/border-box.css
+2018-12-22 22:45:22.266 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:45:22.267 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:45:22.269 -- [DEBUG] css/file.css
+.js
+2018-12-22 22:45:22.968 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:45:22.978 -- [DEBUG] js/app.js
+2018-12-22 22:45:23.171 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:45:23.208 -- [DEBUG] js/app/main.js
+2018-12-22 22:45:23.476 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:45:23.478 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:45:23.712 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:45:23.714 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:45:24.210 -- [DEBUG] "GET /HOME?node=web-master&_=1545507923686 HTTP/1.1\r\n"
+2018-12-22 22:45:24.212 -- [DEBUG] c:/Projects/File
+2018-12-22 22:45:25.402 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:45:25.403 -- [DEBUG] 
+2018-12-22 22:45:25.498 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:45:25.560 -- [DEBUG] css/border-box.css
+2018-12-22 22:45:25.563 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:45:25.580 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:45:25.581 -- [DEBUG] css/file.css
+2018-12-22 22:45:25.583 -- [DEBUG] js/lib/require.js
+2018-12-22 22:45:26.127 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:45:26.128 -- [DEBUG] js/app.js
+2018-12-22 22:45:26.280 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:45:26.285 -- [DEBUG] js/app/main.js
+2018-12-22 22:45:26.447 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:45:26.463 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:45:26.775 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:45:26.777 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:45:27.047 -- [DEBUG] "GET /HOME?node=web-master&_=1545507926749 HTTP/1.1\r\n"
+2018-12-22 22:45:27.049 -- [DEBUG] c:/Projects/File
+2018-12-22 22:46:09.420 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:46:09.423 -- [DEBUG] 
+2018-12-22 22:46:09.531 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:46:09.636 -- [DEBUG] css/border-box.css
+2018-12-22 22:46:09.639 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:46:09.642 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:46:09.645 -- [DEBUG] css/file.css
+2018-12-22 22:46:09.657 -- [DEBUG] js/lib/require.js
+2018-12-22 22:46:10.870 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:46:10.873 -- [DEBUG] js/app.js
+2018-12-22 22:46:11.027 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:46:11.030 -- [DEBUG] js/app/main.js
+2018-12-22 22:46:11.178 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:46:11.180 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:46:11.359 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:46:11.361 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:46:11.666 -- [DEBUG] "GET /HOME?node=web-master&_=1545507971334 HTTP/1.1\r\n"
+2018-12-22 22:46:11.672 -- [DEBUG] c:/Projects/File
+2018-12-22 22:47:11.049 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:47:11.050 -- [DEBUG] 
+2018-12-22 22:47:11.141 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:47:11.191 -- [DEBUG] css/border-box.css
+2018-12-22 22:47:11.234 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:47:11.240 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:47:11.237 -- [DEBUG] js/lib/require.js
+2018-12-22 22:47:11.249 -- [DEBUG] css/file.css
+2018-12-22 22:47:12.010 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:47:12.014 -- [DEBUG] js/app.js
+2018-12-22 22:47:12.087 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:47:12.090 -- [DEBUG] js/app/main.js
+2018-12-22 22:47:12.279 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:47:12.283 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:47:12.489 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:47:12.491 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:47:12.841 -- [DEBUG] "GET /HOME?node=web-master&_=1545508032472 HTTP/1.1\r\n"
+2018-12-22 22:47:12.843 -- [DEBUG] c:/Projects/File
+2018-12-22 22:47:22.317 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:47:22.319 -- [DEBUG] 
+2018-12-22 22:47:22.486 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:47:22.524 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:47:22.522 -- [DEBUG] css/border-box.css
+.js HTTP/1.1\r\n"
+2018-12-22 22:47:22.527 -- [DEBUG] css/file.css
+2018-12-22 22:47:22.530 -- [DEBUG] js/lib/require.js
+2018-12-22 22:47:23.124 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:47:23.127 -- [DEBUG] js/app.js
+2018-12-22 22:47:23.203 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:47:23.207 -- [DEBUG] js/app/main.js
+2018-12-22 22:47:23.408 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:47:23.414 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:47:23.639 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:47:23.641 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:47:23.920 -- [DEBUG] "GET /HOME?node=web-master&_=1545508043618 HTTP/1.1\r\n"
+2018-12-22 22:47:23.922 -- [DEBUG] c:/Projects/File
+2018-12-22 22:56:39.880 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:56:39.882 -- [DEBUG] 
+2018-12-22 22:56:40.018 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:56:40.119 -- [DEBUG] css/border-box.css
+2018-12-22 22:56:40.138 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:56:40.145 -- [DEBUG] js/lib/require.js
+2018-12-22 22:56:40.137 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:56:40.159 -- [DEBUG] css/file.css
+2018-12-22 22:56:41.305 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:56:41.309 -- [DEBUG] js/app.js
+2018-12-22 22:56:41.403 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:56:41.408 -- [DEBUG] js/app/main.js
+2018-12-22 22:56:41.581 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:56:41.586 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:56:41.731 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:56:41.732 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:56:42.023 -- [DEBUG] "GET /HOME?node=web-master&_=1545508601713 HTTP/1.1\r\n"
+2018-12-22 22:56:42.025 -- [DEBUG] c:/Projects/File
+2018-12-22 22:59:49.247 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 22:59:49.249 -- [DEBUG] 
+2018-12-22 22:59:49.380 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 22:59:49.416 -- [DEBUG] css/border-box.css
+2018-12-22 22:59:49.424 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 22:59:49.426 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 22:59:49.443 -- [DEBUG] css/file.css
+2018-12-22 22:59:49.454 -- [DEBUG] js/lib/require.js
+2018-12-22 22:59:50.467 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 22:59:50.471 -- [DEBUG] js/app.js
+2018-12-22 22:59:50.942 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 22:59:50.945 -- [DEBUG] js/app/main.js
+2018-12-22 22:59:51.024 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 22:59:51.026 -- [DEBUG] js/lib/jquery.js
+2018-12-22 22:59:51.189 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 22:59:51.190 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 22:59:51.467 -- [DEBUG] "GET /HOME?node=web-master&_=1545508791167 HTTP/1.1\r\n"
+2018-12-22 22:59:51.470 -- [DEBUG] c:/Projects/File
+2018-12-22 23:05:13.124 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:05:13.125 -- [DEBUG] 
+2018-12-22 23:05:13.210 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:05:13.261 -- [DEBUG] css/border-box.css
+2018-12-22 23:05:13.265 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:05:13.268 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:05:13.271 -- [DEBUG] css/file.css
+.js
+2018-12-22 23:05:13.901 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:05:13.905 -- [DEBUG] js/app.js
+2018-12-22 23:05:14.025 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:05:14.033 -- [DEBUG] js/app/main.js
+2018-12-22 23:05:14.182 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:05:14.183 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:05:14.358 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:05:14.360 -- [DEBUG] "GET /jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:05:14.361 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:05:14.362 -- [DEBUG] jsrender.min.js
+2018-12-22 23:05:41.739 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:05:41.742 -- [DEBUG] 
+2018-12-22 23:05:41.837 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:05:41.890 -- [DEBUG] css/border-box.css
+2018-12-22 23:05:41.898 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:05:41.905 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:05:41.900 -- [DEBUG] css/file.css
+2018-12-22 23:05:41.911 -- [DEBUG] js/lib/require.js
+2018-12-22 23:05:42.467 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:05:42.469 -- [DEBUG] js/app.js
+2018-12-22 23:05:42.544 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:05:42.549 -- [DEBUG] js/app/main.js
+2018-12-22 23:05:42.671 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:05:42.671 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:05:42.674 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:05:42.675 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:05:42.763 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:05:42.765 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:05:42.921 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:05:42.924 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:05:43.583 -- [DEBUG] "GET /HOME?node=web-master&_=1545509142883 HTTP/1.1\r\n"
+2018-12-22 23:05:43.588 -- [DEBUG] c:/Projects/File
+2018-12-22 23:22:24.613 -- [INFO] start server...
+2018-12-22 23:22:26.971 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:22:26.974 -- [DEBUG] 
+2018-12-22 23:22:27.074 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:22:27.146 -- [DEBUG] css/border-box.css
+2018-12-22 23:22:27.148 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:22:27.149 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:22:27.151 -- [DEBUG] css/file.css
+.js
+2018-12-22 23:22:27.715 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:22:27.719 -- [DEBUG] js/app.js
+2018-12-22 23:22:27.799 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:22:27.802 -- [DEBUG] js/app/main.js
+2018-12-22 23:22:27.986 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:22:27.995 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:22:27.989 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:22:28.012 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:22:28.309 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:22:28.331 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:22:28.370 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:22:28.373 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:24:00.643 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:24:00.646 -- [DEBUG] 
+2018-12-22 23:24:00.828 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:24:00.878 -- [DEBUG] css/border-box.css
+2018-12-22 23:24:00.910 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:24:00.929 -- [DEBUG] css/file.css
+2018-12-22 23:24:00.912 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:24:00.946 -- [DEBUG] js/lib/require.js
+2018-12-22 23:24:01.769 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:24:01.772 -- [DEBUG] js/app.js
+2018-12-22 23:24:01.873 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:24:01.882 -- [DEBUG] js/app/main.js
+2018-12-22 23:24:01.990 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:24:02.014 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:24:02.353 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:24:02.353 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:24:02.355 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:24:02.356 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:24:02.418 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:24:02.419 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:24:02.658 -- [DEBUG] "GET /HOME?node=web-master&_=1545510242318 HTTP/1.1\r\n"
+2018-12-22 23:24:02.660 -- [DEBUG] c:/Projects/File
+2018-12-22 23:24:49.342 -- [INFO] start server...
+2018-12-22 23:24:51.786 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:24:51.790 -- [DEBUG] 
+2018-12-22 23:24:51.869 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:24:51.912 -- [DEBUG] css/border-box.css
+2018-12-22 23:24:51.923 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:24:51.925 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:24:51.932 -- [DEBUG] css/file.css
+.js
+2018-12-22 23:24:52.810 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:24:52.856 -- [DEBUG] js/app.js
+2018-12-22 23:24:53.049 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:24:53.071 -- [DEBUG] js/app/main.js
+2018-12-22 23:24:53.377 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:24:53.381 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:24:53.711 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:24:53.712 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:24:53.717 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:24:53.717 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:24:53.874 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:24:53.878 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:24:54.527 -- [DEBUG] "GET /HOME?node=web-master&_=1545510293660 HTTP/1.1\r\n"
+2018-12-22 23:24:54.550 -- [DEBUG] c:/Projects/File
+2018-12-22 23:25:38.394 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:25:38.398 -- [DEBUG] 
+2018-12-22 23:25:38.496 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:25:38.536 -- [DEBUG] css/border-box.css
+2018-12-22 23:25:38.548 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:25:38.549 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:25:38.551 -- [DEBUG] css/file.css
+2018-12-22 23:25:38.552 -- [DEBUG] js/lib/require.js
+2018-12-22 23:25:39.397 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:25:39.494 -- [DEBUG] js/app.js
+2018-12-22 23:25:39.847 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:25:39.851 -- [DEBUG] js/app/main.js
+2018-12-22 23:25:39.967 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:25:40.015 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:25:40.399 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:25:40.401 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:25:40.425 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:25:40.451 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:25:40.666 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:25:40.668 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:25:40.865 -- [DEBUG] "GET /HOME?node=web-master&_=1545510340363 HTTP/1.1\r\n"
+2018-12-22 23:25:40.866 -- [DEBUG] c:/Projects/File
+2018-12-22 23:29:01.985 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:29:01.991 -- [DEBUG] 
+2018-12-22 23:29:02.083 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:29:02.114 -- [DEBUG] css/border-box.css
+2018-12-22 23:29:02.140 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:29:02.142 -- [DEBUG] js/lib/require.js
+2018-12-22 23:29:02.135 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:29:02.150 -- [DEBUG] css/file.css
+2018-12-22 23:29:02.836 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:29:02.839 -- [DEBUG] js/app.js
+2018-12-22 23:29:03.068 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:29:03.081 -- [DEBUG] js/app/main.js
+2018-12-22 23:29:03.271 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:29:03.274 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:29:03.462 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:29:03.464 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:29:03.465 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:29:03.467 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:29:03.629 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:29:03.631 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:29:03.802 -- [DEBUG] "GET /HOME?node=web-master&_=1545510543435 HTTP/1.1\r\n"
+2018-12-22 23:29:03.804 -- [DEBUG] c:/Projects/File
+2018-12-22 23:29:35.585 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:29:35.597 -- [DEBUG] 
+2018-12-22 23:29:35.681 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:29:35.716 -- [DEBUG] css/border-box.css
+2018-12-22 23:29:35.725 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:29:35.745 -- [DEBUG] css/file.css
+2018-12-22 23:29:35.756 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:29:35.767 -- [DEBUG] js/lib/require.js
+2018-12-22 23:29:36.651 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:29:36.659 -- [DEBUG] js/app.js
+2018-12-22 23:29:36.862 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:29:36.900 -- [DEBUG] js/app/main.js
+2018-12-22 23:29:37.169 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:29:37.172 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:29:37.344 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:29:37.345 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:29:37.346 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:29:37.347 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:29:37.575 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:29:37.577 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:29:37.665 -- [DEBUG] "GET /HOME?node=web-master&_=1545510577321 HTTP/1.1\r\n"
+2018-12-22 23:29:37.666 -- [DEBUG] c:/Projects/File
+2018-12-22 23:29:56.671 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:29:56.674 -- [DEBUG] 
+2018-12-22 23:29:56.751 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:29:56.797 -- [DEBUG] css/border-box.css
+2018-12-22 23:29:56.799 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:29:56.801 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:29:56.804 -- [DEBUG] css/file.css
+2018-12-22 23:29:56.807 -- [DEBUG] js/lib/require.js
+2018-12-22 23:29:57.458 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:29:57.460 -- [DEBUG] js/app.js
+2018-12-22 23:29:57.604 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:29:57.650 -- [DEBUG] js/app/main.js
+2018-12-22 23:29:57.899 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:29:57.909 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:29:58.234 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:29:58.236 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:29:58.247 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:29:58.249 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:29:58.361 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:29:58.371 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:29:58.710 -- [DEBUG] "GET /HOME?node=web-master&_=1545510598207 HTTP/1.1\r\n"
+2018-12-22 23:29:58.713 -- [DEBUG] c:/Projects/File
+2018-12-22 23:30:38.196 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:30:38.198 -- [DEBUG] 
+2018-12-22 23:30:38.285 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:30:38.506 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:30:38.506 -- [DEBUG] css/border-box.css
+2018-12-22 23:30:38.494 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:30:38.509 -- [DEBUG] js/lib/require.js
+2018-12-22 23:30:38.511 -- [DEBUG] css/file.css
+2018-12-22 23:30:39.350 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:30:39.357 -- [DEBUG] js/app.js
+2018-12-22 23:30:39.533 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:30:39.547 -- [DEBUG] js/app/main.js
+2018-12-22 23:30:39.793 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:30:39.795 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:30:40.082 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:30:40.083 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:30:40.085 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:30:40.087 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:30:40.259 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:30:40.260 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:30:40.807 -- [DEBUG] "GET /HOME?node=web-master&_=1545510640050 HTTP/1.1\r\n"
+2018-12-22 23:30:40.821 -- [DEBUG] c:/Projects/File
+2018-12-22 23:31:02.468 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:31:02.470 -- [DEBUG] 
+2018-12-22 23:31:02.579 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:31:02.626 -- [DEBUG] css/border-box.css
+2018-12-22 23:31:02.636 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:31:02.638 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:31:02.639 -- [DEBUG] css/file.css
+2018-12-22 23:31:02.644 -- [DEBUG] js/lib/require.js
+2018-12-22 23:31:03.221 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:31:03.222 -- [DEBUG] js/app.js
+2018-12-22 23:31:03.309 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:31:03.320 -- [DEBUG] js/app/main.js
+2018-12-22 23:31:03.476 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:31:03.478 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:31:03.756 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:31:03.758 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:31:03.759 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:31:03.761 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:31:03.986 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:31:03.988 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:31:04.238 -- [DEBUG] "GET /HOME?node=web-master&_=1545510663667 HTTP/1.1\r\n"
+2018-12-22 23:31:04.240 -- [DEBUG] c:/Projects/File
+2018-12-22 23:32:32.945 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:32:32.946 -- [DEBUG] 
+2018-12-22 23:32:33.062 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:32:33.094 -- [DEBUG] css/border-box.css
+2018-12-22 23:32:33.102 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:32:33.105 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:32:33.106 -- [DEBUG] css/file.css
+2018-12-22 23:32:33.107 -- [DEBUG] js/lib/require.js
+2018-12-22 23:32:33.685 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:32:33.687 -- [DEBUG] js/app.js
+2018-12-22 23:32:33.749 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:32:33.750 -- [DEBUG] js/app/main.js
+2018-12-22 23:32:33.909 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:32:33.914 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:32:34.209 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:32:34.218 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:32:34.220 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:32:34.231 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:32:34.517 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:32:34.520 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:32:35.082 -- [DEBUG] "GET /HOME?node=web-master&_=1545510754164 HTTP/1.1\r\n"
+2018-12-22 23:32:35.129 -- [DEBUG] c:/Projects/File
+2018-12-22 23:33:07.758 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:33:07.759 -- [DEBUG] 
+2018-12-22 23:33:07.835 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:33:07.845 -- [DEBUG] css/border-box.css
+2018-12-22 23:33:07.912 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:33:07.914 -- [DEBUG] css/file.css
+2018-12-22 23:33:07.916 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:33:07.926 -- [DEBUG] js/lib/require.js
+2018-12-22 23:33:08.461 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:33:08.463 -- [DEBUG] js/app.js
+2018-12-22 23:33:08.562 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:33:08.567 -- [DEBUG] js/app/main.js
+2018-12-22 23:33:08.621 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:33:08.626 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:33:08.848 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:33:08.861 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:33:08.877 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:33:08.898 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:33:09.083 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:33:09.100 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:33:09.568 -- [DEBUG] "GET /HOME?node=web-master&_=1545510788810 HTTP/1.1\r\n"
+2018-12-22 23:33:09.593 -- [DEBUG] c:/Projects/File
+2018-12-22 23:34:25.356 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:34:25.360 -- [DEBUG] 
+2018-12-22 23:34:25.446 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:34:25.498 -- [DEBUG] css/border-box.css
+2018-12-22 23:34:25.507 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:34:25.509 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:34:25.511 -- [DEBUG] css/file.css
+2018-12-22 23:34:25.526 -- [DEBUG] js/lib/require.js
+2018-12-22 23:34:26.170 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:34:26.171 -- [DEBUG] js/app.js
+2018-12-22 23:34:26.276 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:34:26.280 -- [DEBUG] js/app/main.js
+2018-12-22 23:34:26.499 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:34:26.505 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:34:26.748 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:34:26.757 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:34:26.750 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:34:26.761 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:34:26.906 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:34:26.910 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:34:27.340 -- [DEBUG] "GET /HOME?node=web-master&_=1545510866687 HTTP/1.1\r\n"
+2018-12-22 23:34:27.342 -- [DEBUG] c:/Projects/File
+2018-12-22 23:35:02.665 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:35:02.667 -- [DEBUG] 
+2018-12-22 23:35:02.818 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:35:02.853 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:35:02.855 -- [DEBUG] css/border-box.css
+2018-12-22 23:35:02.858 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:35:02.859 -- [DEBUG] css/file.css
+2018-12-22 23:35:02.868 -- [DEBUG] js/lib/require.js
+2018-12-22 23:35:03.559 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:35:03.561 -- [DEBUG] js/app.js
+2018-12-22 23:35:03.646 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:35:03.746 -- [DEBUG] js/app/main.js
+2018-12-22 23:35:04.001 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:35:04.018 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:35:04.227 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:35:04.229 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:35:04.230 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:35:04.233 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:35:04.319 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:35:04.321 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:35:04.639 -- [DEBUG] "GET /HOME?node=web-master&_=1545510904193 HTTP/1.1\r\n"
+2018-12-22 23:35:04.646 -- [DEBUG] c:/Projects/File
+2018-12-22 23:35:57.774 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:35:57.776 -- [DEBUG] 
+2018-12-22 23:35:57.884 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:35:57.961 -- [DEBUG] css/border-box.css
+2018-12-22 23:35:57.968 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:35:57.993 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:35:57.995 -- [DEBUG] js/lib/require.js
+2018-12-22 23:35:57.996 -- [DEBUG] css/file.css
+2018-12-22 23:35:58.515 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:35:58.520 -- [DEBUG] js/app.js
+2018-12-22 23:35:58.660 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:35:58.664 -- [DEBUG] js/app/main.js
+2018-12-22 23:35:58.794 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:35:58.797 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:35:59.060 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:35:59.068 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:35:59.070 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:35:59.079 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:35:59.158 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:35:59.160 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:35:59.396 -- [DEBUG] "GET /HOME?node=web-master&_=1545510959002 HTTP/1.1\r\n"
+2018-12-22 23:35:59.398 -- [DEBUG] c:/Projects/File
+2018-12-22 23:36:17.545 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:36:17.548 -- [DEBUG] 
+2018-12-22 23:36:17.695 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:36:17.788 -- [DEBUG] css/border-box.css
+2018-12-22 23:36:17.793 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:36:17.794 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:36:17.820 -- [DEBUG] js/lib/require.js
+2018-12-22 23:36:17.800 -- [DEBUG] css/file.css
+2018-12-22 23:36:18.397 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:36:18.399 -- [DEBUG] js/app.js
+2018-12-22 23:36:18.468 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:36:18.471 -- [DEBUG] js/app/main.js
+2018-12-22 23:36:18.551 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:36:18.556 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:36:18.739 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:36:18.739 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:36:18.741 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:36:18.743 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:36:18.818 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:36:18.820 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:36:19.057 -- [DEBUG] "GET /HOME?node=web-master&_=1545510978710 HTTP/1.1\r\n"
+2018-12-22 23:36:19.060 -- [DEBUG] c:/Projects/File
+2018-12-22 23:37:14.326 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:37:14.328 -- [DEBUG] 
+2018-12-22 23:37:14.417 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:37:14.442 -- [DEBUG] css/border-box.css
+2018-12-22 23:37:14.472 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:37:14.477 -- [DEBUG] css/file.css
+2018-12-22 23:37:14.478 -- [DEBUG] js/lib/require.js
+2018-12-22 23:37:15.005 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:37:15.013 -- [DEBUG] js/app.js
+2018-12-22 23:37:15.144 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:37:15.147 -- [DEBUG] js/app/main.js
+2018-12-22 23:37:15.190 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:37:15.193 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:37:15.324 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:37:15.324 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:37:15.326 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:37:15.326 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:37:15.389 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:37:15.390 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:37:15.616 -- [DEBUG] "GET /HOME?node=web-master&_=1545511035296 HTTP/1.1\r\n"
+2018-12-22 23:37:15.618 -- [DEBUG] c:/Projects/File
+2018-12-22 23:38:24.685 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:38:24.687 -- [DEBUG] 
+2018-12-22 23:38:24.775 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:38:24.821 -- [DEBUG] css/border-box.css
+2018-12-22 23:38:24.838 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:38:24.840 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:38:24.846 -- [DEBUG] css/file.css
+2018-12-22 23:38:24.857 -- [DEBUG] js/lib/require.js
+2018-12-22 23:38:25.441 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:38:25.444 -- [DEBUG] js/app.js
+2018-12-22 23:38:25.606 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:38:25.612 -- [DEBUG] js/app/main.js
+2018-12-22 23:38:25.726 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:38:25.728 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:38:26.170 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:38:26.172 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:38:26.179 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:38:26.188 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:38:26.494 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:38:26.523 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:38:27.177 -- [DEBUG] "GET /HOME?node=web-master&_=1545511106073 HTTP/1.1\r\n"
+2018-12-22 23:38:27.198 -- [DEBUG] c:/Projects/File
+2018-12-22 23:39:19.627 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:39:19.629 -- [DEBUG] 
+2018-12-22 23:39:19.698 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:39:19.748 -- [DEBUG] css/border-box.css
+2018-12-22 23:39:19.750 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:39:19.750 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:39:19.753 -- [DEBUG] js/lib/require.js
+2018-12-22 23:39:19.757 -- [DEBUG] css/file.css
+2018-12-22 23:39:20.379 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:39:20.380 -- [DEBUG] js/app.js
+2018-12-22 23:39:20.464 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:39:20.490 -- [DEBUG] js/app/main.js
+2018-12-22 23:39:20.673 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:39:20.690 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:39:21.051 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:39:21.065 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:39:21.094 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:39:21.109 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:39:21.480 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:39:21.490 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:39:21.623 -- [DEBUG] "GET /HOME?node=web-master&_=1545511160946 HTTP/1.1\r\n"
+2018-12-22 23:39:21.627 -- [DEBUG] c:/Projects/File
+2018-12-22 23:39:49.622 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:39:49.627 -- [DEBUG] 
+2018-12-22 23:39:49.725 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:39:49.782 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:39:49.778 -- [DEBUG] css/border-box.css
+.js HTTP/1.1\r\n"
+2018-12-22 23:39:49.787 -- [DEBUG] js/lib/require.js
+2018-12-22 23:39:50.617 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:39:50.621 -- [DEBUG] js/app.js
+2018-12-22 23:39:50.747 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:39:50.751 -- [DEBUG] js/app/main.js
+2018-12-22 23:39:50.839 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:39:50.844 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:39:51.266 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:39:51.269 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:39:51.278 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:39:51.285 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:39:51.447 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:39:51.449 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:39:51.969 -- [DEBUG] "GET /HOME?node=web-master&_=1545511191219 HTTP/1.1\r\n"
+2018-12-22 23:39:52.047 -- [DEBUG] c:/Projects/File
+2018-12-22 23:44:26.999 -- [INFO] start server...
+2018-12-22 23:44:29.265 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:44:29.270 -- [DEBUG] 
+2018-12-22 23:44:29.360 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:44:29.393 -- [DEBUG] css/border-box.css
+2018-12-22 23:44:29.411 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:44:29.412 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:44:29.414 -- [DEBUG] css/file.css
+2018-12-22 23:44:29.421 -- [DEBUG] js/lib/require.js
+2018-12-22 23:44:29.920 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:44:29.923 -- [DEBUG] js/app.js
+2018-12-22 23:44:30.011 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:44:30.014 -- [DEBUG] js/app/main.js
+2018-12-22 23:44:30.223 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:44:30.224 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:44:30.413 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:44:30.415 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:44:30.415 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:44:30.417 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:44:30.592 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:44:30.594 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:44:30.875 -- [DEBUG] "GET /HOME?node=web-master&_=1545511470366 HTTP/1.1\r\n"
+2018-12-22 23:44:30.883 -- [DEBUG] c:/Projects/File
+2018-12-22 23:50:17.427 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:50:17.431 -- [DEBUG] 
+2018-12-22 23:50:17.523 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:50:17.571 -- [DEBUG] css/border-box.css
+2018-12-22 23:50:17.601 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:50:17.605 -- [DEBUG] css/file.css
+2018-12-22 23:50:17.603 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:50:17.647 -- [DEBUG] js/lib/require.js
+2018-12-22 23:50:18.724 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:50:18.733 -- [DEBUG] js/app.js
+2018-12-22 23:50:18.848 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:50:18.851 -- [DEBUG] js/app/main.js
+2018-12-22 23:50:19.038 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:50:19.042 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:50:19.267 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:50:19.268 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:50:19.270 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:50:19.271 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:50:19.361 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:50:19.362 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:50:19.663 -- [DEBUG] "GET /HOME?node=web-master&_=1545511819240 HTTP/1.1\r\n"
+2018-12-22 23:50:19.675 -- [DEBUG] c:/Projects/File
+2018-12-22 23:50:32.389 -- [INFO] start server...
+2018-12-22 23:50:34.454 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:50:34.458 -- [DEBUG] /
+2018-12-22 23:50:39.094 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:50:39.101 -- [DEBUG] /
+2018-12-22 23:50:53.909 -- [DEBUG] nil
+2018-12-22 23:52:18.892 -- [INFO] start server...
+2018-12-22 23:52:21.383 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:52:21.386 -- [DEBUG] 
+2018-12-22 23:52:21.485 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:52:21.521 -- [DEBUG] css/border-box.css
+2018-12-22 23:52:21.523 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:52:21.531 -- [DEBUG] js/lib/require.js
+2018-12-22 23:52:21.527 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:52:21.539 -- [DEBUG] css/file.css
+2018-12-22 23:52:22.085 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:52:22.090 -- [DEBUG] js/app.js
+2018-12-22 23:52:22.205 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:52:22.217 -- [DEBUG] js/app/main.js
+2018-12-22 23:52:22.382 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:52:22.384 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:52:22.770 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:52:22.794 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:52:22.825 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:52:22.821 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:52:23.010 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:52:23.013 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:52:23.360 -- [DEBUG] "GET /HOME?node=web-master&_=1545511942622 HTTP/1.1\r\n"
+2018-12-22 23:52:23.364 -- [DEBUG] c:/Projects/File
+2018-12-22 23:55:21.723 -- [INFO] start server...
+2018-12-22 23:55:25.061 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:55:25.067 -- [DEBUG] 
+2018-12-22 23:55:25.151 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:55:25.207 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:55:25.207 -- [DEBUG] css/border-box.css
+2018-12-22 23:55:25.209 -- [DEBUG] css/file.css
+2018-12-22 23:55:25.211 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:55:25.230 -- [DEBUG] js/lib/require.js
+2018-12-22 23:55:25.816 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:55:25.826 -- [DEBUG] js/app.js
+2018-12-22 23:55:25.935 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:55:25.941 -- [DEBUG] js/app/main.js
+2018-12-22 23:55:26.028 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:55:26.033 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:55:26.337 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:55:26.339 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:55:26.343 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:55:26.348 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:55:26.522 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:55:26.523 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:55:26.739 -- [DEBUG] "GET /HOME?node=web-master&_=1545512126303 HTTP/1.1\r\n"
+2018-12-22 23:55:26.744 -- [DEBUG] c:/Projects/File
+2018-12-22 23:56:56.251 -- [INFO] start server...
+2018-12-22 23:56:59.617 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:56:59.621 -- [ERROR] wrong number of arguments (1 for 0)
+C:/Projects/File/server.rb:139:in `get_path'
+C:/Projects/File/server.rb:131:in `parse'
+C:/Projects/File/server.rb:85:in `block (2 levels) in start'
+2018-12-22 23:57:00.618 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:57:00.664 -- [ERROR] wrong number of arguments (1 for 0)
+C:/Projects/File/server.rb:139:in `get_path'
+C:/Projects/File/server.rb:131:in `parse'
+C:/Projects/File/server.rb:85:in `block (2 levels) in start'
+2018-12-22 23:57:05.719 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:57:05.751 -- [ERROR] wrong number of arguments (1 for 0)
+C:/Projects/File/server.rb:139:in `get_path'
+C:/Projects/File/server.rb:131:in `parse'
+C:/Projects/File/server.rb:85:in `block (2 levels) in start'
+2018-12-22 23:57:29.084 -- [INFO] start server...
+2018-12-22 23:57:32.551 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 23:57:32.556 -- [DEBUG] 
+2018-12-22 23:57:32.698 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-22 23:57:32.742 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-22 23:57:32.743 -- [DEBUG] css/border-box.css
+2018-12-22 23:57:32.745 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-22 23:57:32.747 -- [DEBUG] css/file.css
+2018-12-22 23:57:32.750 -- [DEBUG] js/lib/require.js
+2018-12-22 23:57:33.975 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-22 23:57:33.979 -- [DEBUG] js/app.js
+2018-12-22 23:57:34.241 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-22 23:57:34.246 -- [DEBUG] js/app/main.js
+2018-12-22 23:57:34.309 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-22 23:57:34.329 -- [DEBUG] js/lib/jquery.js
+2018-12-22 23:57:34.590 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-22 23:57:34.592 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-22 23:57:34.625 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-22 23:57:34.649 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-22 23:57:34.890 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-22 23:57:34.892 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-22 23:57:35.027 -- [DEBUG] "GET /HOME?node=web-master&_=1545512254546 HTTP/1.1\r\n"
+2018-12-22 23:57:35.031 -- [DEBUG] c:/Projects/File
+2018-12-23 00:02:41.474 -- [INFO] start server...
+2018-12-23 00:02:51.884 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 00:02:51.888 -- [DEBUG] 
+2018-12-23 00:02:51.994 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 00:02:52.053 -- [DEBUG] css/border-box.css
+2018-12-23 00:02:52.060 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 00:02:52.055 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 00:02:52.066 -- [DEBUG] css/file.css
+2018-12-23 00:02:52.069 -- [DEBUG] js/lib/require.js
+2018-12-23 00:02:52.788 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 00:02:52.791 -- [DEBUG] js/app.js
+2018-12-23 00:02:52.927 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 00:02:52.959 -- [DEBUG] js/app/main.js
+2018-12-23 00:02:53.337 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 00:02:53.339 -- [DEBUG] js/lib/jquery.js
+2018-12-23 00:02:53.543 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 00:02:53.546 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 00:02:53.548 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 00:02:53.551 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 00:02:53.743 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 00:02:53.746 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 00:02:54.002 -- [DEBUG] "GET /HOME?node=web-master&_=1545512573505 HTTP/1.1\r\n"
+2018-12-23 00:02:54.005 -- [ERROR] undefined method `gsub' for nil:NilClass
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/uri/rfc2396_parser.rb:331:in `unescape'
+C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/uri/common.rb:125:in `unescape'
+C:/Projects/File/server.rb:135:in `parse'
+C:/Projects/File/server.rb:85:in `block (2 levels) in start'
+2018-12-23 00:04:07.110 -- [INFO] start server...
+2018-12-23 00:04:09.434 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 00:04:09.437 -- [DEBUG] 
+2018-12-23 00:04:09.513 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 00:04:09.559 -- [DEBUG] css/border-box.css
+2018-12-23 00:04:09.561 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 00:04:09.562 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 00:04:09.564 -- [DEBUG] js/lib/require.js
+2018-12-23 00:04:09.566 -- [DEBUG] css/file.css
+2018-12-23 00:04:10.029 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 00:04:10.032 -- [DEBUG] js/app.js
+2018-12-23 00:04:10.261 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 00:04:10.593 -- [DEBUG] js/app/main.js
+2018-12-23 00:04:10.683 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 00:04:10.687 -- [DEBUG] js/lib/jquery.js
+2018-12-23 00:04:10.992 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 00:04:11.028 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 00:04:11.031 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 00:04:11.021 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 00:04:11.223 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 00:04:11.225 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 00:04:11.562 -- [DEBUG] "GET /HOME?node=web-master&_=1545512650919 HTTP/1.1\r\n"
+2018-12-23 00:04:11.563 -- [DEBUG] c:/Projects/File
+2018-12-23 00:09:50.137 -- [INFO] start server...
+2018-12-23 00:09:52.887 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 00:09:52.891 -- [DEBUG] 
+2018-12-23 00:09:53.022 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 00:09:53.028 -- [DEBUG] css/border-box.css
+2018-12-23 00:09:53.062 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 00:09:53.066 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 00:09:53.068 -- [DEBUG] css/file.css
+2018-12-23 00:09:53.074 -- [DEBUG] js/lib/require.js
+2018-12-23 00:09:53.768 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 00:09:53.840 -- [DEBUG] js/app.js
+2018-12-23 00:09:54.252 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 00:09:54.254 -- [DEBUG] js/app/main.js
+2018-12-23 00:09:54.320 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 00:09:54.321 -- [DEBUG] js/lib/jquery.js
+2018-12-23 00:09:54.523 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 00:09:54.524 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 00:09:54.526 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 00:09:54.526 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 00:09:54.666 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 00:09:54.668 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 00:09:55.131 -- [DEBUG] "GET /HOME?node=web-master&_=1545512994498 HTTP/1.1\r\n"
+2018-12-23 00:09:55.149 -- [DEBUG] c:/Projects/File
+2018-12-23 00:11:41.903 -- [INFO] start server...
+2018-12-23 00:11:44.495 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 00:11:44.499 -- [DEBUG] 
+2018-12-23 00:11:44.603 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 00:11:44.662 -- [DEBUG] css/border-box.css
+2018-12-23 00:11:44.703 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 00:11:44.705 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 00:11:44.707 -- [DEBUG] css/file.css
+2018-12-23 00:11:44.710 -- [DEBUG] js/lib/require.js
+2018-12-23 00:11:45.217 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 00:11:45.227 -- [DEBUG] js/app.js
+2018-12-23 00:11:45.297 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 00:11:45.299 -- [DEBUG] js/app/main.js
+2018-12-23 00:11:45.422 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 00:11:45.424 -- [DEBUG] js/lib/jquery.js
+2018-12-23 00:11:45.608 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 00:11:45.609 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 00:11:45.610 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 00:11:45.612 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 00:11:45.742 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 00:11:45.749 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 00:11:46.243 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545513105568 HTTP/1.1\r\n"
+2018-12-23 00:11:46.251 -- [DEBUG] c:/Projects/File
+2018-12-23 11:14:19.800 -- [INFO] start server...
+2018-12-23 11:14:21.989 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:14:21.992 -- [DEBUG] 
+2018-12-23 11:14:22.148 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:14:22.161 -- [DEBUG] css/border-box.css
+2018-12-23 11:14:22.218 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:14:22.221 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:14:22.227 -- [DEBUG] css/file.css
+2018-12-23 11:14:22.228 -- [DEBUG] js/lib/require.js
+2018-12-23 11:14:22.762 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:14:22.764 -- [DEBUG] js/app.js
+2018-12-23 11:14:22.895 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:14:22.927 -- [DEBUG] js/app/main.js
+2018-12-23 11:14:23.007 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:14:23.035 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:14:23.702 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:14:23.729 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:14:23.724 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:14:23.742 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:14:24.034 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:14:24.051 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:14:25.025 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545552863564 HTTP/1.1\r\n"
+2018-12-23 11:14:25.126 -- [DEBUG] 
+2018-12-23 11:14:25.150 -- [ERROR] wrong number of arguments (4 for 3)
+C:/Projects/File/server.rb:212:in `folder_request'
+C:/Projects/File/server.rb:91:in `block (2 levels) in start'
+2018-12-23 11:15:06.864 -- [INFO] start server...
+2018-12-23 11:15:10.472 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:15:10.476 -- [DEBUG] 
+2018-12-23 11:15:10.564 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:15:10.697 -- [DEBUG] css/border-box.css
+2018-12-23 11:15:10.702 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:15:10.704 -- [DEBUG] css/file.css
+.js
+2018-12-23 11:15:11.325 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:15:11.398 -- [DEBUG] js/app.js
+2018-12-23 11:15:11.819 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:15:11.908 -- [DEBUG] js/app/main.js
+2018-12-23 11:15:12.032 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:15:12.090 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:15:12.729 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:15:12.759 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:15:12.761 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:15:12.763 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:15:12.879 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:15:12.881 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:15:13.480 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545552912531 HTTP/1.1\r\n"
+2018-12-23 11:15:13.483 -- [DEBUG] 
+2018-12-23 11:15:13.491 -- [ERROR] wrong number of arguments (4 for 3)
+C:/Projects/File/server.rb:212:in `folder_request'
+C:/Projects/File/server.rb:91:in `block (2 levels) in start'
+2018-12-23 11:17:56.342 -- [INFO] start server...
+2018-12-23 11:18:00.306 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:18:00.309 -- [DEBUG] 
+2018-12-23 11:18:00.375 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:18:00.430 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:18:00.443 -- [DEBUG] css/border-box.css
+2018-12-23 11:18:00.447 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:18:00.451 -- [DEBUG] js/lib/require.js
+2018-12-23 11:18:00.948 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:18:00.950 -- [DEBUG] js/app.js
+2018-12-23 11:18:01.013 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:18:01.017 -- [DEBUG] js/app/main.js
+2018-12-23 11:18:01.161 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:18:01.164 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:18:01.393 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:18:01.395 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:18:01.395 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:18:01.397 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:18:01.501 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:18:01.502 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:18:01.775 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545553081356 HTTP/1.1\r\n"
+2018-12-23 11:18:01.783 -- [DEBUG] 
+2018-12-23 11:26:46.231 -- [INFO] start server...
+2018-12-23 11:26:49.848 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:26:49.851 -- [DEBUG] 
+2018-12-23 11:26:49.952 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:26:49.990 -- [DEBUG] css/border-box.css
+2018-12-23 11:26:49.992 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:26:49.993 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:26:49.993 -- [ERROR] undefined local variable or method `node' for #<Server:0x322d2f8>
+C:/Projects/File/server.rb:99:in `block (2 levels) in start'
+2018-12-23 11:26:49.998 -- [DEBUG] js/lib/require.js
+2018-12-23 11:26:49.997 -- [DEBUG] css/file.css
+2018-12-23 11:26:50.001 -- [ERROR] undefined local variable or method `node' for #<Server:0x322d2f8>
+C:/Projects/File/server.rb:99:in `block (2 levels) in start'
+2018-12-23 11:26:50.001 -- [ERROR] undefined local variable or method `node' for #<Server:0x322d2f8>
+C:/Projects/File/server.rb:99:in `block (2 levels) in start'
+2018-12-23 11:26:50.404 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:26:50.408 -- [DEBUG] js/lib/require.js
+2018-12-23 11:26:50.414 -- [ERROR] undefined local variable or method `node' for #<Server:0x322d2f8>
+C:/Projects/File/server.rb:99:in `block (2 levels) in start'
+2018-12-23 11:27:53.516 -- [INFO] start server...
+2018-12-23 11:27:57.749 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:27:57.758 -- [DEBUG] 
+2018-12-23 11:27:57.844 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:27:57.862 -- [DEBUG] css/border-box.css
+2018-12-23 11:27:57.911 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:27:57.917 -- [DEBUG] css/file.css
+2018-12-23 11:27:57.919 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:27:57.921 -- [DEBUG] js/lib/require.js
+2018-12-23 11:27:58.439 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:27:58.442 -- [DEBUG] js/app.js
+2018-12-23 11:27:58.515 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:27:58.522 -- [DEBUG] js/app/main.js
+2018-12-23 11:27:58.686 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:27:58.689 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:27:58.910 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:27:58.911 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:27:58.912 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:27:58.913 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:27:59.027 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:27:59.031 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:27:59.324 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545553678868 HTTP/1.1\r\n"
+2018-12-23 11:27:59.325 -- [DEBUG] 
+2018-12-23 11:38:46.302 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:38:46.305 -- [DEBUG] 
+2018-12-23 11:38:46.405 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:38:46.438 -- [DEBUG] css/border-box.css
+2018-12-23 11:38:46.598 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:38:46.599 -- [DEBUG] "GET /material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:38:46.600 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:38:46.608 -- [DEBUG] material-design-icons.css
+2018-12-23 11:38:46.601 -- [DEBUG] css/file.css
+2018-12-23 11:38:46.611 -- [DEBUG] js/lib/require.js
+2018-12-23 11:38:47.109 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:38:47.111 -- [DEBUG] js/app.js
+2018-12-23 11:38:47.274 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:38:47.296 -- [DEBUG] js/app/main.js
+2018-12-23 11:38:47.441 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:38:47.448 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:38:47.710 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:38:47.713 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:38:47.722 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:38:47.730 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:38:47.910 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:38:47.915 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:38:48.650 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545554327610 HTTP/1.1\r\n"
+2018-12-23 11:38:48.671 -- [DEBUG] 
+2018-12-23 11:42:34.448 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:42:34.450 -- [DEBUG] 
+2018-12-23 11:42:34.532 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:42:34.565 -- [DEBUG] css/border-box.css
+2018-12-23 11:42:34.579 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:42:34.581 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:42:34.582 -- [DEBUG] "GET /material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:42:34.586 -- [DEBUG] js/lib/require.js
+2018-12-23 11:42:34.588 -- [DEBUG] css/file.css
+2018-12-23 11:42:34.588 -- [DEBUG] material-design-icons.css
+2018-12-23 11:42:35.118 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:42:35.120 -- [DEBUG] js/app.js
+2018-12-23 11:42:35.191 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:42:35.207 -- [DEBUG] js/app/main.js
+2018-12-23 11:42:35.259 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:42:35.260 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:42:35.525 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:42:35.526 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:42:35.529 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:42:35.610 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:42:35.611 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:42:35.906 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545554555501 HTTP/1.1\r\n"
+2018-12-23 11:42:35.907 -- [DEBUG] 
+2018-12-23 11:42:51.481 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:42:51.483 -- [DEBUG] 
+2018-12-23 11:42:51.573 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:42:51.609 -- [DEBUG] css/border-box.css
+2018-12-23 11:42:51.617 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:42:51.620 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:42:51.621 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:42:51.622 -- [DEBUG] css/file.css
+2018-12-23 11:42:51.624 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:42:51.626 -- [DEBUG] js/lib/require.js
+2018-12-23 11:42:52.120 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:42:52.121 -- [DEBUG] js/app.js
+2018-12-23 11:42:52.211 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:42:52.215 -- [DEBUG] js/app/main.js
+2018-12-23 11:42:52.360 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:42:52.372 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:42:52.645 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:42:52.649 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:42:52.651 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:42:52.656 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:42:52.840 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:42:52.842 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:42:53.131 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545554572615 HTTP/1.1\r\n"
+2018-12-23 11:42:53.138 -- [DEBUG] 
+2018-12-23 11:42:53.276 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:42:53.278 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:46:54.901 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:46:54.910 -- [DEBUG] 
+2018-12-23 11:46:55.034 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:46:55.089 -- [DEBUG] css/border-box.css
+2018-12-23 11:46:55.132 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:46:55.133 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:46:55.136 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:46:55.141 -- [DEBUG] css/file.css
+2018-12-23 11:46:55.139 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:46:55.144 -- [DEBUG] js/lib/require.js
+2018-12-23 11:46:55.691 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:46:55.692 -- [DEBUG] js/app.js
+2018-12-23 11:46:55.794 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:46:55.804 -- [DEBUG] js/app/main.js
+2018-12-23 11:46:55.952 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:46:55.954 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:46:56.109 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:46:56.112 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:46:56.114 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:46:56.118 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:46:56.203 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:46:56.204 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:46:56.527 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545554816086 HTTP/1.1\r\n"
+2018-12-23 11:46:56.571 -- [DEBUG] 
+2018-12-23 11:46:56.653 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:46:56.654 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:49:05.064 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:49:05.066 -- [DEBUG] 
+2018-12-23 11:49:05.145 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:49:05.193 -- [DEBUG] css/border-box.css
+2018-12-23 11:49:05.209 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:49:05.212 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:49:05.217 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:49:05.221 -- [DEBUG] css/file.css
+2018-12-23 11:49:05.257 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:49:05.265 -- [DEBUG] js/lib/require.js
+2018-12-23 11:49:05.955 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:49:05.958 -- [DEBUG] js/app.js
+2018-12-23 11:49:06.061 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:49:06.160 -- [DEBUG] js/app/main.js
+2018-12-23 11:49:06.383 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:49:06.389 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:49:06.599 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:49:06.600 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:49:06.603 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:49:06.604 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:49:06.746 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:49:06.750 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:49:07.057 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545554946575 HTTP/1.1\r\n"
+2018-12-23 11:49:07.059 -- [DEBUG] 
+2018-12-23 11:49:07.148 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:49:07.157 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:49:57.424 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:49:57.425 -- [DEBUG] 
+2018-12-23 11:49:57.503 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:49:57.549 -- [DEBUG] css/border-box.css
+2018-12-23 11:49:57.557 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:49:57.557 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:49:57.558 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:49:57.561 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:49:57.570 -- [DEBUG] css/file.css
+2018-12-23 11:49:57.563 -- [DEBUG] js/lib/require.js
+2018-12-23 11:49:58.141 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:49:58.145 -- [DEBUG] js/app.js
+2018-12-23 11:49:58.356 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:49:58.373 -- [DEBUG] js/app/main.js
+2018-12-23 11:49:58.499 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:49:58.500 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:49:58.796 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:49:58.799 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:49:58.801 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:49:58.803 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:49:58.949 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:49:58.951 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:49:59.196 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545554998735 HTTP/1.1\r\n"
+2018-12-23 11:49:59.200 -- [DEBUG] 
+2018-12-23 11:49:59.294 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:49:59.296 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:50:15.855 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:50:15.857 -- [DEBUG] 
+2018-12-23 11:50:15.948 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:50:15.989 -- [DEBUG] css/border-box.css
+2018-12-23 11:50:15.990 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:50:15.994 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:50:15.995 -- [DEBUG] css/file.css
+2018-12-23 11:50:15.999 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:50:16.003 -- [DEBUG] js/lib/require.js
+2018-12-23 11:50:16.509 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:50:16.511 -- [DEBUG] js/app.js
+2018-12-23 11:50:16.655 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:50:16.657 -- [DEBUG] js/app/main.js
+2018-12-23 11:50:16.783 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:50:16.791 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:50:16.961 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:50:16.970 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:50:16.965 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:50:16.972 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:50:17.102 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:50:17.106 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:50:17.344 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555016935 HTTP/1.1\r\n"
+2018-12-23 11:50:17.352 -- [DEBUG] 
+2018-12-23 11:50:17.477 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:50:17.479 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:50:28.374 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:50:28.375 -- [DEBUG] 
+2018-12-23 11:50:28.455 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:50:28.489 -- [DEBUG] css/border-box.css
+2018-12-23 11:50:28.503 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:50:28.504 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:50:28.506 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:50:28.509 -- [DEBUG] css/file.css
+2018-12-23 11:50:28.510 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:50:28.514 -- [DEBUG] js/lib/require.js
+2018-12-23 11:50:29.028 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:50:29.030 -- [DEBUG] js/app.js
+2018-12-23 11:50:29.116 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:50:29.132 -- [DEBUG] js/app/main.js
+2018-12-23 11:50:29.341 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:50:29.342 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:50:29.544 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:50:29.544 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:50:29.547 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:50:29.548 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:50:29.666 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:50:29.669 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:50:30.044 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555029521 HTTP/1.1\r\n"
+2018-12-23 11:50:30.051 -- [DEBUG] 
+2018-12-23 11:50:30.153 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:50:30.156 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:52:36.095 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:52:36.099 -- [DEBUG] 
+2018-12-23 11:52:36.461 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:52:36.565 -- [DEBUG] css/border-box.css
+2018-12-23 11:52:36.640 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:52:36.641 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:52:36.641 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:52:36.659 -- [DEBUG] js/lib/require.js
+2018-12-23 11:52:36.645 -- [DEBUG] css/file.css
+2018-12-23 11:52:36.667 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:52:37.523 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:52:37.543 -- [DEBUG] js/app.js
+2018-12-23 11:52:37.810 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:52:37.817 -- [DEBUG] js/app/main.js
+2018-12-23 11:52:37.939 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:52:37.962 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:52:38.155 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:52:38.158 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:52:38.156 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:52:38.161 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:52:38.334 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:52:38.483 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:52:38.667 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555158109 HTTP/1.1\r\n"
+2018-12-23 11:52:38.690 -- [DEBUG] 
+2018-12-23 11:52:38.916 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:52:38.938 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:52:52.098 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:52:52.125 -- [DEBUG] 
+2018-12-23 11:52:52.254 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:52:52.320 -- [DEBUG] css/border-box.css
+2018-12-23 11:52:52.362 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:52:52.364 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:52:52.370 -- [DEBUG] css/file.css
+2018-12-23 11:52:52.372 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:52:52.389 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:52:52.394 -- [DEBUG] js/lib/require.js
+2018-12-23 11:52:53.139 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:52:53.158 -- [DEBUG] js/app.js
+2018-12-23 11:52:53.316 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:52:53.321 -- [DEBUG] js/app/main.js
+2018-12-23 11:52:53.456 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:52:53.459 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:52:53.625 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:52:53.627 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:52:53.627 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:52:53.629 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:52:53.745 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:52:53.747 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:52:54.045 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555173595 HTTP/1.1\r\n"
+2018-12-23 11:52:54.077 -- [DEBUG] 
+2018-12-23 11:52:54.160 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:52:54.171 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:55:07.934 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:55:07.939 -- [DEBUG] 
+2018-12-23 11:55:08.037 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:55:08.077 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:55:08.071 -- [DEBUG] css/border-box.css
+TTP/1.1\r\n"
+2018-12-23 11:55:08.081 -- [DEBUG] css/file.css
+2018-12-23 11:55:08.082 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:55:08.087 -- [DEBUG] js/lib/require.js
+2018-12-23 11:55:08.670 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:55:08.750 -- [DEBUG] js/app.js
+2018-12-23 11:55:09.150 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:55:09.160 -- [DEBUG] js/app/main.js
+2018-12-23 11:55:09.250 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:55:09.252 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:55:09.544 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:55:09.548 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:55:09.559 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:55:09.553 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:55:09.845 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:55:10.024 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:55:10.349 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555309493 HTTP/1.1\r\n"
+2018-12-23 11:55:10.386 -- [DEBUG] 
+2018-12-23 11:55:10.667 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:55:10.683 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:55:43.333 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:55:43.335 -- [DEBUG] 
+2018-12-23 11:55:43.415 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:55:43.485 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:55:43.492 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:55:43.494 -- [DEBUG] css/file.css
+2018-12-23 11:55:43.488 -- [DEBUG] css/border-box.css
+2018-12-23 11:55:43.496 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:55:43.511 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:55:43.547 -- [DEBUG] js/lib/require.js
+2018-12-23 11:55:44.188 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:55:44.190 -- [DEBUG] js/app.js
+2018-12-23 11:55:44.324 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:55:44.330 -- [DEBUG] js/app/main.js
+2018-12-23 11:55:44.430 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:55:44.433 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:55:44.690 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:55:44.692 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:55:44.710 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:55:44.713 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:55:44.799 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:55:44.801 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:55:45.161 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555344652 HTTP/1.1\r\n"
+2018-12-23 11:55:45.163 -- [DEBUG] 
+2018-12-23 11:55:45.345 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:55:45.354 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:56:27.265 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:56:27.269 -- [DEBUG] 
+2018-12-23 11:56:27.370 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:56:27.379 -- [DEBUG] css/border-box.css
+2018-12-23 11:56:27.416 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:56:27.421 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:56:27.422 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:56:27.423 -- [DEBUG] css/file.css
+2018-12-23 11:56:27.425 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:56:27.426 -- [DEBUG] js/lib/require.js
+2018-12-23 11:56:27.927 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:56:27.928 -- [DEBUG] js/app.js
+2018-12-23 11:56:28.016 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:56:28.019 -- [DEBUG] js/app/main.js
+2018-12-23 11:56:28.188 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:56:28.190 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:56:28.334 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:56:28.336 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:56:28.336 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:56:28.338 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:56:28.460 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:56:28.468 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:56:28.744 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555388304 HTTP/1.1\r\n"
+2018-12-23 11:56:28.757 -- [DEBUG] 
+2018-12-23 11:56:29.202 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:56:29.220 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:56:35.825 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:56:35.826 -- [DEBUG] 
+2018-12-23 11:56:35.942 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:56:35.981 -- [DEBUG] css/border-box.css
+2018-12-23 11:56:35.981 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:56:35.985 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:56:35.988 -- [DEBUG] css/file.css
+2018-12-23 11:56:35.991 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:56:35.990 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:56:36.005 -- [DEBUG] js/lib/require.js
+2018-12-23 11:56:36.489 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:56:36.491 -- [DEBUG] js/app.js
+2018-12-23 11:56:36.559 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:56:36.563 -- [DEBUG] js/app/main.js
+2018-12-23 11:56:36.636 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:56:36.640 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:56:36.821 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:56:36.823 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:56:36.824 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:56:36.826 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:56:37.025 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:56:37.026 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:56:37.510 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555396781 HTTP/1.1\r\n"
+2018-12-23 11:56:37.525 -- [DEBUG] 
+2018-12-23 11:56:38.061 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:56:38.065 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:56:48.744 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:56:48.746 -- [DEBUG] 
+2018-12-23 11:56:48.830 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:56:48.916 -- [DEBUG] css/border-box.css
+2018-12-23 11:56:48.940 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:56:48.942 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:56:48.943 -- [DEBUG] css/file.css
+2018-12-23 11:56:48.945 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:56:48.946 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:56:48.951 -- [DEBUG] js/lib/require.js
+2018-12-23 11:56:49.435 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:56:49.447 -- [DEBUG] js/app.js
+2018-12-23 11:56:49.622 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:56:49.662 -- [DEBUG] js/app/main.js
+2018-12-23 11:56:50.008 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:56:50.040 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:56:50.409 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:56:50.415 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:56:50.417 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:56:50.423 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:56:50.584 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:56:50.587 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:56:51.180 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555410356 HTTP/1.1\r\n"
+2018-12-23 11:56:51.213 -- [DEBUG] 
+2018-12-23 11:56:52.408 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:56:52.410 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:58:17.485 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:58:17.487 -- [DEBUG] 
+2018-12-23 11:58:17.579 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:58:17.635 -- [DEBUG] css/border-box.css
+2018-12-23 11:58:17.662 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:58:17.663 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:58:17.665 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:58:17.667 -- [DEBUG] css/file.css
+2018-12-23 11:58:17.668 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:58:17.673 -- [DEBUG] js/lib/require.js
+2018-12-23 11:58:18.228 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:58:18.231 -- [DEBUG] js/app.js
+2018-12-23 11:58:18.341 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:58:18.344 -- [DEBUG] js/app/main.js
+2018-12-23 11:58:18.481 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:58:18.490 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:58:18.645 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:58:18.647 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:58:18.647 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:58:18.649 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:58:18.730 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:58:18.731 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:58:19.101 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555498617 HTTP/1.1\r\n"
+2018-12-23 11:58:19.104 -- [DEBUG] 
+2018-12-23 11:58:19.167 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:58:19.169 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:58:26.767 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:58:26.769 -- [DEBUG] 
+2018-12-23 11:58:26.848 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:58:26.951 -- [DEBUG] css/border-box.css
+2018-12-23 11:58:26.955 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:58:26.960 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:58:26.961 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:58:26.959 -- [DEBUG] css/file.css
+2018-12-23 11:58:26.977 -- [DEBUG] js/lib/require.js
+2018-12-23 11:58:26.966 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:58:27.492 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:58:27.494 -- [DEBUG] js/app.js
+2018-12-23 11:58:27.613 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:58:27.627 -- [DEBUG] js/app/main.js
+2018-12-23 11:58:27.856 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:58:27.872 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:58:28.400 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:58:28.393 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:58:28.430 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:58:28.416 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:58:28.606 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:58:28.669 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 11:58:29.167 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555508308 HTTP/1.1\r\n"
+2018-12-23 11:58:29.183 -- [DEBUG] 
+2018-12-23 11:58:29.332 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:58:29.334 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:58:40.908 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:58:40.912 -- [DEBUG] 
+2018-12-23 11:58:41.047 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:58:41.084 -- [DEBUG] css/border-box.css
+2018-12-23 11:58:41.087 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:58:41.128 -- [DEBUG] css/file.css
+2018-12-23 11:58:41.132 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:58:41.136 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:58:41.135 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:58:41.141 -- [DEBUG] js/lib/require.js
+2018-12-23 11:58:41.446 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:58:41.448 -- [DEBUG] js/app.js
+2018-12-23 11:58:41.494 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:58:41.495 -- [DEBUG] js/app/main.js
+2018-12-23 11:58:41.575 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:58:41.577 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:58:41.713 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:58:41.713 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:58:41.714 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:58:41.715 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:58:41.978 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555521693 HTTP/1.1\r\n"
+2018-12-23 11:58:41.979 -- [DEBUG] 
+2018-12-23 11:58:42.061 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:58:42.066 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:59:32.062 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 11:59:32.065 -- [DEBUG] 
+2018-12-23 11:59:32.199 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:59:32.213 -- [DEBUG] css/border-box.css
+2018-12-23 11:59:32.270 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:59:32.272 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:59:32.276 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:59:32.277 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 11:59:32.279 -- [DEBUG] js/lib/require.js
+2018-12-23 11:59:33.082 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 11:59:33.085 -- [DEBUG] js/app.js
+2018-12-23 11:59:33.165 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 11:59:33.174 -- [DEBUG] js/app/main.js
+2018-12-23 11:59:33.230 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 11:59:33.232 -- [DEBUG] js/lib/jquery.js
+2018-12-23 11:59:33.391 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 11:59:33.392 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 11:59:33.392 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 11:59:33.393 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 11:59:33.631 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555573373 HTTP/1.1\r\n"
+2018-12-23 11:59:33.632 -- [DEBUG] 
+2018-12-23 11:59:33.708 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 11:59:33.729 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 11:59:42.072 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 11:59:42.073 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 11:59:42.077 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 11:59:42.078 -- [DEBUG] css/border-box.css
+2018-12-23 11:59:42.079 -- [DEBUG] css/file.css
+2018-12-23 11:59:42.081 -- [DEBUG] css/material-design-icons.css
+2018-12-23 11:59:42.175 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 11:59:42.178 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 12:01:02.470 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 12:01:02.471 -- [DEBUG] 
+2018-12-23 12:01:02.563 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 12:01:02.735 -- [DEBUG] css/border-box.css
+2018-12-23 12:01:02.741 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 12:01:02.747 -- [DEBUG] css/file.css
+2018-12-23 12:01:02.745 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 12:01:02.750 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 12:01:02.751 -- [DEBUG] css/material-design-icons.css
+2018-12-23 12:01:02.758 -- [DEBUG] js/lib/require.js
+2018-12-23 12:01:03.295 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 12:01:03.297 -- [DEBUG] js/app.js
+2018-12-23 12:01:03.384 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 12:01:03.400 -- [DEBUG] js/app/main.js
+2018-12-23 12:01:03.483 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 12:01:03.490 -- [DEBUG] js/lib/jquery.js
+2018-12-23 12:01:03.962 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 12:01:03.974 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 12:01:03.976 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 12:01:03.983 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 12:01:04.173 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 12:01:04.197 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 12:01:05.338 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555663887 HTTP/1.1\r\n"
+2018-12-23 12:01:05.364 -- [DEBUG] 
+2018-12-23 12:01:05.568 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 12:01:05.607 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 12:02:09.376 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 12:02:09.377 -- [DEBUG] 
+2018-12-23 12:02:09.497 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 12:02:09.547 -- [DEBUG] css/border-box.css
+2018-12-23 12:02:09.550 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 12:02:09.552 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 12:02:09.552 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 12:02:09.561 -- [DEBUG] css/file.css
+2018-12-23 12:02:09.561 -- [DEBUG] css/material-design-icons.css
+2018-12-23 12:02:09.557 -- [DEBUG] js/lib/require.js
+2018-12-23 12:02:10.048 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 12:02:10.050 -- [DEBUG] js/app.js
+2018-12-23 12:02:10.196 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 12:02:10.200 -- [DEBUG] js/app/main.js
+2018-12-23 12:02:10.283 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 12:02:10.286 -- [DEBUG] js/lib/jquery.js
+2018-12-23 12:02:10.519 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 12:02:10.533 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 12:02:10.553 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 12:02:10.574 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 12:02:10.691 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 12:02:10.700 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 12:02:11.041 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555730484 HTTP/1.1\r\n"
+2018-12-23 12:02:11.044 -- [DEBUG] 
+2018-12-23 12:02:11.214 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 12:02:11.216 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 12:03:49.879 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 12:03:49.883 -- [DEBUG] 
+2018-12-23 12:03:49.958 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 12:03:50.004 -- [DEBUG] css/border-box.css
+2018-12-23 12:03:50.009 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 12:03:50.010 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 12:03:50.013 -- [DEBUG] css/material-design-icons.css
+2018-12-23 12:03:50.016 -- [DEBUG] css/file.css
+2018-12-23 12:03:50.012 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 12:03:50.019 -- [DEBUG] js/lib/require.js
+2018-12-23 12:03:50.527 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 12:03:50.528 -- [DEBUG] js/app.js
+2018-12-23 12:03:50.619 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 12:03:50.621 -- [DEBUG] js/app/main.js
+2018-12-23 12:03:50.691 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 12:03:50.699 -- [DEBUG] js/lib/jquery.js
+2018-12-23 12:03:50.893 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 12:03:50.894 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 12:03:50.896 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 12:03:50.896 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 12:03:51.017 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 12:03:51.020 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 12:03:51.529 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555830867 HTTP/1.1\r\n"
+2018-12-23 12:03:51.540 -- [DEBUG] 
+2018-12-23 12:03:51.612 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 12:03:51.618 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 12:06:24.427 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 12:06:24.428 -- [DEBUG] 
+2018-12-23 12:06:24.537 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 12:06:24.558 -- [DEBUG] css/border-box.css
+2018-12-23 12:06:24.565 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 12:06:24.567 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 12:06:24.565 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 12:06:24.577 -- [DEBUG] css/material-design-icons.css
+2018-12-23 12:06:24.572 -- [DEBUG] css/file.css
+.js
+2018-12-23 12:06:25.104 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 12:06:25.113 -- [DEBUG] js/app.js
+2018-12-23 12:06:25.227 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 12:06:25.232 -- [DEBUG] js/app/main.js
+2018-12-23 12:06:25.336 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 12:06:25.337 -- [DEBUG] js/lib/jquery.js
+2018-12-23 12:06:25.524 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 12:06:25.525 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 12:06:25.527 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 12:06:25.528 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 12:06:25.665 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 12:06:25.670 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 12:06:25.920 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545555985499 HTTP/1.1\r\n"
+2018-12-23 12:06:25.923 -- [DEBUG] 
+2018-12-23 12:06:26.024 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 12:06:26.027 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 12:10:05.402 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 12:10:05.404 -- [DEBUG] 
+2018-12-23 12:10:05.489 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 12:10:05.529 -- [DEBUG] css/border-box.css
+2018-12-23 12:10:05.530 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 12:10:05.536 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 12:10:05.538 -- [DEBUG] css/file.css
+2018-12-23 12:10:05.542 -- [DEBUG] css/material-design-icons.css
+2018-12-23 12:10:05.541 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 12:10:05.547 -- [DEBUG] js/lib/require.js
+2018-12-23 12:10:06.030 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 12:10:06.034 -- [DEBUG] js/app.js
+2018-12-23 12:10:06.183 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 12:10:06.187 -- [DEBUG] js/app/main.js
+2018-12-23 12:10:06.315 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 12:10:06.317 -- [DEBUG] js/lib/jquery.js
+2018-12-23 12:10:06.477 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 12:10:06.478 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 12:10:06.479 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 12:10:06.480 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 12:10:06.625 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 12:10:06.628 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 12:10:06.845 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545556206449 HTTP/1.1\r\n"
+2018-12-23 12:10:06.846 -- [DEBUG] 
+2018-12-23 12:10:53.252 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 12:10:53.253 -- [DEBUG] 
+2018-12-23 12:10:53.337 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 12:10:53.385 -- [DEBUG] css/border-box.css
+2018-12-23 12:10:53.387 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 12:10:53.387 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 12:10:53.389 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 12:10:53.394 -- [DEBUG] css/file.css
+2018-12-23 12:10:53.394 -- [DEBUG] css/material-design-icons.css
+2018-12-23 12:10:53.401 -- [DEBUG] js/lib/require.js
+2018-12-23 12:10:53.917 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 12:10:53.919 -- [DEBUG] js/app.js
+2018-12-23 12:10:54.012 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 12:10:54.074 -- [DEBUG] js/app/main.js
+2018-12-23 12:10:54.312 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 12:10:54.315 -- [DEBUG] js/lib/jquery.js
+2018-12-23 12:10:54.507 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 12:10:54.507 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 12:10:54.509 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 12:10:54.509 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 12:10:54.701 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 12:10:54.702 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 12:10:54.919 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545556254478 HTTP/1.1\r\n"
+2018-12-23 12:10:54.921 -- [DEBUG] 
+2018-12-23 12:10:55.015 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 12:10:55.017 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 12:14:52.769 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 12:14:52.772 -- [DEBUG] 
+2018-12-23 12:14:52.877 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 12:14:52.918 -- [DEBUG] css/border-box.css
+2018-12-23 12:14:52.924 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 12:14:52.925 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 12:14:52.932 -- [DEBUG] css/material-design-icons.css
+2018-12-23 12:14:52.931 -- [DEBUG] css/file.css
+2018-12-23 12:14:52.970 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 12:14:52.975 -- [DEBUG] js/lib/require.js
+2018-12-23 12:14:53.491 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 12:14:53.495 -- [DEBUG] js/app.js
+2018-12-23 12:14:53.587 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 12:14:53.590 -- [DEBUG] js/app/main.js
+2018-12-23 12:14:53.720 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 12:14:53.722 -- [DEBUG] js/lib/jquery.js
+2018-12-23 12:14:53.938 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 12:14:53.939 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 12:14:53.941 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 12:14:53.941 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 12:14:54.067 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 12:14:54.071 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 12:14:54.407 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545556493913 HTTP/1.1\r\n"
+2018-12-23 12:14:54.409 -- [DEBUG] 
+2018-12-23 12:14:54.518 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 12:14:54.521 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 12:15:21.618 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 12:15:21.620 -- [DEBUG] 
+2018-12-23 12:15:21.725 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 12:15:21.761 -- [DEBUG] css/border-box.css
+2018-12-23 12:15:21.770 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+s HTTP/1.1\r\n"
+2018-12-23 12:15:21.774 -- [DEBUG] css/file.css
+2018-12-23 12:15:21.780 -- [DEBUG] css/material-design-icons.css
+2018-12-23 12:15:21.784 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 12:15:21.791 -- [DEBUG] js/lib/require.js
+2018-12-23 12:15:22.334 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 12:15:22.336 -- [DEBUG] js/app.js
+2018-12-23 12:15:22.403 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 12:15:22.407 -- [DEBUG] js/app/main.js
+2018-12-23 12:15:22.598 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 12:15:22.600 -- [DEBUG] js/lib/jquery.js
+2018-12-23 12:15:22.790 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 12:15:22.791 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 12:15:22.793 -- [DEBUG] js/lib/jquery-ui.js
+s
+2018-12-23 12:15:23.006 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 12:15:23.011 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 12:15:23.252 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545556522762 HTTP/1.1\r\n"
+2018-12-23 12:15:23.254 -- [DEBUG] 
+2018-12-23 12:15:23.393 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 12:15:23.396 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 12:18:29.055 -- [INFO] start server...
+2018-12-23 12:19:27.261 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 12:19:27.311 -- [DEBUG] 
+2018-12-23 12:19:27.481 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 12:19:27.526 -- [DEBUG] css/border-box.css
+2018-12-23 12:19:27.541 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 12:19:27.537 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 12:19:27.544 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 12:19:27.546 -- [DEBUG] css/file.css
+2018-12-23 12:19:27.547 -- [DEBUG] css/material-design-icons.css
+2018-12-23 12:19:28.126 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 12:19:28.130 -- [DEBUG] js/app.js
+2018-12-23 12:19:28.251 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 12:19:28.261 -- [DEBUG] js/app/main.js
+2018-12-23 12:19:28.413 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 12:19:28.416 -- [DEBUG] js/lib/jquery.js
+2018-12-23 12:19:28.681 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 12:19:28.683 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 12:19:28.683 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 12:19:28.685 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 12:19:28.821 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 12:19:28.833 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 12:19:29.092 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545556768651 HTTP/1.1\r\n"
+2018-12-23 12:19:29.094 -- [DEBUG] 
+2018-12-23 12:20:04.562 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 12:20:04.565 -- [DEBUG] 
+2018-12-23 12:20:04.648 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 12:20:04.660 -- [DEBUG] css/border-box.css
+2018-12-23 12:20:04.726 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 12:20:04.733 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 12:20:04.740 -- [DEBUG] css/file.css
+2018-12-23 12:20:04.743 -- [DEBUG] css/material-design-icons.css
+2018-12-23 12:20:04.746 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 12:20:04.755 -- [DEBUG] js/lib/require.js
+2018-12-23 12:20:05.338 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 12:20:05.358 -- [DEBUG] js/app.js
+2018-12-23 12:20:05.500 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 12:20:05.524 -- [DEBUG] js/app/main.js
+2018-12-23 12:20:05.590 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 12:20:05.592 -- [DEBUG] js/lib/jquery.js
+2018-12-23 12:20:05.770 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 12:20:05.772 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 12:20:05.772 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 12:20:05.774 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 12:20:05.862 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 12:20:05.863 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 12:20:06.094 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545556805742 HTTP/1.1\r\n"
+2018-12-23 12:20:06.096 -- [DEBUG] 
+2018-12-23 12:20:06.153 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 12:20:06.155 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 12:23:11.903 -- [INFO] start server...
+2018-12-23 12:23:14.842 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 12:23:14.845 -- [DEBUG] 
+2018-12-23 12:23:14.947 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 12:23:14.993 -- [DEBUG] css/border-box.css
+2018-12-23 12:23:15.001 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 12:23:15.006 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 12:23:15.008 -- [DEBUG] css/file.css
+2018-12-23 12:23:15.011 -- [DEBUG] css/material-design-icons.css
+1\r\n"
+2018-12-23 12:23:15.025 -- [DEBUG] js/lib/require.js
+2018-12-23 12:23:15.490 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 12:23:15.492 -- [DEBUG] js/app.js
+2018-12-23 12:23:15.562 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 12:23:15.564 -- [DEBUG] js/app/main.js
+2018-12-23 12:23:15.687 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 12:23:15.689 -- [DEBUG] js/lib/jquery.js
+2018-12-23 12:23:15.823 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 12:23:15.823 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 12:23:15.824 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 12:23:15.825 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 12:23:15.886 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 12:23:15.888 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 12:23:16.114 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545556995801 HTTP/1.1\r\n"
+2018-12-23 12:23:16.118 -- [DEBUG] 
+2018-12-23 12:23:16.176 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 12:23:16.203 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 12:23:54.147 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 12:23:54.149 -- [DEBUG] 
+2018-12-23 12:23:54.222 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 12:23:54.313 -- [DEBUG] css/border-box.css
+2018-12-23 12:23:54.388 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 12:23:54.388 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 12:23:54.390 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 12:23:54.391 -- [DEBUG] css/file.css
+2018-12-23 12:23:54.391 -- [DEBUG] css/material-design-icons.css
+2018-12-23 12:23:54.393 -- [DEBUG] js/lib/require.js
+2018-12-23 12:23:55.106 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 12:23:55.210 -- [DEBUG] js/app.js
+2018-12-23 12:23:55.673 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 12:23:55.675 -- [DEBUG] js/app/main.js
+2018-12-23 12:23:55.737 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 12:23:55.740 -- [DEBUG] js/lib/jquery.js
+2018-12-23 12:23:56.048 -- [DEBUG] "GET /js/lib/jquery-ui.js HTTP/1.1\r\n"
+2018-12-23 12:23:56.069 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 12:23:56.078 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 12:23:56.097 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 12:23:56.323 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 12:23:56.427 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 12:23:56.655 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545557035961 HTTP/1.1\r\n"
+2018-12-23 12:23:56.658 -- [DEBUG] 
+2018-12-23 12:23:56.754 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 12:23:56.756 -- [DEBUG] css/MaterialIcons-Regular.woff2
+2018-12-23 12:25:12.628 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-23 12:25:12.639 -- [DEBUG] 
+2018-12-23 12:25:12.782 -- [DEBUG] "GET /css/border-box.css HTTP/1.1\r\n"
+2018-12-23 12:25:12.805 -- [DEBUG] css/border-box.css
+2018-12-23 12:25:12.945 -- [DEBUG] "GET /css/file.css HTTP/1.1\r\n"
+2018-12-23 12:25:12.958 -- [DEBUG] "GET /css/material-design-icons.css HTTP/1.1\r\n"
+2018-12-23 12:25:12.979 -- [DEBUG] css/file.css
+2018-12-23 12:25:12.996 -- [DEBUG] css/material-design-icons.css
+2018-12-23 12:25:13.042 -- [DEBUG] "GET /js/lib/require.js HTTP/1.1\r\n"
+2018-12-23 12:25:13.071 -- [DEBUG] js/lib/require.js
+2018-12-23 12:25:14.004 -- [DEBUG] "GET /js/app.js HTTP/1.1\r\n"
+2018-12-23 12:25:14.006 -- [DEBUG] js/app.js
+2018-12-23 12:25:14.133 -- [DEBUG] "GET /js/app/main.js HTTP/1.1\r\n"
+2018-12-23 12:25:14.141 -- [DEBUG] js/app/main.js
+2018-12-23 12:25:14.390 -- [DEBUG] "GET /js/lib/jquery.js HTTP/1.1\r\n"
+2018-12-23 12:25:14.397 -- [DEBUG] js/lib/jquery.js
+2018-12-23 12:25:14.605 -- [DEBUG] "GET /js/lib/jsrender.min.js HTTP/1.1\r\n"
+2018-12-23 12:25:14.607 -- [DEBUG] js/lib/jquery-ui.js
+2018-12-23 12:25:14.607 -- [DEBUG] js/lib/jsrender.min.js
+2018-12-23 12:25:14.781 -- [DEBUG] "GET /js/lib/jsrender.min.js.map HTTP/1.1\r\n"
+2018-12-23 12:25:14.782 -- [DEBUG] js/lib/jsrender.min.js.map
+2018-12-23 12:25:14.964 -- [DEBUG] "GET /?node=web-master&folder=HOME&_=1545557114569 HTTP/1.1\r\n"
+2018-12-23 12:25:14.966 -- [DEBUG] 
+2018-12-23 12:25:15.027 -- [DEBUG] "GET /css/MaterialIcons-Regular.woff2 HTTP/1.1\r\n"
+2018-12-23 12:25:15.030 -- [DEBUG] css/MaterialIcons-Regular.woff2

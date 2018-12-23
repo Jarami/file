@@ -1,0 +1,3 @@
+2018-12-22 17:01:05.718 -- [INFO] start server...
+2018-12-22 17:01:08.588 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:01:09.455 -- [DEBUG] "GET /favicon.ico HTTP/1.1\r\n"

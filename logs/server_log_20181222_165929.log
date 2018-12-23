@@ -1,0 +1,18 @@
+2018-12-22 16:59:29.480 -- [INFO] start server...
+2018-12-22 16:59:43.526 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 16:59:43.531 -- [ERROR] undefined method `dir' for nil:NilClass
+C:/Projects/File/server.rb:112:in `welcome_page'
+C:/Projects/File/server.rb:67:in `block (2 levels) in start'
+2018-12-22 16:59:44.796 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 16:59:44.797 -- [ERROR] undefined method `dir' for nil:NilClass
+C:/Projects/File/server.rb:112:in `welcome_page'
+C:/Projects/File/server.rb:67:in `block (2 levels) in start'
+2018-12-22 16:59:49.871 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 16:59:49.890 -- [ERROR] undefined method `dir' for nil:NilClass
+C:/Projects/File/server.rb:112:in `welcome_page'
+C:/Projects/File/server.rb:67:in `block (2 levels) in start'
+2018-12-22 17:00:19.990 -- [DEBUG] nil
+2018-12-22 17:00:20.125 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:00:20.126 -- [ERROR] undefined method `dir' for nil:NilClass
+C:/Projects/File/server.rb:112:in `welcome_page'
+C:/Projects/File/server.rb:67:in `block (2 levels) in start'

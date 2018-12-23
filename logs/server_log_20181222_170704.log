@@ -1,0 +1,6 @@
+2018-12-22 17:07:04.472 -- [INFO] start server...
+2018-12-22 17:07:07.821 -- [DEBUG] "GET / HTTP/1.1\r\n"
+2018-12-22 17:07:07.910 -- [DEBUG] "GET /css/styles.css HTTP/1.1\r\n"
+2018-12-22 17:07:07.927 -- [DEBUG] "GET /js/scripts.js HTTP/1.1\r\n"
+2018-12-22 17:07:08.236 -- [DEBUG] "GET /js/scripts.js HTTP/1.1\r\n"
+2018-12-22 17:07:12.244 -- [DEBUG] "GET /css/styles.css HTTP/1.1\r\n"

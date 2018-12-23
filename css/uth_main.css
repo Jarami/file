@@ -1,0 +1,408 @@
+html {
+	margin: 0px; padding: 0px;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+pre {
+	margin: 0px; padding: 0px;
+}
+code {
+	margin: 0px; padding: 0px;
+}
+address {
+	margin: 0px; padding: 0px;
+}
+variable {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+blockquote {
+	margin: 0px; padding: 0px;
+}
+body {
+	background: rgb(176, 196, 222); font: 14px/1.2 Arial, Helvetica, sans-serif; font-size-adjust: none; font-stretch: normal; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;
+}
+h1 {
+	font-weight: bold; display: block;
+}
+h2 {
+	font-weight: bold; display: block;
+}
+h3 {
+	font-weight: bold; display: block;
+}
+h4 {
+	font-weight: bold; display: block;
+}
+h5 {
+	font-weight: bold; display: block;
+}
+h6 {
+	font-weight: bold; display: block;
+}
+h1 {
+	margin: 0.67em 0px; font-size: 2em;
+}
+h2 {
+	margin: 0.83em 0px; font-size: 1.5em;
+}
+h3 {
+	margin: 1em 0px; font-size: 1.17em;
+}
+h4 {
+	margin: 1.33em 0px; font-size: 1em;
+}
+h5 {
+	margin: 1.67em 0px; font-size: 0.83em;
+}
+h5 {
+	margin: 2.33em 0px; font-size: 0.67em;
+}
+ol {
+	list-style: decimal; margin-left: 1.4em;
+}
+ul {
+	list-style: square; margin-left: 1.4em;
+}
+a {
+	background-color: transparent;
+}
+b {
+	font-weight: bolder;
+}
+strong {
+	font-weight: bolder;
+}
+sub {
+	line-height: 0; font-size: 75%; vertical-align: baseline; position: relative;
+}
+sup {
+	line-height: 0; font-size: 75%; vertical-align: baseline; position: relative;
+}
+sub {
+	bottom: -0.25em;
+}
+sup {
+	top: -0.5em;
+}
+img {
+	
+}
+button {
+	margin: 0px;
+}
+input {
+	margin: 0px;
+}
+optgroup {
+	margin: 0px;
+}
+select {
+	margin: 0px;
+}
+textarea {
+	margin: 0px;
+}
+button {
+	overflow: visible;
+}
+input {
+	overflow: visible;
+}
+select {
+	text-transform: none;
+}
+legend {
+	padding: 0px; color: inherit; display: table; white-space: normal; max-width: 100%; box-sizing: border-box;
+}
+textarea {
+	overflow: auto;
+}
+[type='checkbox'] {
+	padding: 0px; box-sizing: border-box;
+}
+[type='radio'] {
+	padding: 0px; box-sizing: border-box;
+}
+[type='search'] {
+	-webkit-appearance: textfield; outline-offset: -2px;
+}
+.nav::after {
+	clear: both; display: table; content: "";
+}
+.clearfix::before {
+	display: table; content: "";
+}
+.clearfix::after {
+	display: table; content: "";
+}
+.clearfix::after {
+	clear: both;
+}
+.clearfix {
+	-ms-zoom: 1;
+}
+.nav {
+	margin: 5px 5px 25px;
+}
+table {
+	width: 100%; border-collapse: collapse; border-spacing: 0; background-color: rgb(255, 255, 255);
+}
+table caption {
+	margin: 5px auto; text-align: center; line-height: 1.5; clear: both; font-size: 1.17em; font-weight: bold;
+}
+.table-caption {
+	margin: 5px auto; text-align: center; line-height: 1.5; clear: both; font-size: 1.17em; font-weight: bold;
+}
+th.caption {
+	margin: 5px auto; text-align: center; line-height: 1.5; clear: both; font-size: 1.17em; font-weight: bold;
+}
+table caption.clear-right {
+	clear: right;
+}
+.clear-right.table-caption {
+	clear: right;
+}
+th.clear-right.caption {
+	clear: right;
+}
+.clear-right {
+	clear: right;
+}
+table caption.clear-left {
+	clear: left;
+}
+.clear-left.table-caption {
+	clear: left;
+}
+th.clear-left.caption {
+	clear: left;
+}
+.clear-left {
+	clear: left;
+}
+td {
+	border: 1px solid black; border-image: none; text-align: center;
+}
+th {
+	border: 1px solid black; border-image: none; text-align: center;
+}
+td.left {
+	text-align: left;
+}
+td.right {
+	text-align: right;
+}
+table.grid {
+	border: currentColor; border-image: none; background-color: transparent;
+}
+table.grid tr {
+	border: currentColor; border-image: none; background-color: transparent;
+}
+table.grid th {
+	border: currentColor; border-image: none; background-color: transparent;
+}
+table.grid td {
+	border: currentColor; border-image: none; background-color: transparent;
+}
+table.grid td {
+	border: currentColor; border-image: none;
+}
+table.grid td {
+	border: currentColor; border-image: none;
+}
+table.compact thead {
+	margin: 0px; padding: 0px;
+}
+table.compact tbody {
+	margin: 0px; padding: 0px;
+}
+table.compact td {
+	margin: 0px; padding: 0px;
+}
+table.compact th {
+	margin: 0px; padding: 0px;
+}
+table.hover tbody tr:hover {
+	background: rgb(238, 238, 238) !important;
+}
+table tbody tr.hover:hover {
+	background: rgb(238, 238, 238);
+}
+th.col_number {
+	color: rgb(126, 126, 126); font-size: 10px; font-weight: normal;
+}
+td.col_number {
+	color: rgb(126, 126, 126); font-size: 10px; font-weight: normal;
+}
+.dataTablesFitted .dataTables_scrollBody {
+	height: auto !important; overflow: hidden !important;
+}
+.dataTablesFitted .dataTables_scrollFootInner {
+	width: 100% !important;
+}
+.dataTablesFitted .dataTables_scrollHeadInner {
+	width: 100% !important;
+}
+table.datatable {
+	margin: 0px; width: 100% !important; border-collapse: collapse; box-sizing: border-box;
+}
+table.datatable tfoot input {
+	margin: 0px; padding: 4px; border: 1px solid grey; border-image: none; width: 94%; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+table.datatable th {
+	border-color: rgb(221, 221, 221); background-color: rgb(247, 247, 247);
+}
+table.datatable td {
+	border-color: rgb(221, 221, 221); background-color: rgb(247, 247, 247);
+}
+[role=dialog].ui-dialog {
+	border-color: rgb(183, 183, 183); box-shadow: 5px 5px 10px rgba(0,0,0,0.5); -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); -moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.dialog-table-button {
+	width: 100%; color: rgb(38, 114, 236); cursor: pointer;
+}
+.dialog-table-container {
+	padding-left: 0px !important;
+}
+.ui-widget-header {
+	background-color: rgb(176, 196, 222);
+}
+.ui-dialog table.ui-dialog-content.dialog-table {
+	background: none; margin: 5px 0px; padding: 5px 0px; border: 0px currentColor; border-image: none; border-collapse: collapse;
+}
+.ui-dialog table.dialog-table tbody th {
+	padding: 0px 1px; font-size: 12px; background-color: rgb(204, 204, 204);
+}
+.ui-dialog table.dialog-table thead th {
+	padding: 5px 0px; border: 1px solid rgb(153, 153, 153); border-image: none;
+}
+.ui-dialog table.dialog-table tbody td {
+	padding: 5px 0px; border: 1px solid rgb(153, 153, 153); border-image: none;
+}
+table.mileages_and_norms {
+	background: none;
+}
+table.mileages_and_norms th.caption {
+	background: none; border-width: 1px 1px 0px; border-style: solid; border-color: transparent; padding: 5px; border-image: none; line-height: 1.5;
+}
+table.mileages_and_norms tbody th {
+	padding: 2px 1px; font-size: 12px; background-color: rgb(204, 204, 204);
+}
+table.mileages_and_norms tbody th {
+	border: 1px solid rgb(136, 136, 136); border-image: none;
+}
+table.mileages_and_norms tbody td {
+	border: 1px solid rgb(136, 136, 136); border-image: none;
+}
+table.mileages_and_norms tbody td {
+	padding-top: 2px; padding-bottom: 2px;
+}
+.menu-caption {
+	font: bold 12pt/normal Arial; margin: auto; padding: 20px; text-align: center; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+div.load_window_frame {
+	padding: 10px; border: 4px double black; border-image: none; left: 45%; top: 45%; width: 150px; height: 100px; text-align: center; font-size: 16px; position: absolute; z-index: 8012; background-color: rgb(176, 196, 222);
+}
+img.load_window_roulette {
+	left: 40%; top: 38%; position: absolute; z-index: 8012;
+}
+.button {
+	border-radius: 10px; width: 100%; padding-right: 20px; list-style-type: none; position: relative; cursor: pointer; -moz-border-radius: 10px; -khtml-border-radius: 10px; -webkit-border-radius: 10px;
+}
+.button a {
+	background-image: url("/data/Plugin/images/ptrn_button.png"); background-repeat: no-repeat;
+}
+.button em {
+	background-image: url("/data/Plugin/images/ptrn_button.png"); background-repeat: no-repeat;
+}
+.button a {
+	height: 52px; text-align: center; color: rgb(51, 51, 51); line-height: 52px; text-indent: 20px; font-size: 14px; font-weight: bold; text-decoration: none; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.button em {
+	background-position: 100% 0px; top: 0px; width: 20px; height: 52px; right: 0px; display: block; position: absolute;
+}
+.disabled.button a {
+	color: rgb(191, 191, 191);
+}
+.default.button {
+	background-color: rgb(180, 180, 180);
+}
+.default.button:hover {
+	background-color: rgb(220, 220, 220);
+}
+.default.button:active {
+	background-color: rgb(102, 109, 125);
+}
+.disabled.button {
+	background-color: rgb(180, 180, 180);
+}
+a.button {
+	background: url("/data/Plugin/images/ptrn_button.png") repeat-y rgb(204, 204, 204); font: bold 16px/normal Arial; margin: 5px auto; padding: 1em 0px; border-radius: 10px; height: 50px; text-align: center; color: rgb(51, 51, 51); text-decoration: none; display: block; font-size-adjust: none; font-stretch: normal; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+input.button {
+	background: url("/data/Plugin/images/ptrn_button.png") repeat-y rgb(204, 204, 204); font: bold 16px/normal Arial; margin: 5px auto; padding: 1em 0px; border-radius: 10px; height: 50px; text-align: center; color: rgb(51, 51, 51); text-decoration: none; display: block; font-size-adjust: none; font-stretch: normal; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+a.button:hover {
+	cursor: pointer; background-color: rgb(220, 220, 220);
+}
+input.button:hover {
+	cursor: pointer; background-color: rgb(220, 220, 220);
+}
+a.button:active {
+	cursor: pointer; background-color: rgb(102, 109, 125);
+}
+input.button:active {
+	cursor: pointer; background-color: rgb(102, 109, 125);
+}
+a.disabled.button {
+	color: grey; background-color: grey;
+}
+input.disabled.button {
+	color: grey; background-color: grey;
+}
+.link {
+	color: rgb(29, 103, 164); text-decoration: underline;
+}
+.link:hover {
+	cursor: pointer;
+}
+.link:active {
+	color: purple;
+}

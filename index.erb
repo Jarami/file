@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <title>File</title>
+    <link rel="stylesheet" href="css/border-box.css">
+    <link rel="stylesheet" href="css/file.css">
+    <link rel="stylesheet" href="css/material-design-icons.css">
+    <script>
+        var HOME = <%= home.inspect %>;
+        var ROOT = <%= root.inspect %>;
+        var LOGS = <%= logs.inspect %>;
+    </script>
+    <script id="tree-template" type="text/x-jsrender">
+        {{if class=="folder"}}
+          <li>
+            <i class="material-icons md-18">keyboard_arrow_right</i>
+            <i class="material-icons md-18">folder</i>
+            <span>{{:path}}</span>
+            {{if entries}}
+              <ul>
+                {{for entries tmpl="#tree-template"/}}
+              </ul>
+            {{/if}}
+          </li>
+        {{/if}}
+    </script>
+  <head>
+  <body>
+    <div id="container">
+      <ul id="nav">
+        <li><a href=".">Home</a></li>
+      </ul>
+      <ul id="tabs">
+        <% nodes.each do |node_id, node_name| %>
+          <li node-id="<%= node_id %>"><%= node_name %></li>
+        <% end %>
+      </ul>
+      <div id="output">
+        <ul id="short-links">
+          <li><a href="" title="<%= home %>">HOME</a></li>
+          <li><a href="" title="<%= root %>">ROOT</a></li>
+          <li><a href="" title="<%= logs %>">LOGS</a></li>
+        </ul>
+        <div id="tree"><ul></ul></div>
+        <div id="list"></div>
+      </div>
+    </div>
+    <script data-main="js/app" src="js/lib/require.js"></script>
+  <body>
+</body>
+</html>
