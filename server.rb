@@ -3,6 +3,7 @@ require 'net/http'
 require 'erb'
 
 class Explorer
+
   def initialize root
     @root = root
   end
@@ -15,105 +16,118 @@ class Explorer
     
   end
 
-  def dir path
+  def fetch entry
+    return if entry == "." or entry == ".."
+    item = { path: entry, class: nil, created: File.ctime(entry).to_i, modified: File.mtime(entry).to_i, entries: [] }
+    item[:class] = "folder" if File.directory?(entry)
+    item[:class] = "file"   if File.file?(entry)
+    item
+  end
 
-    raise Errno::ENOENT, "No such directory" unless File.directory?(path)
-
-    info = {}
-
-    info[:path] = File.realpath(path)
-    info[:class] = "folder"
-    info[:created] = File.ctime(path).to_i
-    info[:modified] = File.mtime(path).to_i
-    info[:entries] = [
-      {path: "..", class: "up", created: File.ctime("..").to_i, modified: File.mtime("..").to_i}
-    ]
-
-    Dir.chdir(path) do
-
-      folders = []
-      files = []
-      Dir.entries(Dir.pwd).sort.each do |entry|
-        next if entry == "." || entry == ".."
-        item = {path: entry, class: nil, created: File.ctime(entry).to_i, modified: File.mtime(entry).to_i}
-        folders << item.merge(class: "folder") if File.directory?(entry)
-        files   << item.merge(class: "file")   if File.file?(entry)
+  def get_entries xpath
+    items = []
+    
+    Dir.chdir(xpath[0]) do
+      Dir.entries(Dir.pwd, encoding: Encoding::UTF_8).sort.each do |entry|
+        item = fetch(entry)
+        if item && item[:path] == xpath[1]
+          item[:entries] = get_entries(xpath[1..-1])
+        end
+        items << item if item
       end
-      info[:entries] += folders
-      info[:entries] += files
-
     end
+    items.sort_by{|item|  [ item[:class]=="folder" ? 0 : 1, item[:path]] }
+  end
 
+  def dir path
+    
+    info = {}
+    Dir.chdir(@root) do
+      xpath = [".", *path.split("/")]
+      info = fetch(Dir.pwd)
+      info[:entries] = get_entries(xpath)
+    end
     [info]
   end
 end
 
 class Server
 
+  ROOT = "c:/Projects"
+  HOME = "File"
+  LOGS = "File/logs"
+
   PATHS = {
-    "ROOT" => "c:/Projects",
-    "HOME" => "c:/Projects/File",
-    "LOGS" => "c:/Projects/File/logs",
+    "ROOT" => ROOT,
+    "HOME" => HOME,
+    "LOGS" => LOGS
   }
 
+  WELCOME = File.join(ROOT, HOME, "index.erb")
+
   NODES = {
-    "web-master" => "WEB::MASTER",
-    "web-slave" => "WEB::SLAVE",
-    "plan-master" => "PLAN::MASTER",
-    "plan-slave" => "PLAN::SLAVE",
-    "sp-master" => "SP::MASTER",
-    "sp-slave" => "SP::SLAVE",
-    "driver-master" => "DRIVER::MASTER",
-    "driver-slave" => "DRIVER::SLAVE"
+    "web_master" => "WEB::MASTER",
+    "web_slave" => "WEB::SLAVE",
+    "plan_master" => "PLAN::MASTER",
+    "plan_slave" => "PLAN::SLAVE",
+    "sp_master" => "SP::MASTER",
+    "sp_slave" => "SP::SLAVE",
+    "driver_master" => "DRIVER::MASTER",
+    "driver_slave" => "DRIVER::SLAVE"
   }
 
   attr_reader :server
   def initialize
     @server = TCPServer.new('localhost', 2345)
-    @explorer = Explorer.new(PATHS["ROOT"])
+    @explorer = Explorer.new(ROOT)
     # @filename = Time.now.strftime("logs/server_log_%Y%m%d_%H%M%S.log")
     @filename = Time.now.strftime("logs/server_log.log")
     info "start server..."
   end
   def start
-    loop do
-      Thread.start(@server.accept) do |socket|
-        request = socket.gets
-        debug request.inspect
-        begin
-          if request
-            path, query = parse(request)
-            debug path
+    
+      loop do
+        Thread.start(@server.accept) do |socket|
+          request = socket.gets
+          debug request.inspect
+          begin
+            if request
+              path, query = parse(request)
+              debug path
 
-            if path == ""
-                if query[:folder]
-                  folder = PATHS[query[:folder]] || query[:folder]
-                  folder_request(folder, query[:node], socket)
-                elsif query[:file] 
-                  file_request(query[:file], query[:node], socket)
+                if path == File.join(ROOT, HOME)
+                  if query[:folder]
+                    folder = PATHS[query[:folder]] || query[:folder]
+                    folder_request(folder, query[:node], socket)
+                  elsif query[:file] 
+                    file_request(query[:file], query[:node], socket)
+                  else
+                    welcome_page(path, socket)
+                  end
+
+                elsif File.file?(path)
+                    file_request(path, nil, socket)
+
+                elsif File.directory?(path)
+                    folder_request(path, nil, socket)
+
                 else
-                  welcome_page(path, socket)
+                    not_found(path, socket)
                 end
 
-            elsif File.file?(path)
-                file_request(path, nil, socket)
-            elsif File.directory? path
-                folder_request(path, nil, socket)
-            else
-                not_found(path, socket)
             end
-
+          rescue Exception => err
+            error err
+            not_found(path, socket)
+            # socket.print err.to_s + err.backtrace.join("\n")
+          ensure
+            socket.close
           end
-        rescue Exception => err
-          error err
-          not_found(path, socket)
-          # socket.print err.to_s + err.backtrace.join("\n")
-        ensure
-          socket.close
         end
       end
-    end
+    
   end
+
   def stop
     # Thread.current.kill
   end
@@ -137,6 +151,7 @@ class Server
     request_uri = URI(request.split(" ")[1])
 
     path = get_path(request_uri)
+    
     query = {}
     if request_uri.query
       query = Hash[request_uri.query.split("&").map{|s| k, v = s.split("="); [k.to_sym, v] }]
@@ -156,14 +171,15 @@ class Server
   end
 
   def get_path uri
-    path = URI.unescape(uri.path[1..-1])
-    clean_path(path)
+    path = URI.unescape(uri.path)
+    path = clean_path(File.join(HOME, path))
+    path = File.join(ROOT, path)
   end
   def clean_path path
     clean = []
     parts = path.split("/")
     parts.each do |part|
-      next if part.empty? || part == '.'
+      next if part == '.'
       part == '..' ? clean.pop : clean << part
     end
     path = clean.join("/")
@@ -173,7 +189,7 @@ class Server
 
     container_content = @explorer.dir(".")
 
-    html = get_welcome_page(NODES, PATHS["HOME"], PATHS["ROOT"], PATHS["LOGS"])
+    html = get_welcome_page(NODES, HOME, ROOT, LOGS)
 
     socket.print "HTTP/1.1 200 OK\r\n" +
                  "Content-Type: text/html; charset=utf-8\r\n" +
@@ -184,7 +200,7 @@ class Server
   end
 
   def get_welcome_page(nodes, home, root, logs)
-    ERB.new( File.read("index.erb") ).result(binding)
+    ERB.new( File.read(WELCOME) ).result(binding)
   end
 
   TYPES = {
