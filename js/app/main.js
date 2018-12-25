@@ -31,17 +31,15 @@ define(["jquery", "jquery-ui", "jsrender.min"], function($) {
       nodes[item.id] = node;
     })
 
-    this.load = function(nodeID){
-      var folder = nodes[nodeID].folder;
+    this.load = function(params){
+      params.folder = nodes[params.node].folder;
       var url = "/";
 
-      // console.log("model.load " + nodeID);
-      // console.log(url);
       return $.ajax({
         url: url,
         cache: false,
         timeout: 10000, /* 10sec */
-        data: {node: nodeID, folder: folder},
+        data: params,
         dataType: 'json'
       })
     }
@@ -59,36 +57,81 @@ define(["jquery", "jquery-ui", "jsrender.min"], function($) {
         if (nodeID) self.trigger("tab-click", nodeID);
     })
 
-    this.draw = function(data){
-      tree.draw(data);
-      list.draw(data);
+    this.draw = function(data, params){
+      tree.draw(data, params);
+      list.draw(data, params);
     }
-    this.fail = function(data){
+    this.fail = function(data, params){
       console.log("Опаньки!");
-      tree.text(data);
-      list.text(data);
+      tree.text(data, params);
+      list.text(data, params);
     }
 
-    this.expect = function(nodeID){
-      tree.text("loading...");
-      list.text("loading...");
-      return new Expect(this, nodeID)
+    this.expect = function(params){
+      tree.text("loading...", params);
+      list.text("loading...", params);
+      return new Expect(this, params)
     }
 
     function Tree(view){  
       var $tree = $("#tree");
       var $list = $tree.children('ul');
       var $template = $.templates("#tree-template");
+      var tree;
+      var selectedItem;
+      var self = this;
 
-      this.draw = function(data){
-        console.log(data);
+      this.draw = function(data, params){
+          tree = data;
           $list.hide();
           $list.html($template.render(data));
+
           $list.show(200);
-          console.log(111);
+
+          var elems = $list.children("li");
+          assignData(tree, elems);
+          console.log(treeItems);
+
       }
-      this.text = function(text){
+      this.text = function(text, params){
+          tree = null;
           $list.text(text);
+      }
+
+      $tree.on("click", function(e){
+        var elem = $(e.target).closest("li");
+        self.trigger("tree-item-click", elem)
+      })
+
+      var treeItems = [];
+
+      function assignData(items, elems){
+        $.each( elems, function(index, elem){
+          var item = items[index];
+          var $elem = $(elem);
+          item.elem = $elem;
+          
+          treeItems.push(new Item(item, elem))
+
+          if (item.entries.length){
+            var subelems = $elem.children("ul").children("li");
+            assignData(item.entries, subelems);
+          }
+        })
+      }
+
+      var selectedItem;
+      function Item(item, elem){
+        this.select = function(){
+          if (selectedItem) selectedItem.unselect();
+          elem.addClass("select");
+          selectedItem = this;
+        }
+        this.toggle = function(){elem.toggleClass("select")}
+        this.unselect = function(){
+          elem.removeClass("select");
+          selectedItem = null;
+        }
       }
     }
     function List(view){
@@ -100,19 +143,18 @@ define(["jquery", "jquery-ui", "jsrender.min"], function($) {
           // $list.text(text);
       }
     }
-    function Expect(parent, nodeID){
+    function Expect(parent, params){
       var self = this;
 
-      this.what = nodeID;
       this.from = function(ajax){
          ajax
            .success( function(data){ 
               // console.log("success",data);
-              parent.draw(data);
+              parent.draw(data, params);
            })
            .error( function(data){ 
               // console.log("error",data);
-              parent.fail(data);
+              parent.fail(data, params);
            })
       }
     }
@@ -134,10 +176,13 @@ define(["jquery", "jquery-ui", "jsrender.min"], function($) {
             }
         })
         .on("tab-change", function(){
-            var ajax = model.load(currentNodeID);
-            view.expect(currentNodeID).from(ajax);
+            var params = {node: currentNodeID};
+            var ajax = model.load(params);
+            view.expect(params).from(ajax);
         })
-        .on("tree-item-click", function(){})
+        .on("tree-item-click", function(){
+
+        })
         .on("tree-item-dblclick", function(){})
         .on("tree-item-expand", function(){})
         .on("list-item-click", function(){})
