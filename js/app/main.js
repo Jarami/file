@@ -17,26 +17,13 @@ define(["jquery", "jquery-ui", "jsrender.min"], function($) {
     }
   }
 
-  function Model(tab_list){
+  function Model(){
     Subscriber.apply(this, arguments);
-    var self = this;
-
-    var nodes = {};
-
-    $.each(tab_list, function(index,item){
-      var node = {
-                    id: item.id,
-                    folder: "HOME"
-                  }
-      nodes[item.id] = node;
-    })
 
     this.load = function(params){
-      params.folder = nodes[params.node].folder;
-      var url = "/";
 
       return $.ajax({
-        url: url,
+        url: "/",
         cache: false,
         timeout: 10000, /* 10sec */
         data: params,
@@ -63,39 +50,21 @@ define(["jquery", "jquery-ui", "jsrender.min"], function($) {
     }
     this.fail = function(data, params){
       console.log("Опаньки!");
-      tree.text(data, params);
-      list.text(data, params);
-    }
-
-    this.expect = function(params){
-      tree.text("loading...", params);
-      list.text("loading...", params);
-      return new Expect(this, params)
     }
 
     function Tree(view){  
       var $tree = $("#tree");
       var $list = $tree.children('ul');
-      var $template = $.templates("#tree-template");
       var tree;
       var selectedItem;
       var self = this;
 
+      new TreeRenderer(ROOT).render($list, [{class: "folder", path: ROOT}], ROOT);
+      var $root = $list.children("li").children("ul");
+
       this.draw = function(data, params){
-          tree = data;
-          $list.hide();
-          $list.html($template.render(data));
-
-          $list.show(200);
-
-          var elems = $list.children("li");
-          assignData(tree, elems);
-          console.log(treeItems);
-
-      }
-      this.text = function(text, params){
-          tree = null;
-          $list.text(text);
+          console.log(data);
+          new TreeRenderer(ROOT + '/' + params.folder).render($root, data, ROOT);
       }
 
       $tree.on("click", function(e){
@@ -103,34 +72,78 @@ define(["jquery", "jquery-ui", "jsrender.min"], function($) {
         self.trigger("tree-item-click", elem)
       })
 
-      var treeItems = [];
+      function TreeRenderer(folder){
 
-      function assignData(items, elems){
-        $.each( elems, function(index, elem){
-          var item = items[index];
-          var $elem = $(elem);
-          item.elem = $elem;
-          
-          treeItems.push(new Item(item, elem))
+        var $template = $.templates("#tree-item-template");
 
-          if (item.entries.length){
-            var subelems = $elem.children("ul").children("li");
-            assignData(item.entries, subelems);
+        this.render = function(root, data, path){
+          console.log(path);
+          console.log(folder);
+          console.log(path === folder);
+
+          if (path === folder) select($(root).closest("li"));
+
+          var items = $(root).children("li");
+          var hash = toHash(items);
+          for(var i=0; i<data.length; i++){
+            var x = data[i];
+            if (x.class == "folder"){
+                var item = items[i];
+                var name = getName(item)
+
+                if (item === undefined){
+                    item = $($template.render(x))[0];
+                    $(root).append(item);
+
+                } else if (x.path != name){
+                    if (hash[x.path]){
+                        removeUntil(root, item, hash[x.path])
+                        item = hash[x.path];
+
+                    } else {
+                        $( $template.render(x) ).insertBefore(item);
+                    }
+                }
+
+                var newRoot = $(item).children("ul");
+             
+                if (x.entries){
+                    this.render(newRoot, x.entries, path + "/" + x.path)
+                } else {
+                    newRoot.html("");
+                }
+
+                items = $(root).children("li"); 
+            }
           }
-        })
-      }
-
-      var selectedItem;
-      function Item(item, elem){
-        this.select = function(){
-          if (selectedItem) selectedItem.unselect();
-          elem.addClass("select");
-          selectedItem = this;
         }
-        this.toggle = function(){elem.toggleClass("select")}
-        this.unselect = function(){
-          elem.removeClass("select");
-          selectedItem = null;
+
+        function select(elem){
+          if (selectedItem) $(selectedItem).removeClass("selected");
+          $(elem).addClass("selected");
+          selectedItem = elem;
+        }
+        function removeUntil(root, itemToRemove, goodItem){
+          if (itemToRemove != goodItem){
+            var nextElem = itemToRemove.nextElementSibling;
+            $(root).remove(itemToRemove);
+            if (nextElem) removeUntil(root, nextElem, goodItem)
+          }
+        }
+        function toHash(items){
+          var hash = {};
+          for(var i=0; i<items.length; i++){
+            var item = items[i];
+            var name = getName(item);
+            hash[name] = item;
+          }
+          return hash
+        }
+        function getName(item){
+          if (item){
+            return item.querySelector("SPAN").innerHTML;
+          }
+          return null
         }
       }
     }
@@ -139,34 +152,18 @@ define(["jquery", "jquery-ui", "jsrender.min"], function($) {
       this.draw = function(data){
           // $list.text(data);
       }
-      this.text = function(text){
-          // $list.text(text);
-      }
     }
-    function Expect(parent, params){
-      var self = this;
 
-      this.from = function(ajax){
-         ajax
-           .success( function(data){ 
-              // console.log("success",data);
-              parent.draw(data, params);
-           })
-           .error( function(data){ 
-              // console.log("error",data);
-              parent.fail(data, params);
-           })
-      }
-    }
   }
 
   function App(){
 
       var tabs = tab_list();
-      var model = new Model(tabs);
+      var model = new Model();
       var view = new View(); 
 
       var currentNodeID = tabs[0].id;
+      var userFolder = {};
 
       view
         .on("tab-click", function(nodeID){
@@ -176,9 +173,18 @@ define(["jquery", "jquery-ui", "jsrender.min"], function($) {
             }
         })
         .on("tab-change", function(){
-            var params = {node: currentNodeID};
-            var ajax = model.load(params);
-            view.expect(params).from(ajax);
+            var params = {node: currentNodeID, folder: userFolder[currentNodeID] || HOME};
+
+            model.load(params)
+                 .done( function(data){ 
+                    view.draw(data,params);
+                  })
+                 .fail( function(data){
+                    view.fail(data,params);
+                 })
+                 .always( function(){
+                    userFolder[currentNodeID] = params.folder;
+                 })
         })
         .on("tree-item-click", function(){
 
