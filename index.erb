@@ -14,13 +14,21 @@
         {{if class=="folder"}}
           <li>
             <i class="material-icons md-18">keyboard_arrow_right</i>
-            <i class="material-icons md-18">folder</i>
-            <span>{{:path}}</span>
+            <span><i class="material-icons md-18">folder</i>{{:path}}</span>
             {{if entries}}
               <ul>
                 {{for entries tmpl="#tree-template"/}}
               </ul>
             {{/if}}
+          </li>
+        {{/if}}
+    </script>
+    <script id="tree-item-template" type="text/x-jsrender">
+        {{if class=="folder"}}
+          <li>
+            <i class="material-icons md-18">keyboard_arrow_right</i>
+            <span><i class="material-icons md-18">folder</i>{{:path}}</span>
+            <ul></ul>
           </li>
         {{/if}}
     </script>

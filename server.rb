@@ -18,7 +18,7 @@ class Explorer
 
   def fetch entry
     return if entry == "." or entry == ".."
-    item = { path: entry, class: nil, created: File.ctime(entry).to_i, modified: File.mtime(entry).to_i, entries: [] }
+    item = { path: entry, class: nil, created: File.ctime(entry).to_i, modified: File.mtime(entry).to_i }
     item[:class] = "folder" if File.directory?(entry)
     item[:class] = "file"   if File.file?(entry)
     item
@@ -41,13 +41,12 @@ class Explorer
 
   def dir path
     
-    info = {}
+    entries = {}
     Dir.chdir(@root) do
-      xpath = [".", *path.split("/")]
-      info = fetch(Dir.pwd)
-      info[:entries] = get_entries(xpath)
+      xpath = [".",*path.split("/")]
+      entries = get_entries(xpath)
     end
-    [info]
+    entries
   end
 end
 
@@ -97,7 +96,7 @@ class Server
 
                 if path == File.join(ROOT, HOME)
                   if query[:folder]
-                    folder = PATHS[query[:folder]] || query[:folder]
+                    folder = query[:folder]
                     folder_request(folder, query[:node], socket)
                   elsif query[:file] 
                     file_request(query[:file], query[:node], socket)
@@ -227,6 +226,8 @@ class Server
   end
 
   def folder_request(path, node, socket)
+    info path
+    info node
     text = JSON.generate(@explorer.dir(path))
     socket.print "HTTP/1.1 200 OK\r\n" +
                  "Content-Type: application/x-www-form-urlencoded; charset=utf-8\r\n" +
