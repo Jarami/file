@@ -65,6 +65,9 @@
  #tree li{
   list-style-type: none;
  }
+  #tree li.selected > span{
+    font-weight: bold;
+  }
  #tree li li{
   margin-left: 1em;
  }
