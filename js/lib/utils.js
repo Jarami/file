@@ -55,8 +55,6 @@ var utils = {
       downloadLink.innerHTML = "Download File";
       // if (window.webkitURL != null) {
       //     downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
-      // if (window.URL != null) {
-      //     downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
       // } else {
           downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
           downloadLink.onclick = destroyClickedElement;
@@ -85,8 +83,9 @@ var utils = {
   },
 
   str2ab: function(str) {
-    var buf = new ArrayBuffer(str.length*2); // 2 bytes for each char
-    var bufView = new Uint16Array(buf);
+    var buf = new ArrayBuffer(str.length); // 2 bytes for each char
+    // var bufView = new Uint16Array(buf);
+    var bufView = new Int8Array(buf);
     for (var i=0, strLen=str.length; i<strLen; i++) {
       bufView[i] = str.charCodeAt(i);
     }
