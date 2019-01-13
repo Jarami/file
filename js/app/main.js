@@ -28,8 +28,8 @@ define(["utils", "jquery", "jquery-ui", "jsrender.min"], function(utils, $) {
         cache: false,
         timeout: 10000, /* 10sec */
         data: params,
-        dataType: params.folder ? 'json' : null,
-        contentType: params.folder ? 'application/x-www-form-urlencoded; charset=UTF-8' : "text/plain" /*'application/octet-stream'*/
+        dataType: params.folder ? 'json' : null
+        // contentType: params.folder ? 'application/x-www-form-urlencoded; charset=UTF-8' : "text/plain" /*'application/octet-stream'*/
       })
     }
   }
@@ -332,16 +332,16 @@ define(["utils", "jquery", "jquery-ui", "jsrender.min"], function(utils, $) {
                     console.log(data);
                     console.log(textStatus);
                     console.log(jqXHR.getResponseHeader("Content-Type"));
-                    // utils.saveFile(data, {
-                    //   fileName: params.file.slice(params.file.lastIndexOf("/")+1), 
-                    //   contentType: jqXHR.getResponseHeader("Content-Type")
-                    // });
                     console.log(data.length);
-                    console.log(atob(data));
+                    console.log(atob(data).length);
                     // {type: jqXHR.getResponseHeader("Content-Type")}
-                    // var blob = new Blob([utils.str2ab(data)], {type: 'application/octet-stream'});
-                    // console.log(blob.size);
+                    // var blob = new Blob([atob(data)], {type: "octet/stream"});
+                    // console.log(blob.type)
                     // saveAs( blob, params.file.slice(params.file.lastIndexOf("/")+1) )
+                    utils.saveFile(utils.str2ab(atob(data)), {
+                      fileName: params.file.slice(params.file.lastIndexOf("/")+1), 
+                      contentType: 'octet-stream' /*jqXHR.getResponseHeader("Content-Type")*/
+                    });
 
                   })
                  .fail( function(data){
