@@ -1,6 +1,7 @@
 require 'json'
 require 'net/http'
 require 'erb'
+require 'base64'
 
 class Explorer
 
@@ -18,9 +19,12 @@ class Explorer
 
   def fetch entry
     return if entry == "." or entry == ".."
-    item = { path: entry, class: nil, created: File.ctime(entry).to_i, modified: File.mtime(entry).to_i }
-    item[:class] = "folder" if File.directory?(entry)
-    item[:class] = "file"   if File.file?(entry)
+    item = { path: entry, class: "folder", type: "", size: "", created: File.ctime(entry).to_i, modified: File.mtime(entry).to_i }
+    if File.file?(entry)
+      item[:class] = "file"   
+      item[:size] = File.size(entry)
+      item[:type] = File.extname(entry).gsub(".","")
+    end
     item
   end
 
@@ -43,7 +47,7 @@ class Explorer
     
     entries = {}
     Dir.chdir(@root) do
-      xpath = [".",*path.split("/")]
+      xpath = [".",*path.split("/").reject{|s| s.empty?}]
       entries = get_entries(xpath)
     end
     entries
@@ -53,8 +57,8 @@ end
 class Server
 
   ROOT = "c:/Projects"
-  HOME = "File"
-  LOGS = "File/logs"
+  HOME = "/File"
+  LOGS = "/File/logs"
 
   PATHS = {
     "ROOT" => ROOT,
@@ -92,27 +96,30 @@ class Server
           begin
             if request
               path, query = parse(request)
-              debug path
+              debug "path = " + path.to_s
+              debug "query = " + query.to_s
+              debug File.join(ROOT, HOME)
+              debug path == File.join(ROOT, HOME)
 
-                if path == File.join(ROOT, HOME)
-                  if query[:folder]
-                    folder = query[:folder]
-                    folder_request(folder, query[:node], socket)
-                  elsif query[:file] 
-                    file_request(query[:file], query[:node], socket)
-                  else
-                    welcome_page(path, socket)
-                  end
-
-                elsif File.file?(path)
-                    file_request(path, nil, socket)
-
-                elsif File.directory?(path)
-                    folder_request(path, nil, socket)
-
+              if path == File.join(ROOT, HOME)
+                if query[:folder]
+                  folder = query[:folder]
+                  folder_request(folder, query[:node], socket)
+                elsif query[:file] 
+                  file_request(query[:file], query[:node], socket)
                 else
-                    not_found(path, socket)
+                  welcome_page(path, socket)
                 end
+
+              elsif File.file?(path)
+                  file_request(path, nil, socket)
+
+              elsif File.directory?(path)
+                  folder_request(path, nil, socket)
+
+              else
+                  not_found(path, socket)
+              end
 
             end
           rescue Exception => err
@@ -150,10 +157,9 @@ class Server
     request_uri = URI(request.split(" ")[1])
 
     path = get_path(request_uri)
-    
     query = {}
     if request_uri.query
-      query = Hash[request_uri.query.split("&").map{|s| k, v = s.split("="); [k.to_sym, v] }]
+      query = Hash[request_uri.query.split("&").map{|s| k, v = s.split("="); [k.to_sym, v.nil? ? "" : v] }]
       if query[:node]
         query[:node] = URI.unescape(query[:node]) 
       end
@@ -164,6 +170,7 @@ class Server
       if query[:file]
         query[:file] = URI.unescape(query[:file]) 
         query[:file] = clean_path(query[:file])
+        query[:file] = File.join(ROOT, query[:file])
       end
     end
     return path, query
@@ -223,6 +230,23 @@ class Server
       # IO.copy_stream(file, socket)
       socket.write file.read
     }
+  end
+
+  def file_download_request(path, node, socket)
+    # File.open(path, "rb"){|file|
+    #   socket.print "HTTP/1.1 200 OK\r\n" +
+    #                "Content-Type: #{TYPES[File.extname(file)]}\r\n" +
+    #                "Content-Length: #{file.size}\r\n" +
+    #                "Connection: close\r\n"
+    #   socket.print "\r\n"
+    #   socket.write Base64.strict_encode64(file.read)
+    # }
+    socket.print "HTTP/1.1 200 OK\r\n" +
+                 "Content-Type: #{TYPES[File.extname(file)]}\r\n" +
+                 "Content-Length: #{file.size}\r\n" +
+                 "Connection: close\r\n"
+    socket.print "\r\n"
+    socket.write Base64.strict_encode64(File.open(path, "rb").read)
   end
 
   def folder_request(path, node, socket)
