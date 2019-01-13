@@ -14,6 +14,7 @@
         {{if class=="folder"}}
           <li>
             <i class="material-icons md-18">keyboard_arrow_right</i>
+            <i class="material-icons md-18">keyboard_arrow_down</i>
             <span><i class="material-icons md-18">folder</i>{{:path}}</span>
             {{if entries}}
               <ul>
@@ -27,10 +28,37 @@
         {{if class=="folder"}}
           <li>
             <i class="material-icons md-18">keyboard_arrow_right</i>
-            <span><i class="material-icons md-18">folder</i>{{:path}}</span>
+            <i class="material-icons md-18">keyboard_arrow_down</i>
+            <i class="material-icons md-18">folder</i>
+            <span>{{:path}}</span>
             <ul></ul>
           </li>
         {{/if}}
+    </script>
+    <script id="list-up-item-template" type="text/x-jsrender">
+          <tr class="up">
+            <td>
+              <i class="material-icons md-18">arrow_upward</i>
+              <span>[..]</span>
+            </td>
+            <td></td><td></td><td></td><td></td>
+          </tr>
+    </script>
+    <script id="list-item-template" type="text/x-jsrender">
+          <tr class="{{:class}}">
+            <td>
+              {{if class == "folder"}}
+                <i class="material-icons md-18">folder</i>
+              {{else class == "file"}}
+                <i class="material-icons md-18">insert_drive_file</i>
+              {{/if}}
+              <span>{{:path}}</span>
+            </td>
+            <td>{{:type}}</td>
+            <td>{{:~formatSize(size)}}</td>
+            <td>{{:~formatDate(created)}}</td>
+            <td>{{:~formatDate(modified)}}</td>
+          </tr>
     </script>
   <head>
   <body>
@@ -45,14 +73,50 @@
       </ul>
       <div id="output">
         <ul id="short-links">
-          <li><a href="" title="<%= home %>">HOME</a></li>
-          <li><a href="" title="<%= root %>">ROOT</a></li>
-          <li><a href="" title="<%= logs %>">LOGS</a></li>
+          <li><a href="" rel-path="<%= home %>" title="<%= root + home %>">HOME</a></li>
+          <li><a href="" rel-path="" title="<%= root %>">ROOT</a></li>
+          <li><a href="" rel-path="<%= logs %>" title="<%= root + logs %>">LOGS</a></li>
         </ul>
+        <div id="path"></div>
         <div id="tree"><ul></ul></div>
-        <div id="list"></div>
+        <div id="list">
+          <table>
+            <col class="col1">
+            <col class="col2">
+            <col class="col3">
+            <col class="col4">
+            <col class="col5">
+            <thead>
+              <tr>
+                <th>Имя</th>
+                <th>Тип</th>
+                <th>Размер</th>
+                <th>Создан</th>
+                <th>Изменен</th>
+              </tr>
+            </thead>
+          </table>
+          <table>
+            <col class="col1">
+            <col class="col2">
+            <col class="col3">
+            <col class="col4">
+            <col class="col5">
+            <tbody></tbody>
+          </table>
+          <table>
+            <col class="col1">
+            <col class="col2">
+            <col class="col3">
+            <col class="col4">
+            <col class="col5">
+            <tfoot></tfoot>
+          </table>
+        </div>
       </div>
     </div>
+    <script src="js/lib/FileSaver.js"></script>
+    <!-- <script src="js/lib/utils.js"></script> -->
     <script data-main="js/app" src="js/lib/require.js"></script>
   <body>
 </body>
