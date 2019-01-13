@@ -55,6 +55,14 @@
   padding: 2px 5px;
   margin: 2px; 
  }
+
+/* PATH */
+#path{
+  position: absolute;
+  top: 5px; right: 5px; left: calc(30% + 2px);
+  height: 18px;
+}
+
 /* TREE */
  #tree{
   position: absolute;
@@ -64,10 +72,29 @@
  }
  #tree li{
   list-style-type: none;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */     
  }
   #tree li.selected > span{
     font-weight: bold;
   }
+
+  /* expanded-collapsed */
+  #tree li > i:nth-child(1){
+    display: inline-block;
+  }
+  #tree li > i:nth-child(2){
+    display: none;
+  }
+  #tree li.expanded > i:nth-child(1){
+    display: none;
+  }
+  #tree li.expanded > i:nth-child(2){
+    display: inline-block;
+  }
+
  #tree li li{
   margin-left: 1em;
  }
@@ -88,5 +115,49 @@
   position: absolute;
   top: 25px; bottom: 5px; right: 5px; left: calc(30% + 2px);
   border: 1px solid black;
-  overflow: auto;
+  overflow: hidden;
  }
+
+#list table{
+  table-layout: fixed; /* Фиксированная ширина ячеек */
+  width: 100%; /* Ширина таблицы */
+}
+#list table:nth-child{
+  overflow: auto;
+}
+/*#list .col1 { width: 40%; }*/
+#list .col2 { width: 4em; }
+#list .col3 { width: 7em; }
+#list .col4 { width: 10em; }
+#list .col5 { width: 10em; }
+
+#list table, #list table td, #list table th{
+  border: 1px solid transparent;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+#list thead th{
+  border-color: grey;
+}
+#list tbody td{
+  padding: 2px 10px;
+}
+#list tbody td:nth-child(3){
+  text-align: right;
+}
+#list tbody td:nth-child(4), #list tbody td:nth-child(5){
+  text-align: center;
+}
+
+#list tbody tr:hover{
+  background-color: lightgrey;
+}
+
+#list td .material-icons{
+  float: left;
+  margin-right: 5px;
+}
+
+#list tr.selected{
+  background-color: lightblue;
+}
