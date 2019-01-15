@@ -44,8 +44,9 @@ class Explorer
   end
 
   def dir path
-    
     entries = {}
+
+    raise "no such folder" unless File.directory?(@root+path)
     Dir.chdir(@root) do
       xpath = [".",*path.split("/").reject{|s| s.empty?}]
       entries = get_entries(xpath)
@@ -106,7 +107,8 @@ class Server
                   folder = query[:folder]
                   folder_request(folder, query[:node], socket)
                 elsif query[:file] 
-                  file_request(query[:file], query[:node], socket)
+                  # file_request(query[:file], query[:node], socket)
+                  file_download_request(query[:file], query[:node], socket)
                 else
                   welcome_page(path, socket)
                 end
@@ -161,23 +163,29 @@ class Server
     if request_uri.query
       query = Hash[request_uri.query.split("&").map{|s| k, v = s.split("="); [k.to_sym, v.nil? ? "" : v] }]
       if query[:node]
-        query[:node] = URI.unescape(query[:node]) 
+        query[:node] = unescape(query[:node]) 
       end
       if query[:folder]
-        query[:folder] = URI.unescape(query[:folder])
+        query[:folder] = unescape(query[:folder])
         query[:folder] = clean_path(query[:folder])
       end
       if query[:file]
-        query[:file] = URI.unescape(query[:file]) 
+    puts query
+    puts query[:file]
+    puts URI.decode(query[:file])
+    puts URI.unescape(query[:file]) 
+        query[:file] = unescape(query[:file]) 
         query[:file] = clean_path(query[:file])
         query[:file] = File.join(ROOT, query[:file])
       end
     end
     return path, query
   end
-
+  def unescape url_sting
+    CGI::unescape(url_sting)
+  end
   def get_path uri
-    path = URI.unescape(uri.path)
+    path = unescape(uri.path)
     path = clean_path(File.join(HOME, path))
     path = File.join(ROOT, path)
   end
@@ -233,20 +241,23 @@ class Server
   end
 
   def file_download_request(path, node, socket)
-    # File.open(path, "rb"){|file|
-    #   socket.print "HTTP/1.1 200 OK\r\n" +
-    #                "Content-Type: #{TYPES[File.extname(file)]}\r\n" +
-    #                "Content-Length: #{file.size}\r\n" +
-    #                "Connection: close\r\n"
-    #   socket.print "\r\n"
-    #   socket.write Base64.strict_encode64(file.read)
-    # }
-    socket.print "HTTP/1.1 200 OK\r\n" +
-                 "Content-Type: #{TYPES[File.extname(file)]}\r\n" +
-                 "Content-Length: #{file.size}\r\n" +
-                 "Connection: close\r\n"
-    socket.print "\r\n"
-    socket.write Base64.strict_encode64(File.open(path, "rb").read)
+    File.open(path, "rb"){|file|
+      content = Base64.strict_encode64(file.read)
+      # content = file.read
+      puts content.size
+      socket.print "HTTP/1.1 200 OK\r\n" +
+                   "Content-Type: #{TYPES[File.extname(file)]}\r\n" +
+                   "Content-Length: #{content.size}\r\n" +
+                   "Connection: close\r\n"
+      socket.print "\r\n"
+      socket.write content
+    }
+    # socket.print "HTTP/1.1 200 OK\r\n" +
+    #              "Content-Type: #{TYPES[File.extname(path)]}\r\n" +
+    #              "Content-Length: #{file.size}\r\n" +
+    #              "Connection: close\r\n"
+    # socket.print "\r\n"
+    # socket.write Base64.strict_encode64(File.open(path, "rb").read)
   end
 
   def folder_request(path, node, socket)
