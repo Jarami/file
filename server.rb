@@ -170,10 +170,6 @@ class Server
         query[:folder] = clean_path(query[:folder])
       end
       if query[:file]
-    puts query
-    puts query[:file]
-    puts URI.decode(query[:file])
-    puts URI.unescape(query[:file]) 
         query[:file] = unescape(query[:file]) 
         query[:file] = clean_path(query[:file])
         query[:file] = File.join(ROOT, query[:file])
@@ -243,10 +239,8 @@ class Server
   def file_download_request(path, node, socket)
     File.open(path, "rb"){|file|
       content = Base64.strict_encode64(file.read)
-      # content = file.read
-      puts content.size
       socket.print "HTTP/1.1 200 OK\r\n" +
-                   "Content-Type: #{TYPES[File.extname(file)]}\r\n" +
+                   "Content-Type: application/octet-stream\r\n" +
                    "Content-Length: #{content.size}\r\n" +
                    "Connection: close\r\n"
       socket.print "\r\n"
