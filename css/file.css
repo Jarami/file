@@ -30,16 +30,21 @@
   list-style-type: none;
   border: 1px solid black;
   border-bottom: none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
   text-align: center;
   padding: 5px 10px;
   margin: 11px 5px 0 5px;
   background-color: white;
+  transition: background-color 0.1s;
  }
  #tabs li.selected{
   /*background-color: lightblue;*/
   padding-bottom: 6px;
-  padding-top: 6px;
-  margin-top: 10px;
+  padding-top: 8px;
+  margin-top: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
  }
  #tabs li:hover{
   background-color: lightgrey;
@@ -122,6 +127,9 @@
  #tree li .material-icons:hover{
   color: rgba(30,30,30,0.9);
  }
+ #tree li span{
+  transition: background-color 0.1s;
+ }
  #tree li span:hover{
   background-color: lightgrey /*rgba(200,200,200,0.5)*/;
  }
@@ -131,27 +139,35 @@
   position: absolute;
   top: 25px; bottom: 5px; right: 5px; left: calc(30% + 2px);
   border: 1px solid black;
-  overflow: hidden;
+  /*overflow: hidden;*/
  }
 
 #list table{
   table-layout: fixed; /* Фиксированная ширина ячеек */
   width: 100%; /* Ширина таблицы */
 }
-#list table:nth-child{
+/*#list table:nth-child{
   overflow: auto;
-}
+}*/
 /*#list .col1 { width: 40%; }*/
 #list .col2 { width: 4em; }
 #list .col3 { width: 7em; }
 #list .col4 { width: 11em; }
 #list .col5 { width: 11em; }
 
-#list table, #list table td, #list table th{
+#list table td, #list table th{
   border: 1px solid transparent;
+  border-right: none;
+}
+#list table th:first-child{
+ border-left: none; 
+}
+#list table, #list table td, #list table th{
   border-spacing: 0;
   border-collapse: collapse;
 }
+
+
 #list tr{
   cursor: default;
 }
@@ -160,6 +176,7 @@
 }
 #list thead th{
   border-color: grey;
+  height: 2em;
 }
 #list tbody td{
   padding: 0.3em 0.1em;
@@ -175,6 +192,9 @@
   text-align: center;
 }
 
+#list tbody tr{
+  transition: background-color 0.1s;
+}
 #list tbody tr:hover{
   background-color: lightgrey;
 }
@@ -184,6 +204,12 @@
   color: rgba(40,40,40,0.8);
   margin-right: 5px;
 }
+
+#list div{
+  overflow: auto;
+  height: calc(100% - 2em);
+}
+
  #tree td .material-icons:hover{
   color: rgba(30,30,30,0.9);
  }
