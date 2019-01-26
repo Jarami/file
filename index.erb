@@ -47,17 +47,19 @@
     <script id="list-item-template" type="text/x-jsrender">
           <tr class="{{:class}}">
             <td>
-              {{if class == "folder"}}
+              {{if class == "up"}}
+                <i class="material-icons md-18">arrow_upward</i>
+              {{else class == "folder"}}
                 <i class="material-icons md-18">folder</i>
               {{else class == "file"}}
                 <i class="material-icons md-18">insert_drive_file</i>
               {{/if}}
               <span>{{:path}}</span>
             </td>
-            <td>{{:type}}</td>
-            <td>{{:~formatSize(size)}}</td>
-            <td>{{:~formatDate(created)}}</td>
-            <td>{{:~formatDate(modified)}}</td>
+            <td>{{:~formaters.type(#data)}}</td>
+            <td>{{:~formaters.size(#data)}}</td>
+            <td>{{:~formaters.created(#data)}}</td>
+            <td>{{:~formaters.modified(#data)}}</td>
           </tr>
     </script>
   <head>
@@ -80,7 +82,7 @@
         <div id="path"></div>
         <div id="tree"><ul></ul></div>
         <div id="list">
-          <table>
+          <table class="datatable_head">
             <col class="col1">
             <col class="col2">
             <col class="col3">
@@ -96,27 +98,20 @@
               </tr>
             </thead>
           </table>
-          <table>
-            <col class="col1">
-            <col class="col2">
-            <col class="col3">
-            <col class="col4">
-            <col class="col5">
-            <tbody></tbody>
-          </table>
-          <table>
-            <col class="col1">
-            <col class="col2">
-            <col class="col3">
-            <col class="col4">
-            <col class="col5">
-            <tfoot></tfoot>
-          </table>
+          <div>
+            <table class="datatable_body">
+              <col class="col1">
+              <col class="col2">
+              <col class="col3">
+              <col class="col4">
+              <col class="col5">
+              <tbody></tbody>
+            </table>
+          </div>
         </div>
       </div>
     </div>
-    <script src="js/lib/FileSaver.js"></script>
-    <!-- <script src="js/lib/utils.js"></script> -->
+    <script src="js/lib/polyfills.js"></script>
     <script data-main="js/app" src="js/lib/require.js"></script>
   <body>
 </body>
