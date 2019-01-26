@@ -1,5 +1,4 @@
-define(["utils", "jquery", "jquery-ui", "jsrender.min"], function(utils, $) {
-
+define(["utils", "datatable", "jquery", "jquery-ui", "jsrender.min"], function(utils, DataTable, $) {
 
   $.fn.folderName = function(){
       return this.find("span").first().text();
@@ -327,25 +326,16 @@ define(["utils", "jquery", "jquery-ui", "jsrender.min"], function(utils, $) {
       ViewComponent.apply(this, arguments);
 
       var $list = $("#list");
-      var $tbody = $list.children("table:nth-child(2)");
-      var $thead = $list.children("table:nth-child(1)");
-      var $tfoot = $list.children("table:nth-child(3)");
+      var $tbody = $list.find(".datatable_body");
+      var $thead = $list.find(".datatable_head");
 
-      this.draw = function(data, params){
-        new Renderer(params.folder).render(data, "");
-      }
       var selectedItem;
-
       $tbody.on("click", "tr", function(e){
-
           var $tr = $(this);
           $tr.select(selectedItem);
           selectedItem = $tr;
-
       }).on("dblclick", "tr", function(e){
-
           var $tr = $(this);
-
           if ($tr.isFolder()){
               view.trigger("tree-item-expand", {node: view.currentNode, folder: $tr.getPath()});
           } else if ($tr.isFile()){
@@ -353,16 +343,34 @@ define(["utils", "jquery", "jquery-ui", "jsrender.min"], function(utils, $) {
           }
       })
 
-      // function select(elem){
-      //   if (selectedItem) $(selectedItem).removeClass("selected");
-      //   $(elem).addClass("selected");
-      //   selectedItem = elem;
-      // }
+      var mySort = function(a,b,o,f){
+        if (a.class == "up")          return -1;
+        else if (b.class == "up")     return 1;
+        else if (a.class != b.class)  return a.class == "folder" ? -1 : 1;
+        else if (a.class == b.class ){
+          if (a[f]<b[f] && o=="asc") return -1
+          else if (a[f]>b[f] && o=="asc") return 1
+          else if (a[f]<b[f] && o=="desc") return 1
+          else if (a[f]>b[f] && o=="desc") return -1
+          else return a.path<b.path ? -1 : 1
+        }
+      }
 
-      function Renderer(folder){
-        var myHelpers = {
-          formatSize: function(bytes){ 
-            var b = bytes, s = "", r;
+      var datatable = new DataTable($thead, $tbody, {
+        fields: [
+          { id: "path",     name: "Имя"     },
+          { id: "type",     name: "Тип"     },
+          { id: "size",     name: "Размер"  },
+          { id: "created",  name: "Создан"  },
+          { id: "modified", name: "Изменен" }
+        ],
+        formaters: {
+          type: function(obj){
+            if (obj.class == "file") return obj.type
+          },
+          size: function(obj){
+            if (obj.class != "file") return;
+            var b = obj.size, s = "", r;
             while (( b/1000 )^0){
               r = b % 1000;
               s = s ? r + "'" + s : utils.pad(""+r, 3, "0");
@@ -372,25 +380,43 @@ define(["utils", "jquery", "jquery-ui", "jsrender.min"], function(utils, $) {
             s = s ? r + "'" + s : r;
             return s
           },
-          formatDate: function(unixTime){ 
+          date: function(unixTime){
             var date = new Date(unixTime*1000);
             return utils.dateToString(date, "%Y-%m-%d %H:%M:%S")
+          },
+          created: function(obj){
+            if (obj.class == "up") return;
+            return this.date(obj.created)
+          },
+          modified: function(obj){
+            if (obj.class == "up") return;
+            return this.date(obj.modified)
           }
-        };
-        var $template = $.templates("#list-item-template");
+        },
+        sorters: {
+          path:     function(a,b,o){ return mySort.call(null,a,b,o,"path") },
+          type:     function(a,b,o){ return mySort.call(null,a,b,o,"type") },
+          size:     function(a,b,o){ return mySort.call(null,a,b,o,"size") },
+          created:  function(a,b,o){ return mySort.call(null,a,b,o,"created") },
+          modified: function(a,b,o){ return mySort.call(null,a,b,o,"modified") }
+        },
+        template: $.templates("#list-item-template")
+      })
+
+      this.draw = function(data, params){
+        datatable.clear();
+        new Renderer(params.folder).render(data, "");
+      }
+
+      function Renderer(folder){
 
         this.render = function(data, path){
           if (path === folder){
-              // console.log(data);
+
+              dataToRender = [{path: "[..]", class: "up"}].concat(data);
               $tbody.attr("root",folder);
-              $tbody.children("tbody").html( $("#list-up-item-template").text() )
-                                      .append( $template.render(data, myHelpers) );
-              // console.group("List renderer.render()")
-              // console.log( $list.outerHeight() )
-              // console.log( $thead.outerHeight() )
-              // console.log( $tbody.outerHeight() )
-              // console.log( $tfoot.outerHeight() )
-              // console.groupEnd();
+              // datatable.clear();
+              datatable.render(dataToRender);
               
           } else {
               for(var i=0; i<data.length; i++){
