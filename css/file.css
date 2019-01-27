@@ -98,35 +98,30 @@
     padding: 0.1em; 
   }
   #tree li.selected > span{
-    /*font-weight: bold;*/
     background-color: lightblue;
   }
 
   /* expanded-collapsed */
-  #tree li > i:nth-child(1){
-    display: inline-block;
-  }
-  #tree li > i:nth-child(2){
-    display: none;
-  }
-  #tree li.expanded > i:nth-child(1){
-    display: none;
-  }
-  #tree li.expanded > i:nth-child(2){
-    display: inline-block;
-  }
 
  #tree li li{
   margin-left: 1em;
  }
- #tree li .material-icons{
+
+#tree li i {
+  height: 16px; width: 16px;
   float: left;
-  color: rgba(40,40,40,0.8);
+  margin-right: 1px;
+  display: inline-block;
   cursor: default;
 }
- #tree li .material-icons:hover{
-  color: rgba(30,30,30,0.9);
- }
+
+#tree li i {
+  background: url(/assets/ui-icons_454545_256x240.png) 0px -97px;
+} 
+#tree li.expanded > i {
+  background: url(/assets/ui-icons_454545_256x240.png) -17px -97px;
+} 
+
  #tree li span{
   transition: background-color 0.1s;
  }
@@ -146,9 +141,7 @@
   table-layout: fixed; /* Фиксированная ширина ячеек */
   width: 100%; /* Ширина таблицы */
 }
-/*#list table:nth-child{
-  overflow: auto;
-}*/
+
 /*#list .col1 { width: 40%; }*/
 #list .col2 { width: 4em; }
 #list .col3 { width: 7em; }
@@ -158,9 +151,10 @@
 #list table td, #list table th{
   border: 1px solid transparent;
   border-right: none;
+  border-top: none;
 }
 #list table th:first-child{
- border-left: none; 
+  border-left: none; 
 }
 #list table, #list table td, #list table th{
   border-spacing: 0;
@@ -199,15 +193,43 @@
   background-color: lightgrey;
 }
 
-#list td .material-icons{
-  float: left;
-  color: rgba(40,40,40,0.8);
-  margin-right: 5px;
-}
-
 #list div{
   overflow: auto;
   height: calc(100% - 2em);
+}
+
+#list tbody i{
+  margin: 1px 0.2em;
+  height: 16px; width: 16px;
+  float: left;
+  display: inline-block;
+}
+#list tbody .up i{
+  background: url(/assets/ui-icons_454545_256x240.png) 0px -49px;
+}
+#list tbody .folder i{
+  background: url(/assets/ui-icons_454545_256x240.png) 0px -97px;
+}
+#list tbody .folder.opening i{
+  background: url(/assets/ui-icons_454545_256x240.png) -17px -97px;
+}
+
+#list tbody .file i{
+  background: url(/assets/ui-icons_454545_256x240.png) -33px -97px;
+}
+
+
+#list th i {
+  height: 16px; width: 16px;
+  float: right;
+  margin-right: 5px;
+  display: inline-block;
+}
+#list th.asc i{
+  background: url(/assets/ui-icons_454545_256x240.png) -65px -17px;
+}
+#list th.desc i{
+  background: url(/assets/ui-icons_454545_256x240.png) 0 -16px;
 }
 
  #tree td .material-icons:hover{
