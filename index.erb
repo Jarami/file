@@ -27,9 +27,7 @@
     <script id="tree-item-template" type="text/x-jsrender">
         {{if class=="folder"}}
           <li>
-            <i class="material-icons md-18">keyboard_arrow_right</i>
-            <i class="material-icons md-18">keyboard_arrow_down</i>
-            <i class="material-icons md-18">folder</i>
+            <i></i>
             <span>{{:path}}</span>
             <ul></ul>
           </li>
@@ -46,16 +44,7 @@
     </script>
     <script id="list-item-template" type="text/x-jsrender">
           <tr class="{{:class}}">
-            <td>
-              {{if class == "up"}}
-                <i class="material-icons md-18">arrow_upward</i>
-              {{else class == "folder"}}
-                <i class="material-icons md-18">folder</i>
-              {{else class == "file"}}
-                <i class="material-icons md-18">insert_drive_file</i>
-              {{/if}}
-              <span>{{:path}}</span>
-            </td>
+            <td><span>{{:path}}</span><i></i></td>
             <td>{{:~formaters.type(#data)}}</td>
             <td>{{:~formaters.size(#data)}}</td>
             <td>{{:~formaters.created(#data)}}</td>
@@ -90,11 +79,11 @@
             <col class="col5">
             <thead>
               <tr>
-                <th>Имя</th>
-                <th>Тип</th>
-                <th>Размер</th>
-                <th>Создан</th>
-                <th>Изменен</th>
+                <th>Имя<i></i></th>
+                <th>Тип<i></i></th>
+                <th>Размер<i></i></th>
+                <th>Создан<i></i></th>
+                <th>Изменен<i></i></th>
               </tr>
             </thead>
           </table>
