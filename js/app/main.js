@@ -248,17 +248,19 @@ define(["utils", "datatable", "jquery", "jquery-ui", "jsrender.min"], function(u
 
           var $li = $target.closest("li");
 
-          if ($target.is("span") || $target.is("i:nth-child(3)")){ 
+          if ($target.is("span")){ 
 
             $li.select(selectedItem);
             selectedItem = $li;
           } 
-          else if ($target.is("i:nth-child(1)")) { 
-            view.trigger("tree-item-expand", {node: view.currentNode, folder: $li.getPath()})  
+          else if ($target.is("i")) { 
+            if ($li.is(".expanded")){
+              $li.collapse();
+            } else {
+              view.trigger("tree-item-expand", {node: view.currentNode, folder: $li.getPath()})  
+            }
           } 
-          else if ($target.is("i:nth-child(2)")) { 
-            $li.collapse();
-          }
+
       }).on("dblclick", function(e){
           var target = $(e.target);
           if (target.is("span") || target.is("i:nth-child(3)"))
@@ -337,6 +339,7 @@ define(["utils", "datatable", "jquery", "jquery-ui", "jsrender.min"], function(u
       }).on("dblclick", "tr", function(e){
           var $tr = $(this);
           if ($tr.isFolder()){
+              $tr.addClass("opening");
               view.trigger("tree-item-expand", {node: view.currentNode, folder: $tr.getPath()});
           } else if ($tr.isFile()){
               view.trigger("list-item-download", {node: view.currentNode, file: $tr.getPath()});
@@ -356,7 +359,7 @@ define(["utils", "datatable", "jquery", "jquery-ui", "jsrender.min"], function(u
         }
       }
 
-      var datatable = new DataTable($thead, $tbody, {
+      var datatable = new DataTable($thead[0], $tbody[0], {
         fields: [
           { id: "path",     name: "Имя"     },
           { id: "type",     name: "Тип"     },
@@ -364,6 +367,9 @@ define(["utils", "datatable", "jquery", "jquery-ui", "jsrender.min"], function(u
           { id: "created",  name: "Создан"  },
           { id: "modified", name: "Изменен" }
         ],
+        filters: {
+
+        },
         formaters: {
           type: function(obj){
             if (obj.class == "file") return obj.type
@@ -415,8 +421,8 @@ define(["utils", "datatable", "jquery", "jquery-ui", "jsrender.min"], function(u
 
               dataToRender = [{path: "[..]", class: "up"}].concat(data);
               $tbody.attr("root",folder);
-              // datatable.clear();
-              datatable.render(dataToRender);
+              datatable.data(dataToRender)
+              datatable.render();
               
           } else {
               for(var i=0; i<data.length; i++){
