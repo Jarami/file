@@ -5,7 +5,8 @@ requirejs.config({
     },
     "shim": {
         "jquery-ui": ["jquery"],
-        "jsrender.min": ["jquery"]
+        "jsrender.min": ["jquery"],
+        "datatable": ["jquery"]
     }
 });
 
