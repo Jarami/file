@@ -1,4 +1,4 @@
-define(["utils", "datatable", "jquery", "jquery-ui", "jsrender.min"], function(utils, DataTable, $) {
+define(["utils", "datatable", "resizing", "scrolling", "jquery", "jquery-ui", "jsrender.min"], function(utils, DataTable, Resizing, Scrolling, $) {
 
   $.fn.folderName = function(){
       return this.find("span").first().text();
@@ -123,10 +123,59 @@ define(["utils", "datatable", "jquery", "jquery-ui", "jsrender.min"], function(u
 
     var self = this;
 
-    var tabs = new Tabs(this);
-    var tree = new Tree(this);
-    var list = new List(this);
-    var path = new Path(this);
+    var tabs = new Tabs(this, "tabs");
+    var tree = new Tree(this, "tree");
+    var list = new List(this, "list");
+    var path = new Path(this, "path");
+
+    var splitterEl = document.getElementById("tree-list-splitter");
+
+    var treeLeft = parseFloat(getComputedStyle(tree.elem).left);
+    var listRight = parseFloat(getComputedStyle(list.elem).right);
+    var splitterWidth = parseFloat(getComputedStyle(splitterEl).width);
+
+    var treeDelta = treeLeft + splitterWidth/2;
+    var listDelta = listRight + splitterWidth/2;
+
+    var treeWidth; // = tree.elem.getBoundingClientRect().width;
+    var listWidth; // = list.elem.getBoundingClientRect().width;
+
+    var treeWidthPr; // = tree.elem.offsetWidth / output.clentWidth * 100;
+    var listWidthPr; // = list.elem.offsetWidth / output.clentWidth * 100;
+
+    var totalWidth;
+
+    var treeWidthMinOrig = 200;
+    var listWidthMinOrig = 600;
+
+    Resizing.init(splitterEl, {motion: "horizontal"}, function(changes){
+
+      totalWidth = tree.elem.offsetWidth + list.elem.offsetWidth;
+
+      treeWidth = tree.elem.offsetWidth + changes.horizontal;
+      listWidth = totalWidth - treeWidth;
+
+      treeWidthMin = Math.min(treeWidthMinOrig, totalWidth);
+      listWidthMin = Math.min(listWidthMinOrig, totalWidth);
+
+      if (treeWidth < treeWidthMin){
+        treeWidth = treeWidthMin;
+        listWidth = totalWidth - treeWidth; 
+      }
+      if (listWidth < listWidthMin){
+        listWidth = listWidthMin;
+        treeWidth = totalWidth - listWidth; 
+      }
+
+      treeWidthPr = (treeWidth + treeDelta) / output.clientWidth * 100;
+      listWidthPr = 100 - treeWidthPr;
+      splitterLeftPr = treeWidthPr;
+
+      tree.elem.style.width = "calc(" + treeWidthPr + "% - " + treeDelta + "px)";
+      list.elem.style.width = "calc(" + listWidthPr + "% - " + listDelta + "px)";
+      splitterEl.style.left = "calc(" + splitterLeftPr + "% - " + treeLeft + "px)";
+      
+    });
 
     var userFolder = {};
 
@@ -151,19 +200,24 @@ define(["utils", "datatable", "jquery", "jquery-ui", "jsrender.min"], function(u
       console.groupEnd();
     }
 
-    function ViewComponent(view){
+    function ViewComponent(view, id){
+      this.elem = document.getElementById(id);
       this.init = function(){};
       this.draw = function(){};
       this.fail = function(){};
     }
 
-    function Tabs(view){
+    function Splitter(view, id){
+      ViewComponent.apply(this, arguments);
+    }
+
+    function Tabs(view, id){
       ViewComponent.apply(this, arguments);
 
-      var elem = $("#tabs");
-      view.currentNode = getTabID(elem.children("li:first-child"));
+      var $elem = $(this.elem);
+      view.currentNode = getTabID($elem.children("li:first-child"));
 
-      elem.on("click", function(e){
+      $elem.on("click", function(e){
           
           var nodeID = getTabID(e.target);
           if (nodeID && nodeID !== view.currentNode){
@@ -186,13 +240,13 @@ define(["utils", "datatable", "jquery", "jquery-ui", "jsrender.min"], function(u
         return $(elem).closest("li").attr("node-id");
       }
       function getTabByID(nodeID){
-        return elem.children("li[node-id='" + nodeID + "']");
+        return $elem.children("li[node-id='" + nodeID + "']");
       }
     }
-    function Tree(view){  
+    function Tree(view, id){  
       ViewComponent.apply(this, arguments);
 
-      var $tree = $("#tree");
+      var $tree = $(this.elem);
       var $list = $tree.children('ul');
       var $ROOT;
 
@@ -324,10 +378,10 @@ define(["utils", "datatable", "jquery", "jquery-ui", "jsrender.min"], function(u
         }
       }
     }
-    function List(view){
+    function List(view, id){
       ViewComponent.apply(this, arguments);
 
-      var $list = $("#list");
+      var $list = $(this.elem);
       var $tbody = $list.find(".datatable_body");
       var $thead = $list.find(".datatable_head");
 
@@ -345,6 +399,46 @@ define(["utils", "datatable", "jquery", "jquery-ui", "jsrender.min"], function(u
               view.trigger("list-item-download", {node: view.currentNode, file: $tr.getPath()});
           }
       })
+
+      // ресайз колонок
+      var $theadColumns = $thead.find("col");
+      var $tbodyColumns = $tbody.find("col");
+
+      var th1, th2;
+      var newWidth1, newWidth2;
+
+      var minWidth = 50;
+      var totalWidth;
+
+      $thead.find("th span").each( function(i, splitter){
+
+        Resizing.init(splitter, {motion: "horizontal"}, function(changes){
+
+          th1 = splitter.closest("th");
+          th2 = th1.nextElementSibling;
+
+          totalWidth = th1.offsetWidth + th2.offsetWidth;
+
+          // откуда берется 1px???
+          newWidth1 = th1.offsetWidth + 1 + changes.horizontal;
+          if (newWidth1 < minWidth){
+              newWidth1 = minWidth + 1;
+              newWidth2 = totalWidth - newWidth1;
+          } else {
+              newWidth2 = totalWidth - newWidth1 + 1;
+          }
+
+          if (th1.cellIndex > 0){
+            $theadColumns[th1.cellIndex].style.width = newWidth1 + "px";
+            $tbodyColumns[th1.cellIndex].style.width = newWidth1 + "px";
+          }
+
+          $theadColumns[th2.cellIndex].style.width = newWidth2 + "px";
+          $tbodyColumns[th2.cellIndex].style.width = newWidth2 + "px";
+
+        })
+        
+      });
 
       var mySort = function(a,b,o,f){
         if (a.class == "up")          return -1;
@@ -409,10 +503,13 @@ define(["utils", "datatable", "jquery", "jquery-ui", "jsrender.min"], function(u
         template: $.templates("#list-item-template")
       })
 
+      var scrolling = Scrolling.init( $list.children("div")[0], {}, function(){})
       this.draw = function(data, params){
         datatable.clear();
         new Renderer(params.folder).render(data, "");
+        scrolling.draw();
       }
+
 
       function Renderer(folder){
 
@@ -435,10 +532,10 @@ define(["utils", "datatable", "jquery", "jquery-ui", "jsrender.min"], function(u
         }
       }
     }
-    function Path(view){
+    function Path(view, id){
       ViewComponent.apply(this, arguments);
 
-      var $path = $("#path");
+      var $path = $(this.elem);
       this.draw = function(data, params){
         $path.html( ROOT + params.folder );
       }
