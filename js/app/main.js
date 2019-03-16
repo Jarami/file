@@ -268,6 +268,7 @@ define(["utils", "datatable", "resizing", "scrolling", "jquery", "jquery-ui", "j
         
       }
 
+      var scrolling = Scrolling.init( this.elem, {}, function(){})
       var selectedItem;
       this.draw = function(data, params){
 
@@ -281,6 +282,8 @@ define(["utils", "datatable", "resizing", "scrolling", "jquery", "jquery-ui", "j
           $li.select(selectedItem);
           selectedItem = $li;
           $li.expand();
+
+          scrolling.draw();
       }
 
       function findByPath(path){
