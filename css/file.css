@@ -93,6 +93,7 @@
   -ms-user-select: none;      /* IE 10+ */
   user-select: none;          /* Likely future */     
   padding: 0.1em;
+  white-space: nowrap;
  }
   #tree li span{
     padding: 0.1em; 
