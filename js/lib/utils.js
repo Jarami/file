@@ -6,7 +6,7 @@ var utils = {
       if (string.length > width){
           return string
       } else {
-          return new Array(width - string.length + 1).join(padding || " ") + string
+          return new Array(width - string.length + 1).join(padding) + string
       }
   },
 
@@ -20,9 +20,9 @@ var utils = {
     var result;
     while ( (result = reg.exec(frmt)) !== null ){
 
-      var padding    = result[1],
-          width      = +result[2],
-          conversion = result[3];
+      var conversion = result[3],
+          padding    = result[1]==="-" ? "" : "0",
+          width      = +result[2] || (conversion=="Y" ? 4 : 2);
 
       var value = null;
       switch(conversion){
@@ -53,14 +53,10 @@ var utils = {
       var downloadLink = document.createElement("a");
       downloadLink.download = params.fileName;
       downloadLink.innerHTML = "Download File";
-      // if (window.webkitURL != null) {
-      //     downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
-      // } else {
-          downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
-          downloadLink.onclick = destroyClickedElement;
-          downloadLink.style.display = "none";
-          document.body.appendChild(downloadLink);
-      // }
+      downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
+      downloadLink.onclick = destroyClickedElement;
+      downloadLink.style.display = "none";
+      document.body.appendChild(downloadLink);
       if (navigator.msSaveBlob) {
           navigator.msSaveBlob(textFileAsBlob, params.fileName);
       } else {
@@ -95,9 +91,9 @@ var utils = {
 }
 
 if (typeof module == "object" && module && typeof module.exports == "object"){
-      module.exports = utils
+      module.exports = utils;
 } else { 
-      window.utils = utils
+      window.utils = utils;
       if (typeof define == "function" && define.amd) define("utils",[],function(){return utils})
 }
 
